@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-18 qc ../../../../../qml/FlowView/libFlowViewplugin.a CMakeFiles/FlowViewplugin.dir/FlowViewplugin_autogen/mocs_compilation.cpp.o CMakeFiles/FlowViewplugin.dir/FlowViewplugin_FlowViewPlugin.cpp.o
+/usr/bin/llvm-ranlib-18 ../../../../../qml/FlowView/libFlowViewplugin.a

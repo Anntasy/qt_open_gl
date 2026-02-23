@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-18 qc libQuickStudioMultiText.a CMakeFiles/QuickStudioMultiText.dir/QuickStudioMultiText_autogen/mocs_compilation.cpp.o CMakeFiles/QuickStudioMultiText.dir/quickstudiomultitext_qmltyperegistrations.cpp.o
+/usr/bin/llvm-ranlib-18 libQuickStudioMultiText.a

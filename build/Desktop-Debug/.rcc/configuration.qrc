@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qtquickcontrols2.conf">/home/vboxuser/Desktop/cpp_projects/qt_opengl/qtquickcontrols2.conf</file>
+  </qresource>
+</RCC>
+

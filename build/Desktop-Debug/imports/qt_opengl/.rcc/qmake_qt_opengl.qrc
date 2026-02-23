@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/qt_opengl">
+    <file alias="qmldir">/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir</file>
+  </qresource>
+</RCC>
+

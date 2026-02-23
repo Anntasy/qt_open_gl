@@ -1,0 +1,4 @@
+module Main
+typeinfo qt_openglApp.qmltypes
+prefer :/qt/qml/Main/
+

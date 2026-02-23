@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-18 qc libQuickStudioEventSimulator.a CMakeFiles/QuickStudioEventSimulator.dir/QuickStudioEventSimulator_autogen/mocs_compilation.cpp.o CMakeFiles/QuickStudioEventSimulator.dir/quickstudioeventsimulator_qmltyperegistrations.cpp.o
+/usr/bin/llvm-ranlib-18 libQuickStudioEventSimulator.a

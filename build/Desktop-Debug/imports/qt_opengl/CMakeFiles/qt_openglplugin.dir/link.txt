@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-18 qc ../../qml/qt_opengl/libqt_openglplugin.a CMakeFiles/qt_openglplugin.dir/qt_openglplugin_autogen/mocs_compilation.cpp.o CMakeFiles/qt_openglplugin.dir/qt_openglplugin_qt_openglPlugin.cpp.o
+/usr/bin/llvm-ranlib-18 ../../qml/qt_opengl/libqt_openglplugin.a

@@ -1,0 +1,3 @@
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-subbuild/CMakeFiles/ds-populate.dir
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-subbuild/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-18 qc ../../../../../qml/QtQuick/Studio/Effects/libQuickStudioEffectsplugin.a CMakeFiles/QuickStudioEffectsplugin.dir/QuickStudioEffectsplugin_autogen/mocs_compilation.cpp.o CMakeFiles/QuickStudioEffectsplugin.dir/QuickStudioEffectsplugin_QtQuick_Studio_EffectsPlugin.cpp.o
+/usr/bin/llvm-ranlib-18 ../../../../../qml/QtQuick/Studio/Effects/libQuickStudioEffectsplugin.a

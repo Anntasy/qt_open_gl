@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-18 qc libqt_opengl.a CMakeFiles/qt_opengl.dir/qt_opengl_autogen/mocs_compilation.cpp.o CMakeFiles/qt_opengl.dir/qt_opengl_qmltyperegistrations.cpp.o CMakeFiles/qt_opengl.dir/.rcc/qmlcache/qt_opengl_Constants_qml.cpp.o CMakeFiles/qt_opengl.dir/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp.o CMakeFiles/qt_opengl.dir/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp.o CMakeFiles/qt_opengl.dir/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp.o
+/usr/bin/llvm-ranlib-18 libqt_opengl.a

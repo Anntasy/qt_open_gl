@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/qt_opengl/">
+    <file alias="Constants.qml">/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/Constants.qml</file>
+    <file alias="DirectoryFontLoader.qml">/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/DirectoryFontLoader.qml</file>
+    <file alias="EventListModel.qml">/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListModel.qml</file>
+    <file alias="EventListSimulator.qml">/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListSimulator.qml</file>
+  </qresource>
+</RCC>
+
