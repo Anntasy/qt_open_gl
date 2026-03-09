@@ -67,8 +67,9 @@ include imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps.d
 include imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps.dir/progress.make
 
 imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps: imports/qt_opengl/.rcc/qmlcache/qt_opengl_qmlcache_loader.cpp
-imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_qmlcache_loader.cpp: /usr/lib/qt6/libexec/qmlcachegen
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_qmlcache_loader.cpp: imports/qt_opengl/.rcc/qmlcache/qt_opengl_qml_loader_file_list.rsp

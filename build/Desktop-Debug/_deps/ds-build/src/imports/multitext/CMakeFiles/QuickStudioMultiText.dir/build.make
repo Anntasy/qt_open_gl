@@ -93,6 +93,7 @@ qml/QtQuick/Studio/MultiText/QuickStudioMultiText.qmltypes: _deps/ds-build/src/i
 	@$(CMAKE_COMMAND) -E touch_nocreate qml/QtQuick/Studio/MultiText/QuickStudioMultiText.qmltypes
 
 _deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/timestamp: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/timestamp: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic MOC and UIC for target QuickStudioMultiText"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext && /usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/AutogenInfo.json Debug

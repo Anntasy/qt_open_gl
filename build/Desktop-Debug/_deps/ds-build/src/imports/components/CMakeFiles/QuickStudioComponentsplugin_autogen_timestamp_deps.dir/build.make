@@ -66,8 +66,9 @@ include _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentspl
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps.dir/progress.make
 
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 QuickStudioComponentsplugin_autogen_timestamp_deps: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps
 QuickStudioComponentsplugin_autogen_timestamp_deps: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_autogen_timestamp_deps.dir/build.make

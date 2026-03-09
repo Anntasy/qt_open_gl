@@ -69,6 +69,7 @@ include CMakeFiles/qt_openglApp_autogen.dir/progress.make
 CMakeFiles/qt_openglApp_autogen: qt_openglApp_autogen/timestamp
 
 qt_openglApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
+qt_openglApp_autogen/timestamp: /usr/lib/qt6/libexec/uic
 qt_openglApp_autogen/timestamp: CMakeFiles/qt_openglApp_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qt_openglApp"
 	/usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/qt_openglApp_autogen.dir/AutogenInfo.json Debug

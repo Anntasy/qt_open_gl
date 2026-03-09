@@ -68,8 +68,10 @@ include CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: .rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/qt_openglApp_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
-CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/Application/libQuickStudioApplicationplugin.a
+CMakeFiles/qt_openglApp_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
+CMakeFiles/qt_openglApp_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/Components/libQuickStudioComponentsplugin.a
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/Effects/libQuickStudioEffectsplugin.a
@@ -78,6 +80,7 @@ CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/LogicHelper/l
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/MultiText/libQuickStudioMultiTextplugin.a
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/EventSimulator/libQuickStudioEventSimulatorplugin.a
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/EventSystem/libQuickStudioEventSystemplugin.a
+CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/Application/libQuickStudioApplicationplugin.a
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/QtQuick/Studio/Utils/libQuickStudioUtilsplugin.a
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/content/libcontentplugin.a
 CMakeFiles/qt_openglApp_autogen_timestamp_deps: qml/qt_opengl/libqt_openglplugin.a

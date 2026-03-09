@@ -67,8 +67,9 @@ include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_
 include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps.dir/progress.make
 
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps: _deps/ds-build/src/imports/utils/QuickStudioUtilsplugin_init.cpp
-_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 QuickStudioUtilsplugin_init_autogen_timestamp_deps: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps
 QuickStudioUtilsplugin_init_autogen_timestamp_deps: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen_timestamp_deps.dir/build.make

@@ -66,8 +66,9 @@ include content/CMakeFiles/contentplugin_autogen_timestamp_deps.dir/compiler_dep
 # Include the progress variables for this target.
 include content/CMakeFiles/contentplugin_autogen_timestamp_deps.dir/progress.make
 
-content/CMakeFiles/contentplugin_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 content/CMakeFiles/contentplugin_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
+content/CMakeFiles/contentplugin_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+content/CMakeFiles/contentplugin_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 contentplugin_autogen_timestamp_deps: content/CMakeFiles/contentplugin_autogen_timestamp_deps
 contentplugin_autogen_timestamp_deps: content/CMakeFiles/contentplugin_autogen_timestamp_deps.dir/build.make

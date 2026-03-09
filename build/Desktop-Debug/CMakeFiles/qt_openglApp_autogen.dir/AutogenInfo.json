@@ -267,6 +267,56 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Quick/Qt6QuickTargets-none.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake",
+		"/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake",
 		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/vboxuser/Desktop/cpp_projects/qt_opengl/qmlcomponents",
@@ -289,9 +339,27 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h",
+			"MU",
+			"UVLADIE3JM/moc_alldata.cpp",
+			null
+		],
+		[
 			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.h",
 			"MU",
 			"UVLADIE3JM/moc_fbo.cpp",
+			null
+		],
+		[
+			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/h.h",
+			"MU",
+			"UVLADIE3JM/moc_h.cpp",
+			null
+		],
+		[
+			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.h",
+			"MU",
+			"UVLADIE3JM/moc_ourwidget.cpp",
 			null
 		],
 		[
@@ -310,11 +378,13 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
+		"QT_OPENGLWIDGETS_LIB",
 		"QT_OPENGL_LIB",
 		"QT_QMLINTEGRATION_LIB",
 		"QT_QMLMODELS_LIB",
 		"QT_QML_LIB",
-		"QT_QUICK_LIB"
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB"
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -340,6 +410,8 @@
 		"/usr/include/x86_64-linux-gnu/qt6/QtQuick",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQmlModels",
 		"/usr/include/x86_64-linux-gnu/qt6/QtOpenGL",
+		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets",
 		"/usr/include",
 		"/usr/include/c++/13",
 		"/usr/include/x86_64-linux-gnu/c++/13",
@@ -380,7 +452,7 @@
 	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/qt_openglApp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
-	"QT_UIC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
 	"SETTINGS_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/qt_openglApp_autogen.dir/AutogenUsed.txt",
@@ -392,12 +464,22 @@
 			null
 		],
 		[
+			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.cpp",
 			"MU",
 			null
 		],
 		[
 			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.cpp",
 			"MU",
 			null
 		],

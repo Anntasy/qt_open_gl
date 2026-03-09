@@ -69,6 +69,7 @@ include _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_autogen.dir/prog
 _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_autogen: _deps/ds-build/src/imports/flowview/FlowView_autogen/timestamp
 
 _deps/ds-build/src/imports/flowview/FlowView_autogen/timestamp: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/flowview/FlowView_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/ds-build/src/imports/flowview/FlowView_autogen/timestamp: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FlowView"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/flowview && /usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_autogen.dir/AutogenInfo.json Debug

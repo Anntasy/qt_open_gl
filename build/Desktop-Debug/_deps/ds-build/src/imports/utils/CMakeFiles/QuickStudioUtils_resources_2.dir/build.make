@@ -78,6 +78,7 @@ _deps/ds-build/src/imports/utils/.rcc/qrc_QuickStudioUtils_raw_qml_0.cpp: /usr/l
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/lib/qt6/libexec/rcc --output /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/qrc_QuickStudioUtils_raw_qml_0.cpp --name QuickStudioUtils_raw_qml_0 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/QuickStudioUtils_raw_qml_0.qrc
 
 _deps/ds-build/src/imports/utils/QuickStudioUtils_resources_2_autogen/timestamp: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/utils/QuickStudioUtils_resources_2_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/ds-build/src/imports/utils/QuickStudioUtils_resources_2_autogen/timestamp: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target QuickStudioUtils_resources_2"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/AutogenInfo.json Debug

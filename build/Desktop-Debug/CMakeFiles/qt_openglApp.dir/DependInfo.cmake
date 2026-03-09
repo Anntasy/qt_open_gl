@@ -15,8 +15,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp" "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o.d"
   "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/mocs_compilation.cpp" "CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o.d"
   "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglapp_qmltyperegistrations.cpp" "CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o.d"
+  "/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.cpp" "CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o.d"
   "/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.cpp" "CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o.d"
   "/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/main.cpp" "CMakeFiles/qt_openglApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/src/main.cpp.o.d"
+  "/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.cpp" "CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o.d"
   "/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.cpp" "CMakeFiles/qt_openglApp.dir/src/rend.cpp.o" "gcc" "CMakeFiles/qt_openglApp.dir/src/rend.cpp.o.d"
   )
 

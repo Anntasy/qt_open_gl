@@ -120,6 +120,7 @@ _deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6 && /usr/lib/qt6/libexec/rcc --output /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp --name QuickStudioEffects_raw_qml_0 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/.rcc/QuickStudioEffects_raw_qml_0.qrc
 
 _deps/ds-build/src/imports/effects_qt6/QuickStudioEffects_resources_2_autogen/timestamp: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/effects_qt6/QuickStudioEffects_resources_2_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/ds-build/src/imports/effects_qt6/QuickStudioEffects_resources_2_autogen/timestamp: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target QuickStudioEffects_resources_2"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6 && /usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2_autogen.dir/AutogenInfo.json Debug

@@ -76,6 +76,7 @@ _deps/ds-build/src/imports/multitext/.rcc/qrc_qmake_QtQuick_Studio_MultiText.cpp
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext && /usr/lib/qt6/libexec/rcc --output /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext/.rcc/qrc_qmake_QtQuick_Studio_MultiText.cpp --name qmake_QtQuick_Studio_MultiText /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext/.rcc/qmake_QtQuick_Studio_MultiText.qrc
 
 _deps/ds-build/src/imports/multitext/QuickStudioMultiText_resources_1_autogen/timestamp: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/multitext/QuickStudioMultiText_resources_1_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/ds-build/src/imports/multitext/QuickStudioMultiText_resources_1_autogen/timestamp: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target QuickStudioMultiText_resources_1"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext && /usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_1_autogen.dir/AutogenInfo.json Debug

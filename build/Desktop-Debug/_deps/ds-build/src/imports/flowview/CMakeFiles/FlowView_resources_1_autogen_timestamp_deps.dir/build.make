@@ -67,6 +67,7 @@ include _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1_auto
 include _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1_autogen_timestamp_deps.dir/progress.make
 
 _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 FlowView_resources_1_autogen_timestamp_deps: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1_autogen_timestamp_deps
 FlowView_resources_1_autogen_timestamp_deps: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1_autogen_timestamp_deps.dir/build.make

@@ -4,13 +4,17 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
+#include <QQuickWindow>
+
 #include "app_environment.h"
 #include "import_qml_components_plugins.h"
 #include "import_qml_plugins.h"
+#include "h.h"
 
 int main(int argc, char *argv[])
 {
     set_qt_environment();
+    QQuickWindow::setGraphicsApi(QSGRendererInterface::OpenGL);
 
     QGuiApplication app(argc, argv);
 
@@ -28,6 +32,8 @@ int main(int argc, char *argv[])
 
     engine.addImportPath(QCoreApplication::applicationDirPath() + "/qml");
     engine.addImportPath(":/");
+
+    qmlRegisterType<FBO>("my_opengl", 1, 0, "FBO");
 
     engine.load(url);
 

@@ -79,6 +79,8 @@ qt_openglapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6ne
 qt_openglapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6quick_none_metatypes.json
 qt_openglapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qmlmodels_none_metatypes.json
 qt_openglapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6opengl_none_metatypes.json
+qt_openglapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6widgets_none_metatypes.json
+qt_openglapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6openglwidgets_none_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target qt_openglApp"
 	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/Main/qt_openglApp.qmltypes --import-name=Main --major-version=1 --minor-version=0 @/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qmltypes/qt_openglApp_foreign_types.txt -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglapp_qmltyperegistrations.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/meta_types/qt6qt_openglapp_debug_metatypes.json
 	/usr/bin/cmake -E make_directory /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.generated

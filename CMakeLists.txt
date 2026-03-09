@@ -7,7 +7,8 @@ project(qt_openglApp LANGUAGES CXX)
 
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick)
+find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick Widgets OpenGLWidgets)
+find_package(Qt6 COMPONENTS Quick REQUIRED)
 
 if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
     qt_standard_project_setup()
@@ -16,6 +17,10 @@ endif()
 qt_add_executable(qt_openglApp src/main.cpp
     src/fbo.h src/fbo.cpp
     src/rend.h src/rend.cpp
+    src/alldata.h src/alldata.cpp
+    src/h.h
+    src/ourwidget.h src/ourwidget.cpp
+
 )
 
 qt_add_resources(qt_openglApp "configuration"
@@ -29,6 +34,8 @@ target_link_libraries(qt_openglApp PRIVATE
     Qt6::Gui
     Qt6::Qml
     Qt6::Quick
+    Qt6::Widgets
+    Qt6::OpenGLWidgets
 )
 
 set(QT_QML_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/qml)

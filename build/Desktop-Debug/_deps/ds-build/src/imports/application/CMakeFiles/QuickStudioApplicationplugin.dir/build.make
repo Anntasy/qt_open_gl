@@ -70,6 +70,7 @@ include _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication
 include _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin.dir/flags.make
 
 _deps/ds-build/src/imports/application/QuickStudioApplicationplugin_autogen/timestamp: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/application/QuickStudioApplicationplugin_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/ds-build/src/imports/application/QuickStudioApplicationplugin_autogen/timestamp: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target QuickStudioApplicationplugin"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application && /usr/bin/cmake -E cmake_autogen /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin_autogen.dir/AutogenInfo.json Debug

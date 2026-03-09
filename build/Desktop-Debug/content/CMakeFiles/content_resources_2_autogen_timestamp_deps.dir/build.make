@@ -67,6 +67,7 @@ include content/CMakeFiles/content_resources_2_autogen_timestamp_deps.dir/compil
 include content/CMakeFiles/content_resources_2_autogen_timestamp_deps.dir/progress.make
 
 content/CMakeFiles/content_resources_2_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+content/CMakeFiles/content_resources_2_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 content_resources_2_autogen_timestamp_deps: content/CMakeFiles/content_resources_2_autogen_timestamp_deps
 content_resources_2_autogen_timestamp_deps: content/CMakeFiles/content_resources_2_autogen_timestamp_deps.dir/build.make

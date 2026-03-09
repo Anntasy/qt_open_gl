@@ -701,12 +701,12 @@ CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_autogen_timestamp_deps.
 CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=91,92,93 "Built target qt_openglApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=90,91,92,93 "Built target qt_openglApp"
 .PHONY : CMakeFiles/qt_openglApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 95
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp.dir/rule
@@ -753,12 +753,12 @@ CMakeFiles/qt_openglApp_other_files.dir/clean:
 CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all: CMakeFiles/qt_openglApp_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build.make CMakeFiles/qt_openglApp_automoc_json_extraction.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build.make CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_automoc_json_extraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=94 "Built target qt_openglApp_automoc_json_extraction"
 .PHONY : CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_automoc_json_extraction.dir/rule
@@ -784,7 +784,7 @@ CMakeFiles/qt_openglApp_qmltyperegistration.dir/all: CMakeFiles/qt_openglApp_aut
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_qmltyperegistration.dir/rule
@@ -810,7 +810,7 @@ CMakeFiles/qt_openglApp_qmllint.dir/all: _deps/ds-build/src/imports/components/C
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_qmllint.dir/rule
@@ -836,7 +836,7 @@ CMakeFiles/qt_openglApp_qmllint_json.dir/all: _deps/ds-build/src/imports/compone
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_qmllint_json.dir/rule
@@ -883,12 +883,12 @@ CMakeFiles/qt_openglApp_tooling.dir/clean:
 CMakeFiles/qt_openglApp_qmlimportscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmlimportscan.dir/build.make CMakeFiles/qt_openglApp_qmlimportscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmlimportscan.dir/build.make CMakeFiles/qt_openglApp_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=94 "Built target qt_openglApp_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_qmlimportscan"
 .PHONY : CMakeFiles/qt_openglApp_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_qmlimportscan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmlimportscan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_qmlimportscan.dir/rule
@@ -926,7 +926,7 @@ CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: imports/qt_opengl/CMakeF
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 79
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/rule
@@ -954,7 +954,7 @@ CMakeFiles/qt_openglApp_autogen.dir/all: CMakeFiles/qt_openglApp_autogen_timesta
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_openglApp_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 79
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/qt_openglApp_autogen.dir/rule
@@ -1072,7 +1072,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/al
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/rule
@@ -1120,7 +1120,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=23 "Built target QuickStudioComponents_resources_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioComponents_resources_1"
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1182,7 +1182,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint.d
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint.dir/rule
@@ -1208,7 +1208,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_j
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/rule
@@ -1239,7 +1239,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all: imports/qt
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/rule
@@ -1270,7 +1270,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all: impor
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/rule
@@ -1345,7 +1345,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=24 "Built target QuickStudioComponents_resources_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioComponents_resources_2"
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1477,12 +1477,12 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioComponents_resources_1_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=23 "Built target QuickStudioComponents_resources_1_autogen"
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1_autogen.dir/rule
@@ -1633,12 +1633,12 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/build.make _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioComponents_resources_2_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=24 "Built target QuickStudioComponents_resources_2_autogen"
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2_autogen.dir/rule
@@ -1719,7 +1719,7 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/rule
@@ -1740,12 +1740,12 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/clean:
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=30 "Built target QuickStudioEffects_automoc_json_extraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEffects_automoc_json_extraction"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/rule
@@ -1766,12 +1766,12 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_jso
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_automoc_json_extraction.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEffects_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=30 "Built target QuickStudioEffects_qmltyperegistration"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/rule
@@ -1849,12 +1849,12 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/a
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEffectsplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=41 "Built target QuickStudioEffectsplugin"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/rule
@@ -1875,12 +1875,12 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/c
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41 "Built target QuickStudioEffects_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=33,34,35,36,37,38,39,40 "Built target QuickStudioEffects_tooling"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/rule
@@ -1929,12 +1929,12 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEffectsplugin_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=42 "Built target QuickStudioEffectsplugin_init"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/rule
@@ -1960,7 +1960,7 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen_tim
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen_timestamp_deps.dir/rule
@@ -1987,7 +1987,7 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen.dir
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_autogen.dir/rule
@@ -2086,12 +2086,12 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autog
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/build.make _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=42 "Built target QuickStudioEffectsplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEffectsplugin_autogen"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_autogen.dir/rule
@@ -2649,7 +2649,7 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/rule
@@ -2670,12 +2670,12 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/cle
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=59 "Built target QuickStudioLogicHelper_automoc_json_extraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioLogicHelper_automoc_json_extraction"
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_automoc_json_extraction.dir/rule
@@ -2701,7 +2701,7 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmltype
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmltyperegistration.dir/rule
@@ -2811,7 +2811,7 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/rule
@@ -2837,7 +2837,7 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint_json.dir/rule
@@ -2859,12 +2859,12 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcach
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioLogicHelper_qmlcache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=59 "Built target QuickStudioLogicHelper_qmlcache"
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/rule
@@ -3122,12 +3122,12 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin_a
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=60 "Built target QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps"
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/rule
@@ -3148,7 +3148,7 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcach
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/build.make _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=60 "Built target QuickStudioLogicHelper_qmlcache_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioLogicHelper_qmlcache_autogen"
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3286,7 +3286,7 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/rule
@@ -3312,7 +3312,7 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_automoc_jso
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_automoc_json_extraction.dir/rule
@@ -3333,12 +3333,12 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_automoc_jso
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_automoc_json_extraction.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioMultiText_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=67 "Built target QuickStudioMultiText_qmltyperegistration"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_qmltyperegistration.dir/rule
@@ -3416,12 +3416,12 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/a
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioMultiTextplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=70 "Built target QuickStudioMultiTextplugin"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/rule
@@ -3442,12 +3442,12 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/c
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=70 "Built target QuickStudioMultiText_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioMultiText_tooling"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/rule
@@ -3496,12 +3496,12 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioMultiTextplugin_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=71 "Built target QuickStudioMultiTextplugin_init"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/rule
@@ -3527,7 +3527,7 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen_tim
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen_timestamp_deps.dir/rule
@@ -3549,12 +3549,12 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=67 "Built target QuickStudioMultiText_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioMultiText_autogen"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_autogen.dir/rule
@@ -3653,12 +3653,12 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autog
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/build.make _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=71 "Built target QuickStudioMultiTextplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioMultiTextplugin_autogen"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_autogen.dir/rule
@@ -3791,7 +3791,7 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator.dir/rule
@@ -3817,7 +3817,7 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_automoc_json_extraction.dir/rule
@@ -3843,7 +3843,7 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_qmltyperegistration.dir/rule
@@ -3921,12 +3921,12 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSimulatorplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=47 "Built target QuickStudioEventSimulatorplugin"
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/rule
@@ -3947,12 +3947,12 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=47 "Built target QuickStudioEventSimulator_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSimulator_tooling"
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_tooling.dir/rule
@@ -4001,12 +4001,12 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSimulatorplugin_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=48 "Built target QuickStudioEventSimulatorplugin_init"
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/rule
@@ -4032,7 +4032,7 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_autogen_timestamp_deps.dir/rule
@@ -4059,7 +4059,7 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_autogen.dir/rule
@@ -4158,12 +4158,12 @@ _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimul
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/build.make _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=48 "Built target QuickStudioEventSimulatorplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSimulatorplugin_autogen"
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_autogen.dir/rule
@@ -4291,12 +4291,12 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.d
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=49,50 "Built target QuickStudioEventSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=49 "Built target QuickStudioEventSystem"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/rule
@@ -4426,12 +4426,12 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystempl
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSystemplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=53 "Built target QuickStudioEventSystemplugin"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/rule
@@ -4452,12 +4452,12 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystempl
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=53 "Built target QuickStudioEventSystem_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSystem_tooling"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_tooling.dir/rule
@@ -4506,12 +4506,12 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystempl
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSystemplugin_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=54 "Built target QuickStudioEventSystemplugin_init"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/rule
@@ -4537,7 +4537,7 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_a
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen_timestamp_deps.dir/rule
@@ -4559,7 +4559,7 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_a
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSystem_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=50 "Built target QuickStudioEventSystem_autogen"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4663,12 +4663,12 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystempl
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/build.make _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=54 "Built target QuickStudioEventSystemplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioEventSystemplugin_autogen"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/rule
@@ -5198,7 +5198,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/all: _deps/ds-b
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/rule
@@ -5219,12 +5219,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/clean:
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=75 "Built target QuickStudioUtils_automoc_json_extraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_automoc_json_extraction"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/rule
@@ -5245,12 +5245,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extrac
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_automoc_json_extraction.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=76 "Built target QuickStudioUtils_qmltyperegistration"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmltyperegistration.dir/rule
@@ -5329,12 +5329,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all: _dep
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtilsplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=79 "Built target QuickStudioUtilsplugin"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/rule
@@ -5360,7 +5360,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint.dir/rule
@@ -5386,7 +5386,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint_json.dir/al
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint_json.dir/rule
@@ -5408,7 +5408,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/all: _
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_qmlcache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=75 "Built target QuickStudioUtils_qmlcache"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5434,12 +5434,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/clean:
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=79 "Built target QuickStudioUtils_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_tooling"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/rule
@@ -5461,7 +5461,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/all
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=78 "Built target QuickStudioUtils_resources_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_resources_2"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5488,12 +5488,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/all:
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtilsplugin_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=80 "Built target QuickStudioUtilsplugin_init"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/rule
@@ -5519,7 +5519,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen_timestamp_d
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen_timestamp_deps.dir/rule
@@ -5546,7 +5546,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_autogen.dir/rule
@@ -5645,12 +5645,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen_times
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=80 "Built target QuickStudioUtilsplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtilsplugin_autogen"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/rule
@@ -5671,12 +5671,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_autogen.dir/c
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=76 "Built target QuickStudioUtils_qmlcache_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_qmlcache_autogen_timestamp_deps"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/rule
@@ -5702,7 +5702,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen.di
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen.dir/rule
@@ -5749,12 +5749,12 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/build.make _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target QuickStudioUtils_resources_2_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=78 "Built target QuickStudioUtils_resources_2_autogen"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen.dir/rule
@@ -5835,7 +5835,7 @@ content/CMakeFiles/content.dir/all: content/CMakeFiles/content_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content.dir/rule
@@ -5861,7 +5861,7 @@ content/CMakeFiles/content_automoc_json_extraction.dir/all: content/CMakeFiles/c
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_automoc_json_extraction.dir/rule
@@ -5882,12 +5882,12 @@ content/CMakeFiles/content_automoc_json_extraction.dir/clean:
 content/CMakeFiles/content_qmltyperegistration.dir/all: content/CMakeFiles/content_automoc_json_extraction.dir/all
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/content_qmltyperegistration.dir/build.make content/CMakeFiles/content_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/content_qmltyperegistration.dir/build.make content/CMakeFiles/content_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=84 "Built target content_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target content_qmltyperegistration"
 .PHONY : content/CMakeFiles/content_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_qmltyperegistration.dir/rule
@@ -5935,12 +5935,12 @@ content/CMakeFiles/content_resources_1.dir/all: content/CMakeFiles/content_resou
 content/CMakeFiles/content_resources_1.dir/all: content/CMakeFiles/content_resources_1_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/content_resources_1.dir/build.make content/CMakeFiles/content_resources_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/content_resources_1.dir/build.make content/CMakeFiles/content_resources_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target content_resources_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=84 "Built target content_resources_1"
 .PHONY : content/CMakeFiles/content_resources_1.dir/all
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_resources_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_resources_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_resources_1.dir/rule
@@ -5966,7 +5966,7 @@ content/CMakeFiles/contentplugin.dir/all: content/CMakeFiles/contentplugin_autog
 content/CMakeFiles/contentplugin.dir/all: content/CMakeFiles/contentplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/contentplugin.dir/build.make content/CMakeFiles/contentplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/contentplugin.dir/build.make content/CMakeFiles/contentplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target contentplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=86 "Built target contentplugin"
 .PHONY : content/CMakeFiles/contentplugin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5997,7 +5997,7 @@ content/CMakeFiles/content_qmllint.dir/all: _deps/ds-build/src/imports/component
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_qmllint.dir/rule
@@ -6023,7 +6023,7 @@ content/CMakeFiles/content_qmllint_json.dir/all: _deps/ds-build/src/imports/comp
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_qmllint_json.dir/rule
@@ -6071,12 +6071,12 @@ content/CMakeFiles/content_qmlcache.dir/clean:
 content/CMakeFiles/content_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/content_tooling.dir/build.make content/CMakeFiles/content_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/content_tooling.dir/build.make content/CMakeFiles/content_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=86 "Built target content_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target content_tooling"
 .PHONY : content/CMakeFiles/content_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_tooling.dir/rule
@@ -6125,12 +6125,12 @@ content/CMakeFiles/contentplugin_init.dir/all: content/CMakeFiles/contentplugin_
 content/CMakeFiles/contentplugin_init.dir/all: content/CMakeFiles/contentplugin_init_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/contentplugin_init.dir/build.make content/CMakeFiles/contentplugin_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/contentplugin_init.dir/build.make content/CMakeFiles/contentplugin_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target contentplugin_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=87 "Built target contentplugin_init"
 .PHONY : content/CMakeFiles/contentplugin_init.dir/all
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/contentplugin_init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/contentplugin_init.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/contentplugin_init.dir/rule
@@ -6156,7 +6156,7 @@ content/CMakeFiles/content_autogen_timestamp_deps.dir/all: content/CMakeFiles/co
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_autogen_timestamp_deps.dir/rule
@@ -6183,7 +6183,7 @@ content/CMakeFiles/content_autogen.dir/all: content/CMakeFiles/content_autogen_t
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/content_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/content_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/content_autogen.dir/rule
@@ -6282,12 +6282,12 @@ content/CMakeFiles/contentplugin_autogen_timestamp_deps.dir/clean:
 content/CMakeFiles/contentplugin_autogen.dir/all: content/CMakeFiles/contentplugin_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/contentplugin_autogen.dir/build.make content/CMakeFiles/contentplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f content/CMakeFiles/contentplugin_autogen.dir/build.make content/CMakeFiles/contentplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=87 "Built target contentplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target contentplugin_autogen"
 .PHONY : content/CMakeFiles/contentplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 content/CMakeFiles/contentplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 content/CMakeFiles/contentplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : content/CMakeFiles/contentplugin_autogen.dir/rule
@@ -6467,12 +6467,12 @@ imports/qt_opengl/CMakeFiles/qt_opengl.dir/all: imports/qt_opengl/CMakeFiles/qt_
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f imports/qt_opengl/CMakeFiles/qt_opengl.dir/build.make imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f imports/qt_opengl/CMakeFiles/qt_opengl.dir/build.make imports/qt_opengl/CMakeFiles/qt_opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=88,89,90 "Built target qt_opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=88,89 "Built target qt_opengl"
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl.dir/all
 
 # Build rule for subdir invocation for target.
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imports/qt_opengl/CMakeFiles/qt_opengl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl.dir/rule
@@ -6608,7 +6608,7 @@ imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all: imports/qt_opengl/CMakeFil
 
 # Build rule for subdir invocation for target.
 imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/rule
@@ -6634,7 +6634,7 @@ imports/qt_opengl/CMakeFiles/qt_opengl_qmllint.dir/all: _deps/ds-build/src/impor
 
 # Build rule for subdir invocation for target.
 imports/qt_opengl/CMakeFiles/qt_opengl_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imports/qt_opengl/CMakeFiles/qt_opengl_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl_qmllint.dir/rule
@@ -6660,7 +6660,7 @@ imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/all: _deps/ds-build/src/
 
 # Build rule for subdir invocation for target.
 imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/rule

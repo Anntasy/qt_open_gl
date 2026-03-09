@@ -1,0 +1,1 @@
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/QuickStudioApplication_autogen/include/../EWIEGA46WW/moc_quickstudioapplication_p.cpp.json

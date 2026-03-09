@@ -67,6 +67,7 @@ include _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEvent
 include _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1_autogen_timestamp_deps.dir/progress.make
 
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 QuickStudioEventSystem_resources_1_autogen_timestamp_deps: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1_autogen_timestamp_deps
 QuickStudioEventSystem_resources_1_autogen_timestamp_deps: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1_autogen_timestamp_deps.dir/build.make

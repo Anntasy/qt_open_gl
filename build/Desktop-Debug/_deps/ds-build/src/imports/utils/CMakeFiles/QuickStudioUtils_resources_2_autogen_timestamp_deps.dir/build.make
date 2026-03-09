@@ -67,6 +67,7 @@ include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2
 include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen_timestamp_deps.dir/progress.make
 
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 QuickStudioUtils_resources_2_autogen_timestamp_deps: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen_timestamp_deps
 QuickStudioUtils_resources_2_autogen_timestamp_deps: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2_autogen_timestamp_deps.dir/build.make

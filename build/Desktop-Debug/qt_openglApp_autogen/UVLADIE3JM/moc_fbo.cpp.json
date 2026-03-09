@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "FBO",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "a",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "set_angle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "get_angle",
+                    "returnType": "float"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "q_angle",
+                    "notify": "angle_changed",
+                    "read": "get_angle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false,
+                    "write": "set_angle"
+                }
+            ],
+            "qualifiedClassName": "FBO",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "angle_changed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickFramebufferObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "fbo.h",
+    "outputRevision": 68
+}

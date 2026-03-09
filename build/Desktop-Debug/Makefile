@@ -3449,6 +3449,30 @@ qt_openglapp_qmltyperegistrations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.s
 .PHONY : qt_openglapp_qmltyperegistrations.cpp.s
 
+src/alldata.o: src/alldata.cpp.o
+.PHONY : src/alldata.o
+
+# target to build an object file
+src/alldata.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o
+.PHONY : src/alldata.cpp.o
+
+src/alldata.i: src/alldata.cpp.i
+.PHONY : src/alldata.i
+
+# target to preprocess a source file
+src/alldata.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/alldata.cpp.i
+.PHONY : src/alldata.cpp.i
+
+src/alldata.s: src/alldata.cpp.s
+.PHONY : src/alldata.s
+
+# target to generate assembly for a file
+src/alldata.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/alldata.cpp.s
+.PHONY : src/alldata.cpp.s
+
 src/fbo.o: src/fbo.cpp.o
 .PHONY : src/fbo.o
 
@@ -3496,6 +3520,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/ourwidget.o: src/ourwidget.cpp.o
+.PHONY : src/ourwidget.o
+
+# target to build an object file
+src/ourwidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o
+.PHONY : src/ourwidget.cpp.o
+
+src/ourwidget.i: src/ourwidget.cpp.i
+.PHONY : src/ourwidget.i
+
+# target to preprocess a source file
+src/ourwidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.i
+.PHONY : src/ourwidget.cpp.i
+
+src/ourwidget.s: src/ourwidget.cpp.s
+.PHONY : src/ourwidget.s
+
+# target to generate assembly for a file
+src/ourwidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.s
+.PHONY : src/ourwidget.cpp.s
 
 src/rend.o: src/rend.cpp.o
 .PHONY : src/rend.o
@@ -3794,12 +3842,18 @@ help:
 	@echo "... qt_openglapp_qmltyperegistrations.o"
 	@echo "... qt_openglapp_qmltyperegistrations.i"
 	@echo "... qt_openglapp_qmltyperegistrations.s"
+	@echo "... src/alldata.o"
+	@echo "... src/alldata.i"
+	@echo "... src/alldata.s"
 	@echo "... src/fbo.o"
 	@echo "... src/fbo.i"
 	@echo "... src/fbo.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/ourwidget.o"
+	@echo "... src/ourwidget.i"
+	@echo "... src/ourwidget.s"
 	@echo "... src/rend.o"
 	@echo "... src/rend.i"
 	@echo "... src/rend.s"

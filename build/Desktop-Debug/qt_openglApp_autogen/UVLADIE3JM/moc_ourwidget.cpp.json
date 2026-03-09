@@ -1,0 +1,21 @@
+{
+    "classes": [
+        {
+            "className": "OurWidget",
+            "object": true,
+            "qualifiedClassName": "OurWidget",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QOpenGLWidget"
+                },
+                {
+                    "access": "protected",
+                    "name": "QOpenGLFunctions"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ourwidget.h",
+    "outputRevision": 68
+}
