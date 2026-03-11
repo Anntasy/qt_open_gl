@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o.d"
   "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o"
   "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o.d"
+  "CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+  "CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o"
@@ -35,6 +37,7 @@ file(REMOVE_RECURSE
   "qml/Main/qt_openglApp.qmltypes"
   "qt_openglApp"
   "qt_openglApp.pdb"
+  "qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp"
   "qt_openglapp_qmltyperegistrations.cpp"
 )
 

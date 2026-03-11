@@ -66,8 +66,8 @@ include imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps.dir/compil
 # Include the progress variables for this target.
 include imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps.dir/progress.make
 
-imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
 imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
 imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 qt_opengl_autogen_timestamp_deps: imports/qt_opengl/CMakeFiles/qt_opengl_autogen_timestamp_deps

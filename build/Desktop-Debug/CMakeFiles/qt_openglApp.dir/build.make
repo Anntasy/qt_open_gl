@@ -127,10 +127,18 @@ qml/Main/qt_openglApp.qmltypes: qt_openglapp_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource qt_openglApp_raw_qml_0"
 	/usr/lib/qt6/libexec/rcc --output /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp --name qt_openglApp_raw_qml_0 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qt_openglApp_raw_qml_0.qrc
 
+qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/resources.qrc
+qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/qt_openglApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/vertex_shader.vert
+qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/fragment_shader.frag
+qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp: /usr/lib/qt6/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic RCC for resources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/qt_openglApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
+
 CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: qt_openglApp_autogen/mocs_compilation.cpp
 CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.i: cmake_force
@@ -144,7 +152,7 @@ CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.s: cmake_f
 CMakeFiles/qt_openglApp.dir/src/main.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/src/main.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/main.cpp
 CMakeFiles/qt_openglApp.dir/src/main.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/qt_openglApp.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/qt_openglApp.dir/src/main.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/src/main.cpp.o -MF CMakeFiles/qt_openglApp.dir/src/main.cpp.o.d -o CMakeFiles/qt_openglApp.dir/src/main.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/main.cpp
 
 CMakeFiles/qt_openglApp.dir/src/main.cpp.i: cmake_force
@@ -158,7 +166,7 @@ CMakeFiles/qt_openglApp.dir/src/main.cpp.s: cmake_force
 CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.cpp
 CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o -MF CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o.d -o CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.cpp
 
 CMakeFiles/qt_openglApp.dir/src/fbo.cpp.i: cmake_force
@@ -172,7 +180,7 @@ CMakeFiles/qt_openglApp.dir/src/fbo.cpp.s: cmake_force
 CMakeFiles/qt_openglApp.dir/src/rend.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/src/rend.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.cpp
 CMakeFiles/qt_openglApp.dir/src/rend.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/qt_openglApp.dir/src/rend.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/qt_openglApp.dir/src/rend.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/src/rend.cpp.o -MF CMakeFiles/qt_openglApp.dir/src/rend.cpp.o.d -o CMakeFiles/qt_openglApp.dir/src/rend.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.cpp
 
 CMakeFiles/qt_openglApp.dir/src/rend.cpp.i: cmake_force
@@ -186,7 +194,7 @@ CMakeFiles/qt_openglApp.dir/src/rend.cpp.s: cmake_force
 CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.cpp
 CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o -MF CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o.d -o CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.cpp
 
 CMakeFiles/qt_openglApp.dir/src/alldata.cpp.i: cmake_force
@@ -200,7 +208,7 @@ CMakeFiles/qt_openglApp.dir/src/alldata.cpp.s: cmake_force
 CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.cpp
 CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o -MF CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o.d -o CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.cpp
 
 CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.i: cmake_force
@@ -214,7 +222,7 @@ CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.s: cmake_force
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o: .rcc/qrc_configuration.cpp
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o -MF CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o.d -o CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qrc_configuration.cpp
 
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.i: cmake_force
@@ -228,7 +236,7 @@ CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.s: cm
 CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o: qt_openglapp_qmltyperegistrations.cpp
 CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o -MF CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o.d -o CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglapp_qmltyperegistrations.cpp
 
 CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.i: cmake_force
@@ -242,7 +250,7 @@ CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o: .rcc/qrc_qmake_Main.cpp
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o -MF CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o.d -o CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp
 
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.i: cmake_force
@@ -256,7 +264,7 @@ CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.s: cmake
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o: .rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o -MF CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o.d -o CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp
 
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.i: cmake_force
@@ -270,7 +278,7 @@ CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlca
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o: .rcc/qmlcache/qt_openglApp_main_qml.cpp
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o -MF CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o.d -o CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp
 
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.i: cmake_force
@@ -284,7 +292,7 @@ CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o: .rcc/qrc_qt_openglApp_raw_qml_0.cpp
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o -MF CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o.d -o CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp
 
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.i: cmake_force
@@ -294,6 +302,20 @@ CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp -o CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s
+
+CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/qt_openglApp.dir/flags.make
+CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o: qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp
+CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/qt_openglApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp
+
+CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp > CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp -o CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
 
 # Object files for target qt_openglApp
 qt_openglApp_OBJECTS = \
@@ -308,7 +330,8 @@ qt_openglApp_OBJECTS = \
 "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o" \
 "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o" \
 "CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o" \
-"CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o"
+"CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o" \
+"CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target qt_openglApp
 qt_openglApp_EXTERNAL_OBJECTS =
@@ -325,6 +348,7 @@ qt_openglApp: CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Mai
 qt_openglApp: CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o
 qt_openglApp: CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o
 qt_openglApp: CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o
+qt_openglApp: CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
 qt_openglApp: CMakeFiles/qt_openglApp.dir/build.make
 qt_openglApp: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_init.dir/QuickStudioComponentsplugin_init.cpp.o
 qt_openglApp: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/QuickStudioEffectsplugin_init.cpp.o
@@ -396,7 +420,7 @@ qt_openglApp: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
 qt_openglApp: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
 qt_openglApp: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 qt_openglApp: CMakeFiles/qt_openglApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable qt_openglApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable qt_openglApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qt_openglApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -414,6 +438,7 @@ CMakeFiles/qt_openglApp.dir/depend: .rcc/qrc_qt_openglApp_raw_qml_0.cpp
 CMakeFiles/qt_openglApp.dir/depend: meta_types/qt6qt_openglapp_debug_metatypes.json
 CMakeFiles/qt_openglApp.dir/depend: meta_types/qt6qt_openglapp_debug_metatypes.json.gen
 CMakeFiles/qt_openglApp.dir/depend: qml/Main/qt_openglApp.qmltypes
+CMakeFiles/qt_openglApp.dir/depend: qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/qt_openglApp.dir/depend: qt_openglapp_qmltyperegistrations.cpp
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/qt_openglApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/qt_openglApp.dir/depend

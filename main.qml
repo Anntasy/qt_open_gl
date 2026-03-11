@@ -15,7 +15,10 @@ App {
         FBO {
             id: gl
             anchors.fill: parent
-            q_angle: 45
+            SequentialAnimation on q_angle {
+                        loops: Animation.Infinite
+                        NumberAnimation { from: 0; to: 360; duration: 5000; easing.type: Easing.InOutSine }
+                    }
             focus: true
         }
 }

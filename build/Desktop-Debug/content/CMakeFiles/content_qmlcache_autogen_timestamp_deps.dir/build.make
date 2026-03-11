@@ -67,8 +67,8 @@ include content/CMakeFiles/content_qmlcache_autogen_timestamp_deps.dir/compiler_
 include content/CMakeFiles/content_qmlcache_autogen_timestamp_deps.dir/progress.make
 
 content/CMakeFiles/content_qmlcache_autogen_timestamp_deps: content/.rcc/qmlcache/content_qmlcache_loader.cpp
-content/CMakeFiles/content_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 content/CMakeFiles/content_qmlcache_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+content/CMakeFiles/content_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 content/CMakeFiles/content_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 content/.rcc/qmlcache/content_qmlcache_loader.cpp: /usr/lib/qt6/libexec/qmlcachegen

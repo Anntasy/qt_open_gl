@@ -67,8 +67,8 @@ include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_au
 include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps.dir/progress.make
 
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps: _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_qmlcache_loader.cpp
-_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_qmlcache_loader.cpp: /usr/lib/qt6/libexec/qmlcachegen

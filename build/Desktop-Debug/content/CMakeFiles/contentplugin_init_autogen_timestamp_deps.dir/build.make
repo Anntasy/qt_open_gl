@@ -67,8 +67,8 @@ include content/CMakeFiles/contentplugin_init_autogen_timestamp_deps.dir/compile
 include content/CMakeFiles/contentplugin_init_autogen_timestamp_deps.dir/progress.make
 
 content/CMakeFiles/contentplugin_init_autogen_timestamp_deps: content/contentplugin_init.cpp
-content/CMakeFiles/contentplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 content/CMakeFiles/contentplugin_init_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+content/CMakeFiles/contentplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 content/CMakeFiles/contentplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 contentplugin_init_autogen_timestamp_deps: content/CMakeFiles/contentplugin_init_autogen_timestamp_deps

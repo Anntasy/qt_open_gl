@@ -831,6 +831,8 @@ CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o: .rcc/
 
 CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o: .rcc/qrc_qt_openglApp_raw_qml_0.cpp
 
+CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o: qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp
+
 CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: qt_openglApp_autogen/mocs_compilation.cpp \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.h \
@@ -1584,6 +1586,7 @@ CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: qt_open
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
@@ -2787,6 +2790,7 @@ CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o: /home/vboxuser/Desktop/cpp_projec
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
@@ -3602,6 +3606,7 @@ CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o: /home/vboxuser/Desktop/cpp_projects/q
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
@@ -4443,6 +4448,7 @@ CMakeFiles/qt_openglApp.dir/src/main.cpp.o: /home/vboxuser/Desktop/cpp_projects/
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
@@ -5275,6 +5281,7 @@ CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o: /home/vboxuser/Desktop/cpp_proj
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
@@ -6090,6 +6097,7 @@ CMakeFiles/qt_openglApp.dir/src/rend.cpp.o: /home/vboxuser/Desktop/cpp_projects/
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
@@ -6219,6 +6227,8 @@ qt_openglapp_qmltyperegistrations.cpp:
 /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglvertexarrayobject.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject:
+
+/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader:
 
 /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject:
 
@@ -6462,6 +6472,8 @@ qt_openglapp_qmltyperegistrations.cpp:
 
 /usr/include/glm/vec4.hpp:
 
+/usr/include/glm/vec3.hpp:
+
 /usr/include/glm/detail/type_mat4x3.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -6489,6 +6501,8 @@ qt_openglapp_qmltyperegistrations.cpp:
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -7099,8 +7113,6 @@ qt_openglapp_qmltyperegistrations.cpp:
 .rcc/qmlcache/qt_openglApp_main_qml.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h:
-
-/usr/include/glm/vec3.hpp:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 

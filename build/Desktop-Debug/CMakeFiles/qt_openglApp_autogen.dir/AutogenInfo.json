@@ -331,7 +331,8 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/vboxuser/Desktop/cpp_projects/qt_opengl/insight",
 		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/home/vboxuser/Desktop/cpp_projects/qt_opengl/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl",
 	"DEP_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/deps",

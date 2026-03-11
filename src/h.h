@@ -12,6 +12,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <SOIL/SOIL.h>
 
+
 #include <QOpenGLWidget>
 #include <QOpenGLShaderProgram>
 #include <QTimer>
@@ -22,16 +23,13 @@
 #include <QOpenGLExtraFunctions>
 #include <QOpenGLVertexArrayObject>
 #include <QOpenGLBuffer>
+#include <QOpenGLShader>
 
 
 #include "rend.h"
 #include "fbo.h"
 #include "alldata.h"
 #include "ourwidget.h"
-
-
-// std::ostream& operator<<(std::ostream& os, const glm::dquat& q);
-// std::ostream& operator<<(std::ostream& os, const glm::dvec3& v);
 
 
 #endif // H_H

@@ -67,8 +67,8 @@ include _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEv
 include _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps.dir/progress.make
 
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps: _deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulatorplugin_init.cpp
-_deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+_deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init_autogen_timestamp_deps

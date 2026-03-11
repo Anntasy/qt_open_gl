@@ -1,6 +1,7 @@
 CMakeFiles/qt_openglApp.dir/src/rend.cpp.o: \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.cpp \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.h \
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/h.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
@@ -771,6 +772,6 @@ CMakeFiles/qt_openglApp.dir/src/rend.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglvertexarrayobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.h \
-  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.h

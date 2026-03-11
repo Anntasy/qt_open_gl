@@ -642,6 +642,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \

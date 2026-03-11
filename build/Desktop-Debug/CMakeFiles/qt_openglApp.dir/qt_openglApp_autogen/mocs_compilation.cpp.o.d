@@ -137,6 +137,7 @@ CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/execution_defs.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/UVLADIE3JM/../../../../src/fbo.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/UVLADIE3JM/../../../../src/rend.h \
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/UVLADIE3JM/../../../../src/alldata.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/UVLADIE3JM/../../../../src/h.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ostream \
@@ -773,5 +774,5 @@ CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglvertexarrayobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
-  /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/UVLADIE3JM/../../../../src/alldata.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp_autogen/UVLADIE3JM/../../../../src/ourwidget.h

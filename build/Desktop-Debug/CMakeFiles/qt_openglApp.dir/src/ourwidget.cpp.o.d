@@ -771,6 +771,7 @@ CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglvertexarrayobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.h \
-  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.h \
-  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h \
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.h

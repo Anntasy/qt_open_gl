@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="resources.qrc">/home/vboxuser/Desktop/cpp_projects/qt_opengl/resources.qrc</file>
+  </qresource>
+</RCC>
+

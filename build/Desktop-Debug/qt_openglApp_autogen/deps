@@ -8,6 +8,7 @@ qt_openglApp_autogen/timestamp: \
 	/home/vboxuser/Desktop/cpp_projects/qt_opengl/insight \
 	/home/vboxuser/Desktop/cpp_projects/qt_opengl/qmlcomponents \
 	/home/vboxuser/Desktop/cpp_projects/qt_opengl/qmlmodules \
+	/home/vboxuser/Desktop/cpp_projects/qt_opengl/resources.qrc \
 	/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.cpp \
 	/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h \
 	/home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.cpp \
@@ -655,6 +656,7 @@ qt_openglApp_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLBuffer \
 	/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLFramebufferObject \
+	/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShader \
 	/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLShaderProgram \
 	/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/QOpenGLVertexArrayObject \
 	/usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglbuffer.h \
