@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,183 +66,183 @@ include _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_too
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/progress.make
 
-qml/QtQuick/Studio/Effects/FastBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/FastBlurItem.qml
+qml/QtQuick/Studio/Effects/FastBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/FastBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../../../qml/QtQuick/Studio/Effects/FastBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/FastBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/FastBlurItem.qml
 
-qml/QtQuick/Studio/Effects/GlowItem.qml: _deps/ds-src/src/imports/effects_qt6/GlowItem.qml
+qml/QtQuick/Studio/Effects/GlowItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GlowItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../../../qml/QtQuick/Studio/Effects/GlowItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GlowItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/GlowItem.qml
 
-qml/QtQuick/Studio/Effects/ZoomBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/ZoomBlurItem.qml
+qml/QtQuick/Studio/Effects/ZoomBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ZoomBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../../../qml/QtQuick/Studio/Effects/ZoomBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ZoomBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ZoomBlurItem.qml
 
-qml/QtQuick/Studio/Effects/RadialBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/RadialBlurItem.qml
+qml/QtQuick/Studio/Effects/RadialBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RadialBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../../../../../qml/QtQuick/Studio/Effects/RadialBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RadialBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/RadialBlurItem.qml
 
-qml/QtQuick/Studio/Effects/DesaturationItem.qml: _deps/ds-src/src/imports/effects_qt6/DesaturationItem.qml
+qml/QtQuick/Studio/Effects/DesaturationItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DesaturationItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../../../../../qml/QtQuick/Studio/Effects/DesaturationItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DesaturationItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DesaturationItem.qml
 
-qml/QtQuick/Studio/Effects/SaturationItem.qml: _deps/ds-src/src/imports/effects_qt6/SaturationItem.qml
+qml/QtQuick/Studio/Effects/SaturationItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/SaturationItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../../../../../qml/QtQuick/Studio/Effects/SaturationItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/SaturationItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/SaturationItem.qml
 
-qml/QtQuick/Studio/Effects/DirectionalBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/DirectionalBlurItem.qml
+qml/QtQuick/Studio/Effects/DirectionalBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DirectionalBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../../../../../qml/QtQuick/Studio/Effects/DirectionalBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DirectionalBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DirectionalBlurItem.qml
 
-qml/QtQuick/Studio/Effects/ColorOverlayItem.qml: _deps/ds-src/src/imports/effects_qt6/ColorOverlayItem.qml
+qml/QtQuick/Studio/Effects/ColorOverlayItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorOverlayItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../../../../../qml/QtQuick/Studio/Effects/ColorOverlayItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorOverlayItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ColorOverlayItem.qml
 
-qml/QtQuick/Studio/Effects/DropShadowItem.qml: _deps/ds-src/src/imports/effects_qt6/DropShadowItem.qml
+qml/QtQuick/Studio/Effects/DropShadowItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DropShadowItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../../../../../qml/QtQuick/Studio/Effects/DropShadowItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DropShadowItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DropShadowItem.qml
 
-qml/QtQuick/Studio/Effects/ColorizeItem.qml: _deps/ds-src/src/imports/effects_qt6/ColorizeItem.qml
+qml/QtQuick/Studio/Effects/ColorizeItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorizeItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../../../../../qml/QtQuick/Studio/Effects/ColorizeItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorizeItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ColorizeItem.qml
 
-qml/QtQuick/Studio/Effects/BrightnessContrastItem.qml: _deps/ds-src/src/imports/effects_qt6/BrightnessContrastItem.qml
+qml/QtQuick/Studio/Effects/BrightnessContrastItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BrightnessContrastItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../../../../../qml/QtQuick/Studio/Effects/BrightnessContrastItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BrightnessContrastItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/BrightnessContrastItem.qml
 
-qml/QtQuick/Studio/Effects/HueSaturationItem.qml: _deps/ds-src/src/imports/effects_qt6/HueSaturationItem.qml
+qml/QtQuick/Studio/Effects/HueSaturationItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/HueSaturationItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../../../../../qml/QtQuick/Studio/Effects/HueSaturationItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/HueSaturationItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/HueSaturationItem.qml
 
-qml/QtQuick/Studio/Effects/MaskedBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/MaskedBlurItem.qml
+qml/QtQuick/Studio/Effects/MaskedBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskedBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../../../../../qml/QtQuick/Studio/Effects/MaskedBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskedBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/MaskedBlurItem.qml
 
-qml/QtQuick/Studio/Effects/BlendItem.qml: _deps/ds-src/src/imports/effects_qt6/BlendItem.qml
+qml/QtQuick/Studio/Effects/BlendItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BlendItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../../../../../qml/QtQuick/Studio/Effects/BlendItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BlendItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/BlendItem.qml
 
-qml/QtQuick/Studio/Effects/OpacityMaskItem.qml: _deps/ds-src/src/imports/effects_qt6/OpacityMaskItem.qml
+qml/QtQuick/Studio/Effects/OpacityMaskItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/OpacityMaskItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../../../../../qml/QtQuick/Studio/Effects/OpacityMaskItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/OpacityMaskItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/OpacityMaskItem.qml
 
-qml/QtQuick/Studio/Effects/MaskItem.qml: _deps/ds-src/src/imports/effects_qt6/MaskItem.qml
+qml/QtQuick/Studio/Effects/MaskItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../../../../../qml/QtQuick/Studio/Effects/MaskItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/MaskItem.qml
 
-qml/QtQuick/Studio/Effects/RotationItem.qml: _deps/ds-src/src/imports/effects_qt6/RotationItem.qml
+qml/QtQuick/Studio/Effects/RotationItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RotationItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../../../../../qml/QtQuick/Studio/Effects/RotationItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RotationItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/RotationItem.qml
 
-qml/QtQuick/Studio/Effects/GaussianBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/GaussianBlurItem.qml
+qml/QtQuick/Studio/Effects/GaussianBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GaussianBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../../../../../qml/QtQuick/Studio/Effects/GaussianBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GaussianBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/GaussianBlurItem.qml
 
-qml/QtQuick/Studio/Effects/GammaAdjustItem.qml: _deps/ds-src/src/imports/effects_qt6/GammaAdjustItem.qml
+qml/QtQuick/Studio/Effects/GammaAdjustItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GammaAdjustItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../../../../../qml/QtQuick/Studio/Effects/GammaAdjustItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GammaAdjustItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/GammaAdjustItem.qml
 
-qml/QtQuick/Studio/Effects/RecursiveBlurItem.qml: _deps/ds-src/src/imports/effects_qt6/RecursiveBlurItem.qml
+qml/QtQuick/Studio/Effects/RecursiveBlurItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RecursiveBlurItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../../../../../qml/QtQuick/Studio/Effects/RecursiveBlurItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RecursiveBlurItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/RecursiveBlurItem.qml
 
-qml/QtQuick/Studio/Effects/ThresholdMaskItem.qml: _deps/ds-src/src/imports/effects_qt6/ThresholdMaskItem.qml
+qml/QtQuick/Studio/Effects/ThresholdMaskItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ThresholdMaskItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../../../../../qml/QtQuick/Studio/Effects/ThresholdMaskItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ThresholdMaskItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ThresholdMaskItem.qml
 
-qml/QtQuick/Studio/Effects/LevelAdjustItem.qml: _deps/ds-src/src/imports/effects_qt6/LevelAdjustItem.qml
+qml/QtQuick/Studio/Effects/LevelAdjustItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/LevelAdjustItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../../../../../qml/QtQuick/Studio/Effects/LevelAdjustItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/LevelAdjustItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/LevelAdjustItem.qml
 
-qml/QtQuick/Studio/Effects/InnerShadowItem.qml: _deps/ds-src/src/imports/effects_qt6/InnerShadowItem.qml
+qml/QtQuick/Studio/Effects/InnerShadowItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/InnerShadowItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../../../../../qml/QtQuick/Studio/Effects/InnerShadowItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/InnerShadowItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/InnerShadowItem.qml
 
-qml/QtQuick/Studio/Effects/DisplaceItem.qml: _deps/ds-src/src/imports/effects_qt6/DisplaceItem.qml
+qml/QtQuick/Studio/Effects/DisplaceItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DisplaceItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../../../../../qml/QtQuick/Studio/Effects/DisplaceItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DisplaceItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DisplaceItem.qml
 
-qml/QtQuick/Studio/Effects/BlendEffect.qml: _deps/ds-src/src/imports/effects_qt6/BlendEffect.qml
+qml/QtQuick/Studio/Effects/BlendEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BlendEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../../../../../qml/QtQuick/Studio/Effects/BlendEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BlendEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/BlendEffect.qml
 
-qml/QtQuick/Studio/Effects/BrightnessContrastEffect.qml: _deps/ds-src/src/imports/effects_qt6/BrightnessContrastEffect.qml
+qml/QtQuick/Studio/Effects/BrightnessContrastEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BrightnessContrastEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../../../../../qml/QtQuick/Studio/Effects/BrightnessContrastEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BrightnessContrastEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/BrightnessContrastEffect.qml
 
-qml/QtQuick/Studio/Effects/ColorizeEffect.qml: _deps/ds-src/src/imports/effects_qt6/ColorizeEffect.qml
+qml/QtQuick/Studio/Effects/ColorizeEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorizeEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../../../../../qml/QtQuick/Studio/Effects/ColorizeEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorizeEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ColorizeEffect.qml
 
-qml/QtQuick/Studio/Effects/ColorOverlayEffect.qml: _deps/ds-src/src/imports/effects_qt6/ColorOverlayEffect.qml
+qml/QtQuick/Studio/Effects/ColorOverlayEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorOverlayEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../../../../../qml/QtQuick/Studio/Effects/ColorOverlayEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorOverlayEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ColorOverlayEffect.qml
 
-qml/QtQuick/Studio/Effects/DesaturationEffect.qml: _deps/ds-src/src/imports/effects_qt6/DesaturationEffect.qml
+qml/QtQuick/Studio/Effects/DesaturationEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DesaturationEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../../../../../qml/QtQuick/Studio/Effects/DesaturationEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DesaturationEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DesaturationEffect.qml
 
-qml/QtQuick/Studio/Effects/DirectionalBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/DirectionalBlurEffect.qml
+qml/QtQuick/Studio/Effects/DirectionalBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DirectionalBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../../../../../qml/QtQuick/Studio/Effects/DirectionalBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DirectionalBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DirectionalBlurEffect.qml
 
-qml/QtQuick/Studio/Effects/DisplaceEffect.qml: _deps/ds-src/src/imports/effects_qt6/DisplaceEffect.qml
+qml/QtQuick/Studio/Effects/DisplaceEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DisplaceEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../../../../../qml/QtQuick/Studio/Effects/DisplaceEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DisplaceEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DisplaceEffect.qml
 
-qml/QtQuick/Studio/Effects/DropShadowEffect.qml: _deps/ds-src/src/imports/effects_qt6/DropShadowEffect.qml
+qml/QtQuick/Studio/Effects/DropShadowEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DropShadowEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ../../../../../qml/QtQuick/Studio/Effects/DropShadowEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DropShadowEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/DropShadowEffect.qml
 
-qml/QtQuick/Studio/Effects/FastBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/FastBlurEffect.qml
+qml/QtQuick/Studio/Effects/FastBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/FastBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ../../../../../qml/QtQuick/Studio/Effects/FastBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/FastBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/FastBlurEffect.qml
 
-qml/QtQuick/Studio/Effects/GammaAdjustEffect.qml: _deps/ds-src/src/imports/effects_qt6/GammaAdjustEffect.qml
+qml/QtQuick/Studio/Effects/GammaAdjustEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GammaAdjustEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ../../../../../qml/QtQuick/Studio/Effects/GammaAdjustEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GammaAdjustEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/GammaAdjustEffect.qml
 
-qml/QtQuick/Studio/Effects/GaussianBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/GaussianBlurEffect.qml
+qml/QtQuick/Studio/Effects/GaussianBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GaussianBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ../../../../../qml/QtQuick/Studio/Effects/GaussianBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GaussianBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/GaussianBlurEffect.qml
 
-qml/QtQuick/Studio/Effects/GlowEffect.qml: _deps/ds-src/src/imports/effects_qt6/GlowEffect.qml
+qml/QtQuick/Studio/Effects/GlowEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GlowEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ../../../../../qml/QtQuick/Studio/Effects/GlowEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GlowEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/GlowEffect.qml
 
-qml/QtQuick/Studio/Effects/HueSaturationEffect.qml: _deps/ds-src/src/imports/effects_qt6/HueSaturationEffect.qml
+qml/QtQuick/Studio/Effects/HueSaturationEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/HueSaturationEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ../../../../../qml/QtQuick/Studio/Effects/HueSaturationEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/HueSaturationEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/HueSaturationEffect.qml
 
-qml/QtQuick/Studio/Effects/InnerShadowEffect.qml: _deps/ds-src/src/imports/effects_qt6/InnerShadowEffect.qml
+qml/QtQuick/Studio/Effects/InnerShadowEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/InnerShadowEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ../../../../../qml/QtQuick/Studio/Effects/InnerShadowEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/InnerShadowEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/InnerShadowEffect.qml
 
-qml/QtQuick/Studio/Effects/LevelAdjustEffect.qml: _deps/ds-src/src/imports/effects_qt6/LevelAdjustEffect.qml
+qml/QtQuick/Studio/Effects/LevelAdjustEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/LevelAdjustEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ../../../../../qml/QtQuick/Studio/Effects/LevelAdjustEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/LevelAdjustEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/LevelAdjustEffect.qml
 
-qml/QtQuick/Studio/Effects/MaskedBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/MaskedBlurEffect.qml
+qml/QtQuick/Studio/Effects/MaskedBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskedBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ../../../../../qml/QtQuick/Studio/Effects/MaskedBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskedBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/MaskedBlurEffect.qml
 
-qml/QtQuick/Studio/Effects/OpacityMaskEffect.qml: _deps/ds-src/src/imports/effects_qt6/OpacityMaskEffect.qml
+qml/QtQuick/Studio/Effects/OpacityMaskEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/OpacityMaskEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ../../../../../qml/QtQuick/Studio/Effects/OpacityMaskEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/OpacityMaskEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/OpacityMaskEffect.qml
 
-qml/QtQuick/Studio/Effects/RadialBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/RadialBlurEffect.qml
+qml/QtQuick/Studio/Effects/RadialBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RadialBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ../../../../../qml/QtQuick/Studio/Effects/RadialBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RadialBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/RadialBlurEffect.qml
 
-qml/QtQuick/Studio/Effects/RecursiveBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/RecursiveBlurEffect.qml
+qml/QtQuick/Studio/Effects/RecursiveBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RecursiveBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ../../../../../qml/QtQuick/Studio/Effects/RecursiveBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RecursiveBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/RecursiveBlurEffect.qml
 
-qml/QtQuick/Studio/Effects/ThresholdMaskEffect.qml: _deps/ds-src/src/imports/effects_qt6/ThresholdMaskEffect.qml
+qml/QtQuick/Studio/Effects/ThresholdMaskEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ThresholdMaskEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ../../../../../qml/QtQuick/Studio/Effects/ThresholdMaskEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ThresholdMaskEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ThresholdMaskEffect.qml
 
-qml/QtQuick/Studio/Effects/ZoomBlurEffect.qml: _deps/ds-src/src/imports/effects_qt6/ZoomBlurEffect.qml
+qml/QtQuick/Studio/Effects/ZoomBlurEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ZoomBlurEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ../../../../../qml/QtQuick/Studio/Effects/ZoomBlurEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ZoomBlurEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Effects/ZoomBlurEffect.qml
 
@@ -303,6 +303,6 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/clean
 
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_tooling.dir/depend
 

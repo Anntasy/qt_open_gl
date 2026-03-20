@@ -374,9 +374,9 @@ Q_UNUSED(aotContext)
 Q_UNUSED(argumentsPtr)
 QString r11_1;
 QObject *r7_1;
-QString r2_2;
 QObject *r2_1;
 QUrl r2_3;
+QString r2_2;
 QUrl r10_1;
 // generate_LoadQmlContextPropertyLookup
 while (!aotContext->loadSingletonLookup(0, &r2_1)) {
@@ -423,8 +423,8 @@ return r2_3;
         wrapCall(aotContext, dataPtr, argumentsPtr, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
 Q_UNUSED(aotContext)
 Q_UNUSED(argumentsPtr)
-QObject *r2_1;
 QUrl r2_2;
+QObject *r2_1;
 // generate_LoadQmlContextPropertyLookup
 while (!aotContext->loadContextIdLookup(6, &r2_1)) {
 aotContext->setInstructionPointer(2);

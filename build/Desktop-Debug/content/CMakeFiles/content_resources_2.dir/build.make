@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -69,9 +69,9 @@ include content/CMakeFiles/content_resources_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include content/CMakeFiles/content_resources_2.dir/flags.make
 
-content/.rcc/qrc_content_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/App.qml
-content/.rcc/qrc_content_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/Screen01.ui.qml
-content/.rcc/qrc_content_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/fonts/fonts.txt
+content/.rcc/qrc_content_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/content/App.qml
+content/.rcc/qrc_content_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/content/Screen01.ui.qml
+content/.rcc/qrc_content_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/content/fonts/fonts.txt
 content/.rcc/qrc_content_raw_qml_0.cpp: content/.rcc/content_raw_qml_0.qrc
 content/.rcc/qrc_content_raw_qml_0.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running rcc for resource content_raw_qml_0"
@@ -119,6 +119,6 @@ content/CMakeFiles/content_resources_2.dir/clean:
 .PHONY : content/CMakeFiles/content_resources_2.dir/clean
 
 content/CMakeFiles/content_resources_2.dir/depend: content/.rcc/qrc_content_raw_qml_0.cpp
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/CMakeFiles/content_resources_2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/please_work/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/CMakeFiles/content_resources_2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : content/CMakeFiles/content_resources_2.dir/depend
 

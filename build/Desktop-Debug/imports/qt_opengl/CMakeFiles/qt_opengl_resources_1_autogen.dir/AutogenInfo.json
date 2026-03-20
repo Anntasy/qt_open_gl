@@ -2,17 +2,17 @@
 	"BUILD_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_resources_1_autogen",
 	"CMAKE_BINARY_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/CMakeLists.txt",
+		"/home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/CMakeLists.txt",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl",
+	"CMAKE_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/please_work",
 	"DEP_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_resources_1_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "qt_opengl_resources_1_autogen/timestamp",
 	"HEADERS" : [],
@@ -36,7 +36,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_autogen/include",
-		"/home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl",
+		"/home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQml/6.4.2",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQml/6.4.2/QtQml",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore/6.4.2",

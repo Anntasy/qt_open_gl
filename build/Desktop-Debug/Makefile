@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -162,134 +162,134 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named qt_openglApp
+# Target rules for targets named please_workApp
 
 # Build rule for target.
-qt_openglApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp
-.PHONY : qt_openglApp
+please_workApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp
+.PHONY : please_workApp
 
 # fast build rule for target.
-qt_openglApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build
-.PHONY : qt_openglApp/fast
+please_workApp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/build
+.PHONY : please_workApp/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_other_files
+# Target rules for targets named please_workApp_other_files
 
 # Build rule for target.
-qt_openglApp_other_files: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_other_files
-.PHONY : qt_openglApp_other_files
+please_workApp_other_files: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_other_files
+.PHONY : please_workApp_other_files
 
 # fast build rule for target.
-qt_openglApp_other_files/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_other_files.dir/build.make CMakeFiles/qt_openglApp_other_files.dir/build
-.PHONY : qt_openglApp_other_files/fast
+please_workApp_other_files/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_other_files.dir/build.make CMakeFiles/please_workApp_other_files.dir/build
+.PHONY : please_workApp_other_files/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_automoc_json_extraction
+# Target rules for targets named please_workApp_automoc_json_extraction
 
 # Build rule for target.
-qt_openglApp_automoc_json_extraction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_automoc_json_extraction
-.PHONY : qt_openglApp_automoc_json_extraction
+please_workApp_automoc_json_extraction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_automoc_json_extraction
+.PHONY : please_workApp_automoc_json_extraction
 
 # fast build rule for target.
-qt_openglApp_automoc_json_extraction/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build.make CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build
-.PHONY : qt_openglApp_automoc_json_extraction/fast
+please_workApp_automoc_json_extraction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_automoc_json_extraction.dir/build.make CMakeFiles/please_workApp_automoc_json_extraction.dir/build
+.PHONY : please_workApp_automoc_json_extraction/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_qmltyperegistration
+# Target rules for targets named please_workApp_qmltyperegistration
 
 # Build rule for target.
-qt_openglApp_qmltyperegistration: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_qmltyperegistration
-.PHONY : qt_openglApp_qmltyperegistration
+please_workApp_qmltyperegistration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_qmltyperegistration
+.PHONY : please_workApp_qmltyperegistration
 
 # fast build rule for target.
-qt_openglApp_qmltyperegistration/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmltyperegistration.dir/build.make CMakeFiles/qt_openglApp_qmltyperegistration.dir/build
-.PHONY : qt_openglApp_qmltyperegistration/fast
+please_workApp_qmltyperegistration/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmltyperegistration.dir/build.make CMakeFiles/please_workApp_qmltyperegistration.dir/build
+.PHONY : please_workApp_qmltyperegistration/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_qmllint
+# Target rules for targets named please_workApp_qmllint
 
 # Build rule for target.
-qt_openglApp_qmllint: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_qmllint
-.PHONY : qt_openglApp_qmllint
+please_workApp_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_qmllint
+.PHONY : please_workApp_qmllint
 
 # fast build rule for target.
-qt_openglApp_qmllint/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint.dir/build.make CMakeFiles/qt_openglApp_qmllint.dir/build
-.PHONY : qt_openglApp_qmllint/fast
+please_workApp_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint.dir/build.make CMakeFiles/please_workApp_qmllint.dir/build
+.PHONY : please_workApp_qmllint/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_qmllint_json
+# Target rules for targets named please_workApp_qmllint_json
 
 # Build rule for target.
-qt_openglApp_qmllint_json: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_qmllint_json
-.PHONY : qt_openglApp_qmllint_json
+please_workApp_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_qmllint_json
+.PHONY : please_workApp_qmllint_json
 
 # fast build rule for target.
-qt_openglApp_qmllint_json/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint_json.dir/build.make CMakeFiles/qt_openglApp_qmllint_json.dir/build
-.PHONY : qt_openglApp_qmllint_json/fast
+please_workApp_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint_json.dir/build.make CMakeFiles/please_workApp_qmllint_json.dir/build
+.PHONY : please_workApp_qmllint_json/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_tooling
+# Target rules for targets named please_workApp_tooling
 
 # Build rule for target.
-qt_openglApp_tooling: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_tooling
-.PHONY : qt_openglApp_tooling
+please_workApp_tooling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_tooling
+.PHONY : please_workApp_tooling
 
 # fast build rule for target.
-qt_openglApp_tooling/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_tooling.dir/build.make CMakeFiles/qt_openglApp_tooling.dir/build
-.PHONY : qt_openglApp_tooling/fast
+please_workApp_tooling/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_tooling.dir/build.make CMakeFiles/please_workApp_tooling.dir/build
+.PHONY : please_workApp_tooling/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_qmlimportscan
+# Target rules for targets named please_workApp_qmlimportscan
 
 # Build rule for target.
-qt_openglApp_qmlimportscan: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_qmlimportscan
-.PHONY : qt_openglApp_qmlimportscan
+please_workApp_qmlimportscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_qmlimportscan
+.PHONY : please_workApp_qmlimportscan
 
 # fast build rule for target.
-qt_openglApp_qmlimportscan/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmlimportscan.dir/build.make CMakeFiles/qt_openglApp_qmlimportscan.dir/build
-.PHONY : qt_openglApp_qmlimportscan/fast
+please_workApp_qmlimportscan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmlimportscan.dir/build.make CMakeFiles/please_workApp_qmlimportscan.dir/build
+.PHONY : please_workApp_qmlimportscan/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_autogen_timestamp_deps
+# Target rules for targets named please_workApp_autogen_timestamp_deps
 
 # Build rule for target.
-qt_openglApp_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_autogen_timestamp_deps
-.PHONY : qt_openglApp_autogen_timestamp_deps
+please_workApp_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_autogen_timestamp_deps
+.PHONY : please_workApp_autogen_timestamp_deps
 
 # fast build rule for target.
-qt_openglApp_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/build
-.PHONY : qt_openglApp_autogen_timestamp_deps/fast
+please_workApp_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen_timestamp_deps.dir/build.make CMakeFiles/please_workApp_autogen_timestamp_deps.dir/build
+.PHONY : please_workApp_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named qt_openglApp_autogen
+# Target rules for targets named please_workApp_autogen
 
 # Build rule for target.
-qt_openglApp_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_openglApp_autogen
-.PHONY : qt_openglApp_autogen
+please_workApp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 please_workApp_autogen
+.PHONY : please_workApp_autogen
 
 # fast build rule for target.
-qt_openglApp_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen.dir/build.make CMakeFiles/qt_openglApp_autogen.dir/build
-.PHONY : qt_openglApp_autogen/fast
+please_workApp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen.dir/build.make CMakeFiles/please_workApp_autogen.dir/build
+.PHONY : please_workApp_autogen/fast
 
 #=============================================================================
 # Target rules for targets named QuickStudioComponents
@@ -3281,204 +3281,204 @@ qt_openglplugin_init_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f imports/qt_opengl/CMakeFiles/qt_openglplugin_init_autogen.dir/build.make imports/qt_opengl/CMakeFiles/qt_openglplugin_init_autogen.dir/build
 .PHONY : qt_openglplugin_init_autogen/fast
 
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.o: build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.o
+.rcc/qmlcache/please_workApp_main_qml.o: .rcc/qmlcache/please_workApp_main_qml.cpp.o
+.PHONY : .rcc/qmlcache/please_workApp_main_qml.o
 
 # target to build an object file
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.o
+.rcc/qmlcache/please_workApp_main_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qmlcache/please_workApp_main_qml.cpp.o
+.PHONY : .rcc/qmlcache/please_workApp_main_qml.cpp.o
 
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.i: build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.i
+.rcc/qmlcache/please_workApp_main_qml.i: .rcc/qmlcache/please_workApp_main_qml.cpp.i
+.PHONY : .rcc/qmlcache/please_workApp_main_qml.i
 
 # target to preprocess a source file
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.i
+.rcc/qmlcache/please_workApp_main_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qmlcache/please_workApp_main_qml.cpp.i
+.PHONY : .rcc/qmlcache/please_workApp_main_qml.cpp.i
 
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.s: build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.s
+.rcc/qmlcache/please_workApp_main_qml.s: .rcc/qmlcache/please_workApp_main_qml.cpp.s
+.PHONY : .rcc/qmlcache/please_workApp_main_qml.s
 
 # target to generate assembly for a file
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.cpp.s
+.rcc/qmlcache/please_workApp_main_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qmlcache/please_workApp_main_qml.cpp.s
+.PHONY : .rcc/qmlcache/please_workApp_main_qml.cpp.s
 
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.o: build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.o
+.rcc/qmlcache/please_workApp_qmlcache_loader.o: .rcc/qmlcache/please_workApp_qmlcache_loader.cpp.o
+.PHONY : .rcc/qmlcache/please_workApp_qmlcache_loader.o
 
 # target to build an object file
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.o
+.rcc/qmlcache/please_workApp_qmlcache_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qmlcache/please_workApp_qmlcache_loader.cpp.o
+.PHONY : .rcc/qmlcache/please_workApp_qmlcache_loader.cpp.o
 
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.i: build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.i
+.rcc/qmlcache/please_workApp_qmlcache_loader.i: .rcc/qmlcache/please_workApp_qmlcache_loader.cpp.i
+.PHONY : .rcc/qmlcache/please_workApp_qmlcache_loader.i
 
 # target to preprocess a source file
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.i
+.rcc/qmlcache/please_workApp_qmlcache_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qmlcache/please_workApp_qmlcache_loader.cpp.i
+.PHONY : .rcc/qmlcache/please_workApp_qmlcache_loader.cpp.i
 
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.s: build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.s
+.rcc/qmlcache/please_workApp_qmlcache_loader.s: .rcc/qmlcache/please_workApp_qmlcache_loader.cpp.s
+.PHONY : .rcc/qmlcache/please_workApp_qmlcache_loader.s
 
 # target to generate assembly for a file
-build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.cpp.s
+.rcc/qmlcache/please_workApp_qmlcache_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qmlcache/please_workApp_qmlcache_loader.cpp.s
+.PHONY : .rcc/qmlcache/please_workApp_qmlcache_loader.cpp.s
 
-build/Desktop-Debug/.rcc/qrc_configuration.o: build/Desktop-Debug/.rcc/qrc_configuration.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qrc_configuration.o
+.rcc/qrc_configuration.o: .rcc/qrc_configuration.cpp.o
+.PHONY : .rcc/qrc_configuration.o
 
 # target to build an object file
-build/Desktop-Debug/.rcc/qrc_configuration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qrc_configuration.cpp.o
+.rcc/qrc_configuration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_configuration.cpp.o
+.PHONY : .rcc/qrc_configuration.cpp.o
 
-build/Desktop-Debug/.rcc/qrc_configuration.i: build/Desktop-Debug/.rcc/qrc_configuration.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qrc_configuration.i
+.rcc/qrc_configuration.i: .rcc/qrc_configuration.cpp.i
+.PHONY : .rcc/qrc_configuration.i
 
 # target to preprocess a source file
-build/Desktop-Debug/.rcc/qrc_configuration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qrc_configuration.cpp.i
+.rcc/qrc_configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_configuration.cpp.i
+.PHONY : .rcc/qrc_configuration.cpp.i
 
-build/Desktop-Debug/.rcc/qrc_configuration.s: build/Desktop-Debug/.rcc/qrc_configuration.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qrc_configuration.s
+.rcc/qrc_configuration.s: .rcc/qrc_configuration.cpp.s
+.PHONY : .rcc/qrc_configuration.s
 
 # target to generate assembly for a file
-build/Desktop-Debug/.rcc/qrc_configuration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_configuration.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qrc_configuration.cpp.s
+.rcc/qrc_configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_configuration.cpp.s
+.PHONY : .rcc/qrc_configuration.cpp.s
 
-build/Desktop-Debug/.rcc/qrc_qmake_Main.o: build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qrc_qmake_Main.o
+.rcc/qrc_please_workApp_raw_qml_0.o: .rcc/qrc_please_workApp_raw_qml_0.cpp.o
+.PHONY : .rcc/qrc_please_workApp_raw_qml_0.o
 
 # target to build an object file
-build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.o
+.rcc/qrc_please_workApp_raw_qml_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_please_workApp_raw_qml_0.cpp.o
+.PHONY : .rcc/qrc_please_workApp_raw_qml_0.cpp.o
 
-build/Desktop-Debug/.rcc/qrc_qmake_Main.i: build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qrc_qmake_Main.i
+.rcc/qrc_please_workApp_raw_qml_0.i: .rcc/qrc_please_workApp_raw_qml_0.cpp.i
+.PHONY : .rcc/qrc_please_workApp_raw_qml_0.i
 
 # target to preprocess a source file
-build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.i
+.rcc/qrc_please_workApp_raw_qml_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_please_workApp_raw_qml_0.cpp.i
+.PHONY : .rcc/qrc_please_workApp_raw_qml_0.cpp.i
 
-build/Desktop-Debug/.rcc/qrc_qmake_Main.s: build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qrc_qmake_Main.s
+.rcc/qrc_please_workApp_raw_qml_0.s: .rcc/qrc_please_workApp_raw_qml_0.cpp.s
+.PHONY : .rcc/qrc_please_workApp_raw_qml_0.s
 
 # target to generate assembly for a file
-build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qrc_qmake_Main.cpp.s
+.rcc/qrc_please_workApp_raw_qml_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_please_workApp_raw_qml_0.cpp.s
+.PHONY : .rcc/qrc_please_workApp_raw_qml_0.cpp.s
 
-build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.o: build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.o
+.rcc/qrc_qmake_Main.o: .rcc/qrc_qmake_Main.cpp.o
+.PHONY : .rcc/qrc_qmake_Main.o
 
 # target to build an object file
-build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o
-.PHONY : build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.o
+.rcc/qrc_qmake_Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_qmake_Main.cpp.o
+.PHONY : .rcc/qrc_qmake_Main.cpp.o
 
-build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.i: build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.i
+.rcc/qrc_qmake_Main.i: .rcc/qrc_qmake_Main.cpp.i
+.PHONY : .rcc/qrc_qmake_Main.i
 
 # target to preprocess a source file
-build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.i
-.PHONY : build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.i
+.rcc/qrc_qmake_Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_qmake_Main.cpp.i
+.PHONY : .rcc/qrc_qmake_Main.cpp.i
 
-build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.s: build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.s
+.rcc/qrc_qmake_Main.s: .rcc/qrc_qmake_Main.cpp.s
+.PHONY : .rcc/qrc_qmake_Main.s
 
 # target to generate assembly for a file
-build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s
-.PHONY : build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.cpp.s
+.rcc/qrc_qmake_Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/.rcc/qrc_qmake_Main.cpp.s
+.PHONY : .rcc/qrc_qmake_Main.cpp.s
 
-qt_openglApp_autogen/EWIEGA46WW/qrc_resources.o: qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
-.PHONY : qt_openglApp_autogen/EWIEGA46WW/qrc_resources.o
+please_workApp_autogen/EWIEGA46WW/qrc_resources.o: please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : please_workApp_autogen/EWIEGA46WW/qrc_resources.o
 
 # target to build an object file
-qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
-.PHONY : qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
+please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.o
 
-qt_openglApp_autogen/EWIEGA46WW/qrc_resources.i: qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
-.PHONY : qt_openglApp_autogen/EWIEGA46WW/qrc_resources.i
+please_workApp_autogen/EWIEGA46WW/qrc_resources.i: please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : please_workApp_autogen/EWIEGA46WW/qrc_resources.i
 
 # target to preprocess a source file
-qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
-.PHONY : qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
+please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.i
 
-qt_openglApp_autogen/EWIEGA46WW/qrc_resources.s: qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
-.PHONY : qt_openglApp_autogen/EWIEGA46WW/qrc_resources.s
+please_workApp_autogen/EWIEGA46WW/qrc_resources.s: please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : please_workApp_autogen/EWIEGA46WW/qrc_resources.s
 
 # target to generate assembly for a file
-qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
-.PHONY : qt_openglApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
+please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : please_workApp_autogen/EWIEGA46WW/qrc_resources.cpp.s
 
-qt_openglApp_autogen/mocs_compilation.o: qt_openglApp_autogen/mocs_compilation.cpp.o
-.PHONY : qt_openglApp_autogen/mocs_compilation.o
+please_workApp_autogen/mocs_compilation.o: please_workApp_autogen/mocs_compilation.cpp.o
+.PHONY : please_workApp_autogen/mocs_compilation.o
 
 # target to build an object file
-qt_openglApp_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.o
-.PHONY : qt_openglApp_autogen/mocs_compilation.cpp.o
+please_workApp_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workApp_autogen/mocs_compilation.cpp.o
+.PHONY : please_workApp_autogen/mocs_compilation.cpp.o
 
-qt_openglApp_autogen/mocs_compilation.i: qt_openglApp_autogen/mocs_compilation.cpp.i
-.PHONY : qt_openglApp_autogen/mocs_compilation.i
+please_workApp_autogen/mocs_compilation.i: please_workApp_autogen/mocs_compilation.cpp.i
+.PHONY : please_workApp_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-qt_openglApp_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.i
-.PHONY : qt_openglApp_autogen/mocs_compilation.cpp.i
+please_workApp_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workApp_autogen/mocs_compilation.cpp.i
+.PHONY : please_workApp_autogen/mocs_compilation.cpp.i
 
-qt_openglApp_autogen/mocs_compilation.s: qt_openglApp_autogen/mocs_compilation.cpp.s
-.PHONY : qt_openglApp_autogen/mocs_compilation.s
+please_workApp_autogen/mocs_compilation.s: please_workApp_autogen/mocs_compilation.cpp.s
+.PHONY : please_workApp_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-qt_openglApp_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglApp_autogen/mocs_compilation.cpp.s
-.PHONY : qt_openglApp_autogen/mocs_compilation.cpp.s
+please_workApp_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workApp_autogen/mocs_compilation.cpp.s
+.PHONY : please_workApp_autogen/mocs_compilation.cpp.s
 
-qt_openglapp_qmltyperegistrations.o: qt_openglapp_qmltyperegistrations.cpp.o
-.PHONY : qt_openglapp_qmltyperegistrations.o
+please_workapp_qmltyperegistrations.o: please_workapp_qmltyperegistrations.cpp.o
+.PHONY : please_workapp_qmltyperegistrations.o
 
 # target to build an object file
-qt_openglapp_qmltyperegistrations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.o
-.PHONY : qt_openglapp_qmltyperegistrations.cpp.o
+please_workapp_qmltyperegistrations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workapp_qmltyperegistrations.cpp.o
+.PHONY : please_workapp_qmltyperegistrations.cpp.o
 
-qt_openglapp_qmltyperegistrations.i: qt_openglapp_qmltyperegistrations.cpp.i
-.PHONY : qt_openglapp_qmltyperegistrations.i
+please_workapp_qmltyperegistrations.i: please_workapp_qmltyperegistrations.cpp.i
+.PHONY : please_workapp_qmltyperegistrations.i
 
 # target to preprocess a source file
-qt_openglapp_qmltyperegistrations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.i
-.PHONY : qt_openglapp_qmltyperegistrations.cpp.i
+please_workapp_qmltyperegistrations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workapp_qmltyperegistrations.cpp.i
+.PHONY : please_workapp_qmltyperegistrations.cpp.i
 
-qt_openglapp_qmltyperegistrations.s: qt_openglapp_qmltyperegistrations.cpp.s
-.PHONY : qt_openglapp_qmltyperegistrations.s
+please_workapp_qmltyperegistrations.s: please_workapp_qmltyperegistrations.cpp.s
+.PHONY : please_workapp_qmltyperegistrations.s
 
 # target to generate assembly for a file
-qt_openglapp_qmltyperegistrations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/qt_openglapp_qmltyperegistrations.cpp.s
-.PHONY : qt_openglapp_qmltyperegistrations.cpp.s
+please_workapp_qmltyperegistrations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/please_workapp_qmltyperegistrations.cpp.s
+.PHONY : please_workapp_qmltyperegistrations.cpp.s
 
 src/alldata.o: src/alldata.cpp.o
 .PHONY : src/alldata.o
 
 # target to build an object file
 src/alldata.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/alldata.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/alldata.cpp.o
 .PHONY : src/alldata.cpp.o
 
 src/alldata.i: src/alldata.cpp.i
@@ -3486,7 +3486,7 @@ src/alldata.i: src/alldata.cpp.i
 
 # target to preprocess a source file
 src/alldata.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/alldata.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/alldata.cpp.i
 .PHONY : src/alldata.cpp.i
 
 src/alldata.s: src/alldata.cpp.s
@@ -3494,7 +3494,7 @@ src/alldata.s: src/alldata.cpp.s
 
 # target to generate assembly for a file
 src/alldata.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/alldata.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/alldata.cpp.s
 .PHONY : src/alldata.cpp.s
 
 src/fbo.o: src/fbo.cpp.o
@@ -3502,7 +3502,7 @@ src/fbo.o: src/fbo.cpp.o
 
 # target to build an object file
 src/fbo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/fbo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/fbo.cpp.o
 .PHONY : src/fbo.cpp.o
 
 src/fbo.i: src/fbo.cpp.i
@@ -3510,7 +3510,7 @@ src/fbo.i: src/fbo.cpp.i
 
 # target to preprocess a source file
 src/fbo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/fbo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/fbo.cpp.i
 .PHONY : src/fbo.cpp.i
 
 src/fbo.s: src/fbo.cpp.s
@@ -3518,7 +3518,7 @@ src/fbo.s: src/fbo.cpp.s
 
 # target to generate assembly for a file
 src/fbo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/fbo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/fbo.cpp.s
 .PHONY : src/fbo.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -3526,7 +3526,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -3534,7 +3534,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -3542,7 +3542,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/ourwidget.o: src/ourwidget.cpp.o
@@ -3550,7 +3550,7 @@ src/ourwidget.o: src/ourwidget.cpp.o
 
 # target to build an object file
 src/ourwidget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/ourwidget.cpp.o
 .PHONY : src/ourwidget.cpp.o
 
 src/ourwidget.i: src/ourwidget.cpp.i
@@ -3558,7 +3558,7 @@ src/ourwidget.i: src/ourwidget.cpp.i
 
 # target to preprocess a source file
 src/ourwidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/ourwidget.cpp.i
 .PHONY : src/ourwidget.cpp.i
 
 src/ourwidget.s: src/ourwidget.cpp.s
@@ -3566,7 +3566,7 @@ src/ourwidget.s: src/ourwidget.cpp.s
 
 # target to generate assembly for a file
 src/ourwidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/ourwidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/ourwidget.cpp.s
 .PHONY : src/ourwidget.cpp.s
 
 src/rend.o: src/rend.cpp.o
@@ -3574,7 +3574,7 @@ src/rend.o: src/rend.cpp.o
 
 # target to build an object file
 src/rend.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/rend.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/rend.cpp.o
 .PHONY : src/rend.cpp.o
 
 src/rend.i: src/rend.cpp.i
@@ -3582,7 +3582,7 @@ src/rend.i: src/rend.cpp.i
 
 # target to preprocess a source file
 src/rend.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/rend.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/rend.cpp.i
 .PHONY : src/rend.cpp.i
 
 src/rend.s: src/rend.cpp.s
@@ -3590,7 +3590,7 @@ src/rend.s: src/rend.cpp.s
 
 # target to generate assembly for a file
 src/rend.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/src/rend.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/src/rend.cpp.s
 .PHONY : src/rend.cpp.s
 
 # Help Target
@@ -3750,14 +3750,14 @@ help:
 	@echo "... contentplugin_autogen_timestamp_deps"
 	@echo "... contentplugin_init_autogen"
 	@echo "... contentplugin_init_autogen_timestamp_deps"
-	@echo "... qt_openglApp_autogen"
-	@echo "... qt_openglApp_autogen_timestamp_deps"
-	@echo "... qt_openglApp_automoc_json_extraction"
-	@echo "... qt_openglApp_other_files"
-	@echo "... qt_openglApp_qmlimportscan"
-	@echo "... qt_openglApp_qmllint"
-	@echo "... qt_openglApp_qmllint_json"
-	@echo "... qt_openglApp_qmltyperegistration"
+	@echo "... please_workApp_autogen"
+	@echo "... please_workApp_autogen_timestamp_deps"
+	@echo "... please_workApp_automoc_json_extraction"
+	@echo "... please_workApp_other_files"
+	@echo "... please_workApp_qmlimportscan"
+	@echo "... please_workApp_qmllint"
+	@echo "... please_workApp_qmllint_json"
+	@echo "... please_workApp_qmltyperegistration"
 	@echo "... qt_opengl_autogen"
 	@echo "... qt_opengl_autogen_timestamp_deps"
 	@echo "... qt_opengl_automoc_json_extraction"
@@ -3836,39 +3836,39 @@ help:
 	@echo "... content_tooling"
 	@echo "... contentplugin"
 	@echo "... contentplugin_init"
+	@echo "... please_workApp"
+	@echo "... please_workApp_tooling"
 	@echo "... qt_opengl"
-	@echo "... qt_openglApp"
-	@echo "... qt_openglApp_tooling"
 	@echo "... qt_opengl_qmlcache"
 	@echo "... qt_opengl_resources_1"
 	@echo "... qt_opengl_resources_2"
 	@echo "... qt_opengl_tooling"
 	@echo "... qt_openglplugin"
 	@echo "... qt_openglplugin_init"
-	@echo "... build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.o"
-	@echo "... build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.i"
-	@echo "... build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_main_qml.s"
-	@echo "... build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.o"
-	@echo "... build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.i"
-	@echo "... build/Desktop-Debug/.rcc/qmlcache/qt_openglApp_qmlcache_loader.s"
-	@echo "... build/Desktop-Debug/.rcc/qrc_configuration.o"
-	@echo "... build/Desktop-Debug/.rcc/qrc_configuration.i"
-	@echo "... build/Desktop-Debug/.rcc/qrc_configuration.s"
-	@echo "... build/Desktop-Debug/.rcc/qrc_qmake_Main.o"
-	@echo "... build/Desktop-Debug/.rcc/qrc_qmake_Main.i"
-	@echo "... build/Desktop-Debug/.rcc/qrc_qmake_Main.s"
-	@echo "... build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.o"
-	@echo "... build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.i"
-	@echo "... build/Desktop-Debug/.rcc/qrc_qt_openglApp_raw_qml_0.s"
-	@echo "... qt_openglApp_autogen/EWIEGA46WW/qrc_resources.o"
-	@echo "... qt_openglApp_autogen/EWIEGA46WW/qrc_resources.i"
-	@echo "... qt_openglApp_autogen/EWIEGA46WW/qrc_resources.s"
-	@echo "... qt_openglApp_autogen/mocs_compilation.o"
-	@echo "... qt_openglApp_autogen/mocs_compilation.i"
-	@echo "... qt_openglApp_autogen/mocs_compilation.s"
-	@echo "... qt_openglapp_qmltyperegistrations.o"
-	@echo "... qt_openglapp_qmltyperegistrations.i"
-	@echo "... qt_openglapp_qmltyperegistrations.s"
+	@echo "... .rcc/qmlcache/please_workApp_main_qml.o"
+	@echo "... .rcc/qmlcache/please_workApp_main_qml.i"
+	@echo "... .rcc/qmlcache/please_workApp_main_qml.s"
+	@echo "... .rcc/qmlcache/please_workApp_qmlcache_loader.o"
+	@echo "... .rcc/qmlcache/please_workApp_qmlcache_loader.i"
+	@echo "... .rcc/qmlcache/please_workApp_qmlcache_loader.s"
+	@echo "... .rcc/qrc_configuration.o"
+	@echo "... .rcc/qrc_configuration.i"
+	@echo "... .rcc/qrc_configuration.s"
+	@echo "... .rcc/qrc_please_workApp_raw_qml_0.o"
+	@echo "... .rcc/qrc_please_workApp_raw_qml_0.i"
+	@echo "... .rcc/qrc_please_workApp_raw_qml_0.s"
+	@echo "... .rcc/qrc_qmake_Main.o"
+	@echo "... .rcc/qrc_qmake_Main.i"
+	@echo "... .rcc/qrc_qmake_Main.s"
+	@echo "... please_workApp_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... please_workApp_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... please_workApp_autogen/EWIEGA46WW/qrc_resources.s"
+	@echo "... please_workApp_autogen/mocs_compilation.o"
+	@echo "... please_workApp_autogen/mocs_compilation.i"
+	@echo "... please_workApp_autogen/mocs_compilation.s"
+	@echo "... please_workapp_qmltyperegistrations.o"
+	@echo "... please_workapp_qmltyperegistrations.i"
+	@echo "... please_workapp_qmltyperegistrations.s"
 	@echo "... src/alldata.o"
 	@echo "... src/alldata.i"
 	@echo "... src/alldata.s"

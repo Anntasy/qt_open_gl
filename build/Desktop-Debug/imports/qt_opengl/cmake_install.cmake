@@ -1,4 +1,4 @@
-# Install script for directory: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl
+# Install script for directory: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,15 @@
+-rootPath
+/home/vboxuser/Desktop/cpp_projects/please_work
+-cmake-output
+-output-file
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_please_workApp.cmake
+-importPath
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/Main
+-importPath
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml
+-importPath
+/usr/lib/x86_64-linux-gnu/qt6/qml
+-qrcFiles
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/configuration.qrc
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/qmake_Main.qrc
+/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.rcc/please_workApp_raw_qml_0.qrc

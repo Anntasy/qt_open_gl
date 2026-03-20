@@ -199,7 +199,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=qt_openglApp
+CMAKE_PROJECT_NAME:STATIC=please_workApp
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/llvm-ranlib-18
@@ -514,13 +514,13 @@ XKB_INCLUDE_DIR:PATH=/usr/include
 XKB_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
 
 //Value Computed by CMake
-qt_openglApp_BINARY_DIR:STATIC=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
+please_workApp_BINARY_DIR:STATIC=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
 
 //Value Computed by CMake
-qt_openglApp_IS_TOP_LEVEL:STATIC=ON
+please_workApp_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-qt_openglApp_SOURCE_DIR:STATIC=/home/vboxuser/Desktop/cpp_projects/qt_opengl
+please_workApp_SOURCE_DIR:STATIC=/home/vboxuser/Desktop/cpp_projects/please_work
 
 
 ########################
@@ -589,7 +589,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/vboxuser/Desktop/cpp_projects/please_work
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

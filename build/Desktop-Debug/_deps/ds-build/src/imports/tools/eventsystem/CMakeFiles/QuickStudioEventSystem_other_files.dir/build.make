@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -78,6 +78,6 @@ _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_o
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_other_files.dir/clean
 
 _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_other_files.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/tools/eventsystem /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/tools/eventsystem /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_other_files.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/tools/eventsystem /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/tools/eventsystem /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_other_files.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_other_files.dir/depend
 

@@ -1,4 +1,4 @@
 module Main
-typeinfo qt_openglApp.qmltypes
+typeinfo please_workApp.qmltypes
 prefer :/qt/qml/Main/
 

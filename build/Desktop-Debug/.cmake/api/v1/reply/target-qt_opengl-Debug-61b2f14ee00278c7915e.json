@@ -1,0 +1,476 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "imports/qt_opengl/libqt_opengl.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_library",
+			"qt_add_library",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"target_link_libraries",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes"
+		],
+		"files" : 
+		[
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"imports/qt_opengl/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlMacros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 2086,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1993,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2066,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 611,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2187,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 388,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 517,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 2515,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 2540,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 2322,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 1077,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2506,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1987,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2129,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1987,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2129,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1987,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2129,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1987,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2129,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtQml/6.4.2"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtQml/6.4.2/QtQml"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtCore/6.4.2"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtCore/6.4.2/QtCore"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtCore"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtQml"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "qt_opengl_automoc_json_extraction::@0a357491e3eb5c219d84"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "qt_opengl_tooling::@0a357491e3eb5c219d84"
+		},
+		{
+			"id" : "qt_opengl_autogen_timestamp_deps::@0a357491e3eb5c219d84"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "qt_opengl_autogen::@0a357491e3eb5c219d84"
+		}
+	],
+	"id" : "qt_opengl::@0a357491e3eb5c219d84",
+	"name" : "qt_opengl",
+	"nameOnDisk" : "libqt_opengl.a",
+	"paths" : 
+	{
+		"build" : "imports/qt_opengl",
+		"source" : "imports/qt_opengl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/meta_types/qt6qt_opengl_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"path" : "imports/qt_opengl/Constants.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"path" : "imports/qt_opengl/DirectoryFontLoader.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 18,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "imports/qt_opengl/EventListModel.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"path" : "imports/qt_opengl/EventListSimulator.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/meta_types/qt6qt_opengl_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/qt_opengl_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/usr/lib/x86_64-linux-gnu/metatypes/qt6qml_none_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/usr/lib/x86_64-linux-gnu/metatypes/qt6core_none_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/usr/lib/x86_64-linux-gnu/metatypes/qt6network_none_metatypes.json",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

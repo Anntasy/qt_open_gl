@@ -1,4 +1,4 @@
-# Install script for directory: /home/vboxuser/Desktop/cpp_projects/qt_opengl
+# Install script for directory: /home/vboxuser/Desktop/cpp_projects/please_work
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -58,21 +58,21 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp"
-         RPATH "\$ORIGIN:\$ORIGIN/../lib/x86_64-linux-gnu")
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp"
+         RPATH "\$ORIGIN:\$ORIGIN/../lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_openglApp")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/please_workApp")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp"
-         OLD_RPATH ":::::::::::::::::::::::::::::::::::::::"
-         NEW_RPATH "\$ORIGIN:\$ORIGIN/../lib/x86_64-linux-gnu")
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp"
+         OLD_RPATH "::::::::::::::::::::::"
+         NEW_RPATH "\$ORIGIN:\$ORIGIN/../lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/llvm-strip-18" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/qt_openglApp")
+      execute_process(COMMAND "/usr/bin/llvm-strip-18" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/please_workApp")
     endif()
   endif()
 endif()

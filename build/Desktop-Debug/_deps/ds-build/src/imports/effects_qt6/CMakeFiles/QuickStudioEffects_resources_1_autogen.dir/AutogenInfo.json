@@ -12,7 +12,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl",
+	"CMAKE_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/please_work",
 	"DEP_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/QuickStudioEffects_resources_1_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "QuickStudioEffects_resources_1_autogen/timestamp",
 	"HEADERS" : [],

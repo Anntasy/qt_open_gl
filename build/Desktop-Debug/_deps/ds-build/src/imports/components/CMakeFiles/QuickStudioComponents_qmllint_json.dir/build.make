@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -67,19 +67,19 @@ include _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_q
 include _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/progress.make
 
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /usr/lib/qt6/bin/qmllint
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/ArcItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/PieItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/TriangleItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/SvgPathItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/EllipseItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/FlipableItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/RectangleItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/RegularPolygonItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/BorderItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/IsoItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/GroupItem.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/ArcArrow.qml
-_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: _deps/ds-src/src/imports/components/StraightArrow.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/PieItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/TriangleItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/SvgPathItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/EllipseItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/FlipableItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RectangleItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RegularPolygonItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/BorderItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/IsoItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/GroupItem.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcArrow.qml
+_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/StraightArrow.qml
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/lib/qt6/bin/qmllint --bare -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components/.rcc/qmake_QtQuick_Studio_Components.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components/.rcc/QuickStudioComponents_raw_qml_0.qrc /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/PieItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/TriangleItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/SvgPathItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/EllipseItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/FlipableItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RectangleItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RegularPolygonItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/BorderItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/IsoItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/GroupItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcArrow.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/StraightArrow.qml --json /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/QuickStudioComponents_qmllint.json
 
 QuickStudioComponents_qmllint_json: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json
@@ -95,6 +95,6 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_j
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/clean
 
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/depend
 

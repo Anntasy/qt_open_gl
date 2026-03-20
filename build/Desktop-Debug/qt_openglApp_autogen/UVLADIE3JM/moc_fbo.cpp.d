@@ -3,6 +3,7 @@
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/alldata.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/fbo.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/h.h \
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourcamera.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/ourwidget.h \
   /home/vboxuser/Desktop/cpp_projects/qt_opengl/src/rend.h \
   /usr/include/GL/gl.h \
@@ -588,6 +589,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversionnumber.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QMatrix4x4 \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QOpenGLExtraFunctions \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QOpenGLFunctions \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QSurfaceFormat \

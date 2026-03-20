@@ -6,6 +6,12 @@ _deps/ds-build/src/imports/multitext/QuickStudioMultiTextplugin_init_autogen/tim
   /usr/bin/cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+  _deps/ds-build/src/imports/multitext/QuickStudioMultiTextplugin_init.cpp \
+  _deps/ds-src/src/imports/multitext/CMakeLists.txt \
+  /usr/bin/cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in
 
 

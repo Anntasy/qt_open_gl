@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -129,7 +129,7 @@ _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/qui
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application && /usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/quickstudioapplication_qmltyperegistrations.cpp -o CMakeFiles/QuickStudioApplication.dir/quickstudioapplication_qmltyperegistrations.cpp.s
 
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/flags.make
-_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o: _deps/ds-src/src/imports/application/quickstudioapplication.cpp
+_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/application/quickstudioapplication.cpp
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application && /usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o -MF CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o.d -o CMakeFiles/QuickStudioApplication.dir/quickstudioapplication.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/application/quickstudioapplication.cpp
@@ -173,6 +173,6 @@ _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/dep
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/depend: _deps/ds-build/src/imports/application/meta_types/qt6quickstudioapplication_debug_metatypes.json.gen
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/depend: _deps/ds-build/src/imports/application/quickstudioapplication_qmltyperegistrations.cpp
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/depend: qml/QtQuick/Studio/Application/QuickStudioApplication.qmltypes
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/depend
 

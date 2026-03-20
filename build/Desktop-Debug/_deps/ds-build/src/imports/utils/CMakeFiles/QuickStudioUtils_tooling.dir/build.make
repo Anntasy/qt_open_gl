@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,15 +66,15 @@ include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/progress.make
 
-qml/QtQuick/Studio/Utils/JsonListModel.qml: _deps/ds-src/src/imports/utils/JsonListModel.qml
+qml/QtQuick/Studio/Utils/JsonListModel.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonListModel.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../../../qml/QtQuick/Studio/Utils/JsonListModel.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonListModel.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Utils/JsonListModel.qml
 
-qml/QtQuick/Studio/Utils/JsonBackend.qml: _deps/ds-src/src/imports/utils/JsonBackend.qml
+qml/QtQuick/Studio/Utils/JsonBackend.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonBackend.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../../../qml/QtQuick/Studio/Utils/JsonBackend.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonBackend.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Utils/JsonBackend.qml
 
-qml/QtQuick/Studio/Utils/ChildListModel.qml: _deps/ds-src/src/imports/utils/ChildListModel.qml
+qml/QtQuick/Studio/Utils/ChildListModel.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/ChildListModel.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../../../qml/QtQuick/Studio/Utils/ChildListModel.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/ChildListModel.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Utils/ChildListModel.qml
 
@@ -93,6 +93,6 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/clean:
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/clean
 
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_tooling.dir/depend
 

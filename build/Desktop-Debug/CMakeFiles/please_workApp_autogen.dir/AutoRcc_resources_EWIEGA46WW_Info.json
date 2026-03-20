@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/please_workApp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/please_work",
+	"CMAKE_SOURCE_DIR" : "/home/vboxuser/Desktop/cpp_projects/please_work",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/please_workApp_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/vboxuser/Desktop/cpp_projects/please_work/vertex_shader.vert",
+		"/home/vboxuser/Desktop/cpp_projects/please_work/fragment_shader.frag"
+	],
+	"LOCK_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/please_workApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles/please_workApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/vboxuser/Desktop/cpp_projects/please_work/resources.qrc",
+	"VERBOSITY" : 0
+}

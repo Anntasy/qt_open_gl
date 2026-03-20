@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,99 +66,99 @@ include _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/comp
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/progress.make
 
-qml/FlowView/DefaultFlowEffect.qml: _deps/ds-src/src/imports/flowview/DefaultFlowEffect.qml
+qml/FlowView/DefaultFlowEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/DefaultFlowEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../../../qml/FlowView/DefaultFlowEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/DefaultFlowEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/DefaultFlowEffect.qml
 
-qml/FlowView/SwipeInteraction.qml: _deps/ds-src/src/imports/flowview/SwipeInteraction.qml
+qml/FlowView/SwipeInteraction.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/SwipeInteraction.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../../../qml/FlowView/SwipeInteraction.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/SwipeInteraction.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/SwipeInteraction.qml
 
-qml/FlowView/FlowEffect.qml: _deps/ds-src/src/imports/flowview/FlowEffect.qml
+qml/FlowView/FlowEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../../../qml/FlowView/FlowEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowEffect.qml
 
-qml/FlowView/FlowFadeEffect.qml: _deps/ds-src/src/imports/flowview/FlowFadeEffect.qml
+qml/FlowView/FlowFadeEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowFadeEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../../../../../qml/FlowView/FlowFadeEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowFadeEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowFadeEffect.qml
 
-qml/FlowView/FlowPushLeftEffect.qml: _deps/ds-src/src/imports/flowview/FlowPushLeftEffect.qml
+qml/FlowView/FlowPushLeftEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushLeftEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../../../../../qml/FlowView/FlowPushLeftEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushLeftEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowPushLeftEffect.qml
 
-qml/FlowView/FlowPushRightEffect.qml: _deps/ds-src/src/imports/flowview/FlowPushRightEffect.qml
+qml/FlowView/FlowPushRightEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushRightEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../../../../../qml/FlowView/FlowPushRightEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushRightEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowPushRightEffect.qml
 
-qml/FlowView/FlowSlideDownEffect.qml: _deps/ds-src/src/imports/flowview/FlowSlideDownEffect.qml
+qml/FlowView/FlowSlideDownEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideDownEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../../../../../qml/FlowView/FlowSlideDownEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideDownEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowSlideDownEffect.qml
 
-qml/FlowView/FlowSlideLeftEffect.qml: _deps/ds-src/src/imports/flowview/FlowSlideLeftEffect.qml
+qml/FlowView/FlowSlideLeftEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideLeftEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../../../../../qml/FlowView/FlowSlideLeftEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideLeftEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowSlideLeftEffect.qml
 
-qml/FlowView/FlowSlideRightEffect.qml: _deps/ds-src/src/imports/flowview/FlowSlideRightEffect.qml
+qml/FlowView/FlowSlideRightEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideRightEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../../../../../qml/FlowView/FlowSlideRightEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideRightEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowSlideRightEffect.qml
 
-qml/FlowView/FlowSlideUpEffect.qml: _deps/ds-src/src/imports/flowview/FlowSlideUpEffect.qml
+qml/FlowView/FlowSlideUpEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideUpEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../../../../../qml/FlowView/FlowSlideUpEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowSlideUpEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowSlideUpEffect.qml
 
-qml/FlowView/FlowMoveEffect.qml: _deps/ds-src/src/imports/flowview/FlowMoveEffect.qml
+qml/FlowView/FlowMoveEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowMoveEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../../../../../qml/FlowView/FlowMoveEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowMoveEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowMoveEffect.qml
 
-qml/FlowView/FlowPushEffect.qml: _deps/ds-src/src/imports/flowview/FlowPushEffect.qml
+qml/FlowView/FlowPushEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../../../../../qml/FlowView/FlowPushEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowPushEffect.qml
 
-qml/FlowView/FlowTransition.qml: _deps/ds-src/src/imports/flowview/FlowTransition.qml
+qml/FlowView/FlowTransition.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowTransition.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../../../../../qml/FlowView/FlowTransition.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowTransition.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowTransition.qml
 
-qml/FlowView/FlowTransitionList.qml: _deps/ds-src/src/imports/flowview/FlowTransitionList.qml
+qml/FlowView/FlowTransitionList.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowTransitionList.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../../../../../qml/FlowView/FlowTransitionList.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowTransitionList.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowTransitionList.qml
 
-qml/FlowView/FlowView.qml: _deps/ds-src/src/imports/flowview/FlowView.qml
+qml/FlowView/FlowView.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowView.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../../../../../qml/FlowView/FlowView.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowView.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowView.qml
 
-qml/FlowView/FlowPushUpEffect.qml: _deps/ds-src/src/imports/flowview/FlowPushUpEffect.qml
+qml/FlowView/FlowPushUpEffect.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushUpEffect.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../../../../../qml/FlowView/FlowPushUpEffect.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowPushUpEffect.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowPushUpEffect.qml
 
-qml/FlowView/FlowItem.qml: _deps/ds-src/src/imports/flowview/FlowItem.qml
+qml/FlowView/FlowItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../../../../../qml/FlowView/FlowItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowItem.qml
 
-qml/FlowView/FlowDecision.qml: _deps/ds-src/src/imports/flowview/FlowDecision.qml
+qml/FlowView/FlowDecision.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowDecision.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../../../../../qml/FlowView/FlowDecision.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowDecision.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowDecision.qml
 
-qml/FlowView/FlowWildcard.qml: _deps/ds-src/src/imports/flowview/FlowWildcard.qml
+qml/FlowView/FlowWildcard.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowWildcard.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../../../../../qml/FlowView/FlowWildcard.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowWildcard.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowWildcard.qml
 
-qml/FlowView/FlowActionArea.qml: _deps/ds-src/src/imports/flowview/FlowActionArea.qml
+qml/FlowView/FlowActionArea.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowActionArea.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../../../../../qml/FlowView/FlowActionArea.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowActionArea.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowActionArea.qml
 
-qml/FlowView/FlowState.qml: _deps/ds-src/src/imports/flowview/FlowState.qml
+qml/FlowView/FlowState.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowState.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../../../../../qml/FlowView/FlowState.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/FlowState.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/FlowState.qml
 
-qml/FlowView/+DesignMode/FlowItem.qml: _deps/ds-src/src/imports/flowview/+DesignMode/FlowItem.qml
+qml/FlowView/+DesignMode/FlowItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/+DesignMode/FlowItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../../../../../qml/FlowView/+DesignMode/FlowItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/+DesignMode/FlowItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/+DesignMode/FlowItem.qml
 
-qml/FlowView/+DesignMode/FlowView.qml: _deps/ds-src/src/imports/flowview/+DesignMode/FlowView.qml
+qml/FlowView/+DesignMode/FlowView.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/+DesignMode/FlowView.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../../../../../qml/FlowView/+DesignMode/FlowView.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/+DesignMode/FlowView.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/+DesignMode/FlowView.qml
 
-qml/FlowView/qmldir: _deps/ds-src/src/imports/flowview/qmldir
+qml/FlowView/qmldir: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../../../../../qml/FlowView/qmldir"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview/qmldir /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/FlowView/qmldir
 
@@ -198,6 +198,6 @@ _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/clean:
 .PHONY : _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/clean
 
 _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/flowview /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/flowview /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/flowview /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_tooling.dir/depend
 

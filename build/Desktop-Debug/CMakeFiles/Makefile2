@@ -54,7 +54,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-D
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/qt_openglApp.dir/all
-all: CMakeFiles/qt_openglApp_tooling.dir/all
+all: CMakeFiles/please_workApp.dir/all
+all: CMakeFiles/please_workApp_tooling.dir/all
 all: _deps/ds-build/all
 all: content/all
 all: imports/all
@@ -77,16 +77,16 @@ preinstall: imports/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/qt_openglApp.dir/clean
-clean: CMakeFiles/qt_openglApp_other_files.dir/clean
-clean: CMakeFiles/qt_openglApp_automoc_json_extraction.dir/clean
-clean: CMakeFiles/qt_openglApp_qmltyperegistration.dir/clean
-clean: CMakeFiles/qt_openglApp_qmllint.dir/clean
-clean: CMakeFiles/qt_openglApp_qmllint_json.dir/clean
-clean: CMakeFiles/qt_openglApp_tooling.dir/clean
-clean: CMakeFiles/qt_openglApp_qmlimportscan.dir/clean
-clean: CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/qt_openglApp_autogen.dir/clean
+clean: CMakeFiles/please_workApp.dir/clean
+clean: CMakeFiles/please_workApp_other_files.dir/clean
+clean: CMakeFiles/please_workApp_automoc_json_extraction.dir/clean
+clean: CMakeFiles/please_workApp_qmltyperegistration.dir/clean
+clean: CMakeFiles/please_workApp_qmllint.dir/clean
+clean: CMakeFiles/please_workApp_qmllint_json.dir/clean
+clean: CMakeFiles/please_workApp_tooling.dir/clean
+clean: CMakeFiles/please_workApp_qmlimportscan.dir/clean
+clean: CMakeFiles/please_workApp_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/please_workApp_autogen.dir/clean
 clean: _deps/ds-build/clean
 clean: content/clean
 clean: imports/clean
@@ -633,340 +633,340 @@ imports/qt_opengl/clean: imports/qt_opengl/CMakeFiles/qt_openglplugin_init_autog
 .PHONY : imports/qt_opengl/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp.dir
+# Target rules for target CMakeFiles/please_workApp.dir
 
 # All Build rule for target.
-CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all
-CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_tooling.dir/all
-CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_qmlimportscan.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmlcache.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: content/CMakeFiles/content.dir/all
-CMakeFiles/qt_openglApp.dir/all: content/CMakeFiles/content_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: content/CMakeFiles/contentplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: content/CMakeFiles/content_qmlcache.dir/all
-CMakeFiles/qt_openglApp.dir/all: content/CMakeFiles/content_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: content/CMakeFiles/contentplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl.dir/all
-CMakeFiles/qt_openglApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_resources_1.dir/all
-CMakeFiles/qt_openglApp.dir/all: imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all
-CMakeFiles/qt_openglApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache.dir/all
-CMakeFiles/qt_openglApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_resources_2.dir/all
-CMakeFiles/qt_openglApp.dir/all: imports/qt_opengl/CMakeFiles/qt_openglplugin_init.dir/all
-CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all
-CMakeFiles/qt_openglApp.dir/all: CMakeFiles/qt_openglApp_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=90,91,92,93 "Built target qt_openglApp"
-.PHONY : CMakeFiles/qt_openglApp.dir/all
+CMakeFiles/please_workApp.dir/all: CMakeFiles/please_workApp_automoc_json_extraction.dir/all
+CMakeFiles/please_workApp.dir/all: CMakeFiles/please_workApp_tooling.dir/all
+CMakeFiles/please_workApp.dir/all: CMakeFiles/please_workApp_qmlimportscan.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmlcache.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmlcache.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulator_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystem_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmlcache.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: content/CMakeFiles/content.dir/all
+CMakeFiles/please_workApp.dir/all: content/CMakeFiles/content_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: content/CMakeFiles/contentplugin.dir/all
+CMakeFiles/please_workApp.dir/all: content/CMakeFiles/content_qmlcache.dir/all
+CMakeFiles/please_workApp.dir/all: content/CMakeFiles/content_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: content/CMakeFiles/contentplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl.dir/all
+CMakeFiles/please_workApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_resources_1.dir/all
+CMakeFiles/please_workApp.dir/all: imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all
+CMakeFiles/please_workApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_qmlcache.dir/all
+CMakeFiles/please_workApp.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_resources_2.dir/all
+CMakeFiles/please_workApp.dir/all: imports/qt_opengl/CMakeFiles/qt_openglplugin_init.dir/all
+CMakeFiles/please_workApp.dir/all: CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all
+CMakeFiles/please_workApp.dir/all: CMakeFiles/please_workApp_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=87,88,89,90 "Built target please_workApp"
+.PHONY : CMakeFiles/please_workApp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 94
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp.dir/all
+CMakeFiles/please_workApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 93
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp.dir/rule
+.PHONY : CMakeFiles/please_workApp.dir/rule
 
 # Convenience name for target.
-qt_openglApp: CMakeFiles/qt_openglApp.dir/rule
-.PHONY : qt_openglApp
+please_workApp: CMakeFiles/please_workApp.dir/rule
+.PHONY : please_workApp
 
 # clean rule for target.
-CMakeFiles/qt_openglApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp.dir/build.make CMakeFiles/qt_openglApp.dir/clean
-.PHONY : CMakeFiles/qt_openglApp.dir/clean
+CMakeFiles/please_workApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp.dir/build.make CMakeFiles/please_workApp.dir/clean
+.PHONY : CMakeFiles/please_workApp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_other_files.dir
+# Target rules for target CMakeFiles/please_workApp_other_files.dir
 
 # All Build rule for target.
-CMakeFiles/qt_openglApp_other_files.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_other_files.dir/build.make CMakeFiles/qt_openglApp_other_files.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_other_files.dir/build.make CMakeFiles/qt_openglApp_other_files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_other_files"
-.PHONY : CMakeFiles/qt_openglApp_other_files.dir/all
+CMakeFiles/please_workApp_other_files.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_other_files.dir/build.make CMakeFiles/please_workApp_other_files.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_other_files.dir/build.make CMakeFiles/please_workApp_other_files.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_other_files"
+.PHONY : CMakeFiles/please_workApp_other_files.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_other_files.dir/rule: cmake_check_build_system
+CMakeFiles/please_workApp_other_files.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_other_files.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_other_files.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_other_files.dir/rule
+.PHONY : CMakeFiles/please_workApp_other_files.dir/rule
 
 # Convenience name for target.
-qt_openglApp_other_files: CMakeFiles/qt_openglApp_other_files.dir/rule
-.PHONY : qt_openglApp_other_files
+please_workApp_other_files: CMakeFiles/please_workApp_other_files.dir/rule
+.PHONY : please_workApp_other_files
 
 # clean rule for target.
-CMakeFiles/qt_openglApp_other_files.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_other_files.dir/build.make CMakeFiles/qt_openglApp_other_files.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_other_files.dir/clean
+CMakeFiles/please_workApp_other_files.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_other_files.dir/build.make CMakeFiles/please_workApp_other_files.dir/clean
+.PHONY : CMakeFiles/please_workApp_other_files.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_automoc_json_extraction.dir
+# Target rules for target CMakeFiles/please_workApp_automoc_json_extraction.dir
 
 # All Build rule for target.
-CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all: CMakeFiles/qt_openglApp_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build.make CMakeFiles/qt_openglApp_automoc_json_extraction.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build.make CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=94 "Built target qt_openglApp_automoc_json_extraction"
-.PHONY : CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all
+CMakeFiles/please_workApp_automoc_json_extraction.dir/all: CMakeFiles/please_workApp_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_automoc_json_extraction.dir/build.make CMakeFiles/please_workApp_automoc_json_extraction.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_automoc_json_extraction.dir/build.make CMakeFiles/please_workApp_automoc_json_extraction.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_automoc_json_extraction"
+.PHONY : CMakeFiles/please_workApp_automoc_json_extraction.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 80
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_automoc_json_extraction.dir/rule
-
-# Convenience name for target.
-qt_openglApp_automoc_json_extraction: CMakeFiles/qt_openglApp_automoc_json_extraction.dir/rule
-.PHONY : qt_openglApp_automoc_json_extraction
-
-# clean rule for target.
-CMakeFiles/qt_openglApp_automoc_json_extraction.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_automoc_json_extraction.dir/build.make CMakeFiles/qt_openglApp_automoc_json_extraction.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_automoc_json_extraction.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_qmltyperegistration.dir
-
-# All Build rule for target.
-CMakeFiles/qt_openglApp_qmltyperegistration.dir/all: CMakeFiles/qt_openglApp_automoc_json_extraction.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmltyperegistration.dir/build.make CMakeFiles/qt_openglApp_qmltyperegistration.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmltyperegistration.dir/build.make CMakeFiles/qt_openglApp_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_qmltyperegistration"
-.PHONY : CMakeFiles/qt_openglApp_qmltyperegistration.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 80
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmltyperegistration.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_qmltyperegistration.dir/rule
-
-# Convenience name for target.
-qt_openglApp_qmltyperegistration: CMakeFiles/qt_openglApp_qmltyperegistration.dir/rule
-.PHONY : qt_openglApp_qmltyperegistration
-
-# clean rule for target.
-CMakeFiles/qt_openglApp_qmltyperegistration.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmltyperegistration.dir/build.make CMakeFiles/qt_openglApp_qmltyperegistration.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_qmltyperegistration.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_qmllint.dir
-
-# All Build rule for target.
-CMakeFiles/qt_openglApp_qmllint.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint.dir/build.make CMakeFiles/qt_openglApp_qmllint.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint.dir/build.make CMakeFiles/qt_openglApp_qmllint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_qmllint"
-.PHONY : CMakeFiles/qt_openglApp_qmllint.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 86
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmllint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_qmllint.dir/rule
-
-# Convenience name for target.
-qt_openglApp_qmllint: CMakeFiles/qt_openglApp_qmllint.dir/rule
-.PHONY : qt_openglApp_qmllint
-
-# clean rule for target.
-CMakeFiles/qt_openglApp_qmllint.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint.dir/build.make CMakeFiles/qt_openglApp_qmllint.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_qmllint.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_qmllint_json.dir
-
-# All Build rule for target.
-CMakeFiles/qt_openglApp_qmllint_json.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint_json.dir/build.make CMakeFiles/qt_openglApp_qmllint_json.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint_json.dir/build.make CMakeFiles/qt_openglApp_qmllint_json.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_qmllint_json"
-.PHONY : CMakeFiles/qt_openglApp_qmllint_json.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 86
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmllint_json.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_qmllint_json.dir/rule
-
-# Convenience name for target.
-qt_openglApp_qmllint_json: CMakeFiles/qt_openglApp_qmllint_json.dir/rule
-.PHONY : qt_openglApp_qmllint_json
-
-# clean rule for target.
-CMakeFiles/qt_openglApp_qmllint_json.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmllint_json.dir/build.make CMakeFiles/qt_openglApp_qmllint_json.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_qmllint_json.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_tooling.dir
-
-# All Build rule for target.
-CMakeFiles/qt_openglApp_tooling.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_tooling.dir/build.make CMakeFiles/qt_openglApp_tooling.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_tooling.dir/build.make CMakeFiles/qt_openglApp_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_tooling"
-.PHONY : CMakeFiles/qt_openglApp_tooling.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_tooling.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_tooling.dir/rule
-
-# Convenience name for target.
-qt_openglApp_tooling: CMakeFiles/qt_openglApp_tooling.dir/rule
-.PHONY : qt_openglApp_tooling
-
-# clean rule for target.
-CMakeFiles/qt_openglApp_tooling.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_tooling.dir/build.make CMakeFiles/qt_openglApp_tooling.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_tooling.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_qmlimportscan.dir
-
-# All Build rule for target.
-CMakeFiles/qt_openglApp_qmlimportscan.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmlimportscan.dir/build.make CMakeFiles/qt_openglApp_qmlimportscan.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmlimportscan.dir/build.make CMakeFiles/qt_openglApp_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_qmlimportscan"
-.PHONY : CMakeFiles/qt_openglApp_qmlimportscan.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_qmlimportscan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_qmlimportscan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_qmlimportscan.dir/rule
-
-# Convenience name for target.
-qt_openglApp_qmlimportscan: CMakeFiles/qt_openglApp_qmlimportscan.dir/rule
-.PHONY : qt_openglApp_qmlimportscan
-
-# clean rule for target.
-CMakeFiles/qt_openglApp_qmlimportscan.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_qmlimportscan.dir/build.make CMakeFiles/qt_openglApp_qmlimportscan.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_qmlimportscan.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir
-
-# All Build rule for target.
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: CMakeFiles/qt_openglApp_tooling.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: CMakeFiles/qt_openglApp_qmlimportscan.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: content/CMakeFiles/contentplugin.dir/all
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all: imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_autogen_timestamp_deps"
-.PHONY : CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/please_workApp_automoc_json_extraction.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 79
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_automoc_json_extraction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/please_workApp_automoc_json_extraction.dir/rule
 
 # Convenience name for target.
-qt_openglApp_autogen_timestamp_deps: CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/rule
-.PHONY : qt_openglApp_autogen_timestamp_deps
+please_workApp_automoc_json_extraction: CMakeFiles/please_workApp_automoc_json_extraction.dir/rule
+.PHONY : please_workApp_automoc_json_extraction
 
 # clean rule for target.
-CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/clean
+CMakeFiles/please_workApp_automoc_json_extraction.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_automoc_json_extraction.dir/build.make CMakeFiles/please_workApp_automoc_json_extraction.dir/clean
+.PHONY : CMakeFiles/please_workApp_automoc_json_extraction.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/qt_openglApp_autogen.dir
+# Target rules for target CMakeFiles/please_workApp_qmltyperegistration.dir
 
 # All Build rule for target.
-CMakeFiles/qt_openglApp_autogen.dir/all: CMakeFiles/qt_openglApp_tooling.dir/all
-CMakeFiles/qt_openglApp_autogen.dir/all: CMakeFiles/qt_openglApp_qmlimportscan.dir/all
-CMakeFiles/qt_openglApp_autogen.dir/all: CMakeFiles/qt_openglApp_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen.dir/build.make CMakeFiles/qt_openglApp_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen.dir/build.make CMakeFiles/qt_openglApp_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target qt_openglApp_autogen"
-.PHONY : CMakeFiles/qt_openglApp_autogen.dir/all
+CMakeFiles/please_workApp_qmltyperegistration.dir/all: CMakeFiles/please_workApp_automoc_json_extraction.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmltyperegistration.dir/build.make CMakeFiles/please_workApp_qmltyperegistration.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmltyperegistration.dir/build.make CMakeFiles/please_workApp_qmltyperegistration.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=92 "Built target please_workApp_qmltyperegistration"
+.PHONY : CMakeFiles/please_workApp_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/qt_openglApp_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 79
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_openglApp_autogen.dir/all
+CMakeFiles/please_workApp_qmltyperegistration.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 80
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/qt_openglApp_autogen.dir/rule
+.PHONY : CMakeFiles/please_workApp_qmltyperegistration.dir/rule
 
 # Convenience name for target.
-qt_openglApp_autogen: CMakeFiles/qt_openglApp_autogen.dir/rule
-.PHONY : qt_openglApp_autogen
+please_workApp_qmltyperegistration: CMakeFiles/please_workApp_qmltyperegistration.dir/rule
+.PHONY : please_workApp_qmltyperegistration
 
 # clean rule for target.
-CMakeFiles/qt_openglApp_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_openglApp_autogen.dir/build.make CMakeFiles/qt_openglApp_autogen.dir/clean
-.PHONY : CMakeFiles/qt_openglApp_autogen.dir/clean
+CMakeFiles/please_workApp_qmltyperegistration.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmltyperegistration.dir/build.make CMakeFiles/please_workApp_qmltyperegistration.dir/clean
+.PHONY : CMakeFiles/please_workApp_qmltyperegistration.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/please_workApp_qmllint.dir
+
+# All Build rule for target.
+CMakeFiles/please_workApp_qmllint.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint.dir/build.make CMakeFiles/please_workApp_qmllint.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint.dir/build.make CMakeFiles/please_workApp_qmllint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_qmllint"
+.PHONY : CMakeFiles/please_workApp_qmllint.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/please_workApp_qmllint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 86
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_qmllint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/please_workApp_qmllint.dir/rule
+
+# Convenience name for target.
+please_workApp_qmllint: CMakeFiles/please_workApp_qmllint.dir/rule
+.PHONY : please_workApp_qmllint
+
+# clean rule for target.
+CMakeFiles/please_workApp_qmllint.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint.dir/build.make CMakeFiles/please_workApp_qmllint.dir/clean
+.PHONY : CMakeFiles/please_workApp_qmllint.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/please_workApp_qmllint_json.dir
+
+# All Build rule for target.
+CMakeFiles/please_workApp_qmllint_json.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint_json.dir/build.make CMakeFiles/please_workApp_qmllint_json.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint_json.dir/build.make CMakeFiles/please_workApp_qmllint_json.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_qmllint_json"
+.PHONY : CMakeFiles/please_workApp_qmllint_json.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/please_workApp_qmllint_json.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 86
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_qmllint_json.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/please_workApp_qmllint_json.dir/rule
+
+# Convenience name for target.
+please_workApp_qmllint_json: CMakeFiles/please_workApp_qmllint_json.dir/rule
+.PHONY : please_workApp_qmllint_json
+
+# clean rule for target.
+CMakeFiles/please_workApp_qmllint_json.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmllint_json.dir/build.make CMakeFiles/please_workApp_qmllint_json.dir/clean
+.PHONY : CMakeFiles/please_workApp_qmllint_json.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/please_workApp_tooling.dir
+
+# All Build rule for target.
+CMakeFiles/please_workApp_tooling.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_tooling.dir/build.make CMakeFiles/please_workApp_tooling.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_tooling.dir/build.make CMakeFiles/please_workApp_tooling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_tooling"
+.PHONY : CMakeFiles/please_workApp_tooling.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/please_workApp_tooling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_tooling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/please_workApp_tooling.dir/rule
+
+# Convenience name for target.
+please_workApp_tooling: CMakeFiles/please_workApp_tooling.dir/rule
+.PHONY : please_workApp_tooling
+
+# clean rule for target.
+CMakeFiles/please_workApp_tooling.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_tooling.dir/build.make CMakeFiles/please_workApp_tooling.dir/clean
+.PHONY : CMakeFiles/please_workApp_tooling.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/please_workApp_qmlimportscan.dir
+
+# All Build rule for target.
+CMakeFiles/please_workApp_qmlimportscan.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmlimportscan.dir/build.make CMakeFiles/please_workApp_qmlimportscan.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmlimportscan.dir/build.make CMakeFiles/please_workApp_qmlimportscan.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_qmlimportscan"
+.PHONY : CMakeFiles/please_workApp_qmlimportscan.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/please_workApp_qmlimportscan.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_qmlimportscan.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/please_workApp_qmlimportscan.dir/rule
+
+# Convenience name for target.
+please_workApp_qmlimportscan: CMakeFiles/please_workApp_qmlimportscan.dir/rule
+.PHONY : please_workApp_qmlimportscan
+
+# clean rule for target.
+CMakeFiles/please_workApp_qmlimportscan.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_qmlimportscan.dir/build.make CMakeFiles/please_workApp_qmlimportscan.dir/clean
+.PHONY : CMakeFiles/please_workApp_qmlimportscan.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/please_workApp_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: CMakeFiles/please_workApp_tooling.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: CMakeFiles/please_workApp_qmlimportscan.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponentsplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffectsplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelperplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiTextplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplicationplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtilsplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: content/CMakeFiles/contentplugin.dir/all
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all: imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen_timestamp_deps.dir/build.make CMakeFiles/please_workApp_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen_timestamp_deps.dir/build.make CMakeFiles/please_workApp_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num= "Built target please_workApp_autogen_timestamp_deps"
+.PHONY : CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 78
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/please_workApp_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+please_workApp_autogen_timestamp_deps: CMakeFiles/please_workApp_autogen_timestamp_deps.dir/rule
+.PHONY : please_workApp_autogen_timestamp_deps
+
+# clean rule for target.
+CMakeFiles/please_workApp_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen_timestamp_deps.dir/build.make CMakeFiles/please_workApp_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/please_workApp_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/please_workApp_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/please_workApp_autogen.dir/all: CMakeFiles/please_workApp_tooling.dir/all
+CMakeFiles/please_workApp_autogen.dir/all: CMakeFiles/please_workApp_qmlimportscan.dir/all
+CMakeFiles/please_workApp_autogen.dir/all: CMakeFiles/please_workApp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen.dir/build.make CMakeFiles/please_workApp_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen.dir/build.make CMakeFiles/please_workApp_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=91 "Built target please_workApp_autogen"
+.PHONY : CMakeFiles/please_workApp_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/please_workApp_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 79
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/please_workApp_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/please_workApp_autogen.dir/rule
+
+# Convenience name for target.
+please_workApp_autogen: CMakeFiles/please_workApp_autogen.dir/rule
+.PHONY : please_workApp_autogen
+
+# clean rule for target.
+CMakeFiles/please_workApp_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/please_workApp_autogen.dir/build.make CMakeFiles/please_workApp_autogen.dir/clean
+.PHONY : CMakeFiles/please_workApp_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents.dir
@@ -1053,7 +1053,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmltypere
 # Target rules for target _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir
 
 # All Build rule for target.
-_deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all: CMakeFiles/qt_openglApp_qmltyperegistration.dir/all
+_deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all: CMakeFiles/please_workApp_qmltyperegistration.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmltyperegistration.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all: _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_qmltyperegistration.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmltyperegistrations.dir/all: _deps/ds-build/src/imports/flowview/CMakeFiles/FlowView_qmltyperegistration.dir/all
@@ -1226,7 +1226,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_j
 # Target rules for target _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir
 
 # All Build rule for target.
-_deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all: CMakeFiles/qt_openglApp_qmllint.dir/all
+_deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all: CMakeFiles/please_workApp_qmllint.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint.dir/all
@@ -1257,7 +1257,7 @@ _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint.dir/clean:
 # Target rules for target _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir
 
 # All Build rule for target.
-_deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all: CMakeFiles/qt_openglApp_qmllint_json.dir/all
+_deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all: CMakeFiles/please_workApp_qmllint_json.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all: _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_qmllint_json.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint_json.dir/all
 _deps/ds-build/src/imports/components/CMakeFiles/all_qmllint_json.dir/all: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils_qmllint_json.dir/all
@@ -6467,12 +6467,12 @@ imports/qt_opengl/CMakeFiles/qt_opengl.dir/all: imports/qt_opengl/CMakeFiles/qt_
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/all: imports/qt_opengl/CMakeFiles/qt_opengl_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f imports/qt_opengl/CMakeFiles/qt_opengl.dir/build.make imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f imports/qt_opengl/CMakeFiles/qt_opengl.dir/build.make imports/qt_opengl/CMakeFiles/qt_opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=87,88,89 "Built target qt_opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=93,94 "Built target qt_opengl"
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl.dir/all
 
 # Build rule for subdir invocation for target.
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imports/qt_opengl/CMakeFiles/qt_opengl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl.dir/rule
@@ -6608,7 +6608,7 @@ imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all: imports/qt_opengl/CMakeFil
 
 # Build rule for subdir invocation for target.
 imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles 0
 .PHONY : imports/qt_opengl/CMakeFiles/qt_openglplugin.dir/rule

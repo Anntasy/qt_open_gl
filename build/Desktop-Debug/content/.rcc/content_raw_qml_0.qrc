@@ -1,8 +1,8 @@
 <RCC>
   <qresource prefix="/qt/qml/content/">
-    <file alias="App.qml">/home/vboxuser/Desktop/cpp_projects/qt_opengl/content/App.qml</file>
-    <file alias="Screen01.ui.qml">/home/vboxuser/Desktop/cpp_projects/qt_opengl/content/Screen01.ui.qml</file>
-    <file alias="fonts/fonts.txt">/home/vboxuser/Desktop/cpp_projects/qt_opengl/content/fonts/fonts.txt</file>
+    <file alias="App.qml">/home/vboxuser/Desktop/cpp_projects/please_work/content/App.qml</file>
+    <file alias="Screen01.ui.qml">/home/vboxuser/Desktop/cpp_projects/please_work/content/Screen01.ui.qml</file>
+    <file alias="fonts/fonts.txt">/home/vboxuser/Desktop/cpp_projects/please_work/content/fonts/fonts.txt</file>
   </qresource>
 </RCC>
 

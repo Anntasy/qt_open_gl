@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -94,7 +94,7 @@ qml/QtQuick/Studio/Utils/QuickStudioUtils.qmltypes: _deps/ds-build/src/imports/u
 	@$(CMAKE_COMMAND) -E touch_nocreate qml/QtQuick/Studio/Utils/QuickStudioUtils.qmltypes
 
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp: _deps/ds-src/src/imports/utils/JsonListModel.qml
+_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonListModel.qml
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp: _deps/ds-build/src/imports/utils/.rcc/qmake_QtQuick_Studio_Utils.qrc
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp: _deps/ds-build/src/imports/utils/.rcc/QuickStudioUtils_raw_qml_0.qrc
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp: qml/QtQuick/Studio/Utils/QuickStudioUtils.qmltypes
@@ -104,7 +104,7 @@ _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qm
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /QtQuick/Studio/Utils/JsonListModel.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Utils/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/qmake_QtQuick_Studio_Utils.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/QuickStudioUtils_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonListModel_qml.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonListModel.qml
 
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp: _deps/ds-src/src/imports/utils/JsonBackend.qml
+_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonBackend.qml
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp: _deps/ds-build/src/imports/utils/.rcc/qmake_QtQuick_Studio_Utils.qrc
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp: _deps/ds-build/src/imports/utils/.rcc/QuickStudioUtils_raw_qml_0.qrc
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp: qml/QtQuick/Studio/Utils/QuickStudioUtils.qmltypes
@@ -114,7 +114,7 @@ _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /QtQuick/Studio/Utils/JsonBackend.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Utils/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/qmake_QtQuick_Studio_Utils.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/QuickStudioUtils_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_JsonBackend_qml.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/JsonBackend.qml
 
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_ChildListModel_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_ChildListModel_qml.cpp: _deps/ds-src/src/imports/utils/ChildListModel.qml
+_deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_ChildListModel_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/ChildListModel.qml
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_ChildListModel_qml.cpp: _deps/ds-build/src/imports/utils/.rcc/qmake_QtQuick_Studio_Utils.qrc
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_ChildListModel_qml.cpp: _deps/ds-build/src/imports/utils/.rcc/QuickStudioUtils_raw_qml_0.qrc
 _deps/ds-build/src/imports/utils/.rcc/qmlcache/QuickStudioUtils_ChildListModel_qml.cpp: qml/QtQuick/Studio/Utils/QuickStudioUtils.qmltypes
@@ -159,7 +159,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudioutil
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/quickstudioutils_qmltyperegistrations.cpp -o CMakeFiles/QuickStudioUtils.dir/quickstudioutils_qmltyperegistrations.cpp.s
 
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/flags.make
-_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o: _deps/ds-src/src/imports/utils/quickstudiocsvtablemodel.cpp
+_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/quickstudiocsvtablemodel.cpp
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o -MF CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o.d -o CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/quickstudiocsvtablemodel.cpp
@@ -173,7 +173,7 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiocsvt
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/quickstudiocsvtablemodel.cpp -o CMakeFiles/QuickStudioUtils.dir/quickstudiocsvtablemodel.cpp.s
 
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/flags.make
-_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o: _deps/ds-src/src/imports/utils/quickstudiofilereader.cpp
+_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/quickstudiofilereader.cpp
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o: _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils && /usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o -MF CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o.d -o CMakeFiles/QuickStudioUtils.dir/quickstudiofilereader.cpp.o -c /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils/quickstudiofilereader.cpp
@@ -270,6 +270,6 @@ _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/depend: _deps/d
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/depend: _deps/ds-build/src/imports/utils/meta_types/qt6quickstudioutils_debug_metatypes.json.gen
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/depend: _deps/ds-build/src/imports/utils/quickstudioutils_qmltyperegistrations.cpp
 _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/depend: qml/QtQuick/Studio/Utils/QuickStudioUtils.qmltypes
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/utils/CMakeFiles/QuickStudioUtils.dir/depend
 

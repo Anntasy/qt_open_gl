@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,55 +66,55 @@ include _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_t
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.dir/progress.make
 
-qml/QtQuick/Studio/Components/ArcItem.qml: _deps/ds-src/src/imports/components/ArcItem.qml
+qml/QtQuick/Studio/Components/ArcItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../../../qml/QtQuick/Studio/Components/ArcItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/ArcItem.qml
 
-qml/QtQuick/Studio/Components/PieItem.qml: _deps/ds-src/src/imports/components/PieItem.qml
+qml/QtQuick/Studio/Components/PieItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/PieItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../../../qml/QtQuick/Studio/Components/PieItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/PieItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/PieItem.qml
 
-qml/QtQuick/Studio/Components/TriangleItem.qml: _deps/ds-src/src/imports/components/TriangleItem.qml
+qml/QtQuick/Studio/Components/TriangleItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/TriangleItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../../../qml/QtQuick/Studio/Components/TriangleItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/TriangleItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/TriangleItem.qml
 
-qml/QtQuick/Studio/Components/SvgPathItem.qml: _deps/ds-src/src/imports/components/SvgPathItem.qml
+qml/QtQuick/Studio/Components/SvgPathItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/SvgPathItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../../../../../qml/QtQuick/Studio/Components/SvgPathItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/SvgPathItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/SvgPathItem.qml
 
-qml/QtQuick/Studio/Components/EllipseItem.qml: _deps/ds-src/src/imports/components/EllipseItem.qml
+qml/QtQuick/Studio/Components/EllipseItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/EllipseItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../../../../../qml/QtQuick/Studio/Components/EllipseItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/EllipseItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/EllipseItem.qml
 
-qml/QtQuick/Studio/Components/FlipableItem.qml: _deps/ds-src/src/imports/components/FlipableItem.qml
+qml/QtQuick/Studio/Components/FlipableItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/FlipableItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../../../../../qml/QtQuick/Studio/Components/FlipableItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/FlipableItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/FlipableItem.qml
 
-qml/QtQuick/Studio/Components/RectangleItem.qml: _deps/ds-src/src/imports/components/RectangleItem.qml
+qml/QtQuick/Studio/Components/RectangleItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RectangleItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../../../../../qml/QtQuick/Studio/Components/RectangleItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RectangleItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/RectangleItem.qml
 
-qml/QtQuick/Studio/Components/RegularPolygonItem.qml: _deps/ds-src/src/imports/components/RegularPolygonItem.qml
+qml/QtQuick/Studio/Components/RegularPolygonItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RegularPolygonItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../../../../../qml/QtQuick/Studio/Components/RegularPolygonItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/RegularPolygonItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/RegularPolygonItem.qml
 
-qml/QtQuick/Studio/Components/BorderItem.qml: _deps/ds-src/src/imports/components/BorderItem.qml
+qml/QtQuick/Studio/Components/BorderItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/BorderItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../../../../../qml/QtQuick/Studio/Components/BorderItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/BorderItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/BorderItem.qml
 
-qml/QtQuick/Studio/Components/IsoItem.qml: _deps/ds-src/src/imports/components/IsoItem.qml
+qml/QtQuick/Studio/Components/IsoItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/IsoItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../../../../../qml/QtQuick/Studio/Components/IsoItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/IsoItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/IsoItem.qml
 
-qml/QtQuick/Studio/Components/GroupItem.qml: _deps/ds-src/src/imports/components/GroupItem.qml
+qml/QtQuick/Studio/Components/GroupItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/GroupItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../../../../../qml/QtQuick/Studio/Components/GroupItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/GroupItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/GroupItem.qml
 
-qml/QtQuick/Studio/Components/ArcArrow.qml: _deps/ds-src/src/imports/components/ArcArrow.qml
+qml/QtQuick/Studio/Components/ArcArrow.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcArrow.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../../../../../qml/QtQuick/Studio/Components/ArcArrow.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/ArcArrow.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/ArcArrow.qml
 
-qml/QtQuick/Studio/Components/StraightArrow.qml: _deps/ds-src/src/imports/components/StraightArrow.qml
+qml/QtQuick/Studio/Components/StraightArrow.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/StraightArrow.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../../../../../qml/QtQuick/Studio/Components/StraightArrow.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components/StraightArrow.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/Components/StraightArrow.qml
 
@@ -143,6 +143,6 @@ _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.d
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.dir/clean
 
 _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/components/CMakeFiles/QuickStudioComponents_tooling.dir/depend
 

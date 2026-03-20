@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -67,13 +67,13 @@ include _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper
 include _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/progress.make
 
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /usr/lib/qt6/bin/qmllint
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/BidirectionalBinding.qml
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/RangeMapper.qml
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/MinMaxMapper.qml
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/StringMapper.qml
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/OrOperator.qml
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/AndOperator.qml
-_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: _deps/ds-src/src/imports/logichelper/NotOperator.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/BidirectionalBinding.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/RangeMapper.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/MinMaxMapper.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/StringMapper.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/OrOperator.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/AndOperator.qml
+_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/NotOperator.qml
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper && /usr/lib/qt6/bin/qmllint --bare -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmake_QtQuick_Studio_LogicHelper.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/logichelper/.rcc/QuickStudioLogicHelper_raw_qml_0.qrc /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/BidirectionalBinding.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/RangeMapper.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/MinMaxMapper.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/StringMapper.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/OrOperator.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/AndOperator.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper/NotOperator.qml
 
 QuickStudioLogicHelper_qmllint: _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint
@@ -89,6 +89,6 @@ _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/clean
 
 _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/logichelper /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/logichelper /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/logichelper /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/logichelper/CMakeFiles/QuickStudioLogicHelper_qmllint.dir/depend
 

@@ -321,8 +321,8 @@ extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[] = {
         wrapCall(aotContext, dataPtr, argumentsPtr, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
 Q_UNUSED(aotContext)
 Q_UNUSED(argumentsPtr)
-QUrl r2_2;
 QObject *r2_1;
+QUrl r2_2;
 // generate_LoadQmlContextPropertyLookup
 while (!aotContext->loadContextIdLookup(17, &r2_1)) {
 aotContext->setInstructionPointer(2);

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,15 +66,15 @@ include _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_too
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/progress.make
 
-qml/QtQuick/Studio/MultiText/MultiTextElement.qml: _deps/ds-src/src/imports/multitext/MultiTextElement.qml
+qml/QtQuick/Studio/MultiText/MultiTextElement.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext/MultiTextElement.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../../../qml/QtQuick/Studio/MultiText/MultiTextElement.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext/MultiTextElement.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/MultiText/MultiTextElement.qml
 
-qml/QtQuick/Studio/MultiText/MultiTextItem.qml: _deps/ds-src/src/imports/multitext/MultiTextItem.qml
+qml/QtQuick/Studio/MultiText/MultiTextItem.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext/MultiTextItem.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../../../qml/QtQuick/Studio/MultiText/MultiTextItem.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext/MultiTextItem.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/MultiText/MultiTextItem.qml
 
-qml/QtQuick/Studio/MultiText/MultiTextException.qml: _deps/ds-src/src/imports/multitext/MultiTextException.qml
+qml/QtQuick/Studio/MultiText/MultiTextException.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext/MultiTextException.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../../../qml/QtQuick/Studio/MultiText/MultiTextException.qml"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext/MultiTextException.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/QtQuick/Studio/MultiText/MultiTextException.qml
 
@@ -93,6 +93,6 @@ _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/clean
 
 _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/multitext /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_tooling.dir/depend
 

@@ -5,6 +5,11 @@ content/content_resources_2_autogen/timestamp: /home/vboxuser/Desktop/cpp_projec
   /usr/bin/cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/CMakeLists.txt \
+  /usr/bin/cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in
 
 

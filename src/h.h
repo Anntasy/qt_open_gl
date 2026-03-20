@@ -24,12 +24,17 @@
 #include <QOpenGLVertexArrayObject>
 #include <QOpenGLBuffer>
 #include <QOpenGLShader>
+#include <QMatrix4x4>
 
 
 #include "rend.h"
 #include "fbo.h"
 #include "alldata.h"
 #include "ourwidget.h"
+#include "ourcamera.h"
 
+
+# define HEIGHT 600
+# define WIDTH 800
 
 #endif // H_H

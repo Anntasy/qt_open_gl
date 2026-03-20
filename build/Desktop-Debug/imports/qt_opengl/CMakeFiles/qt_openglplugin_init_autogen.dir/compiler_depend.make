@@ -6,6 +6,12 @@ imports/qt_opengl/qt_openglplugin_init_autogen/timestamp: imports/qt_opengl/qt_o
   /usr/bin/cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+  imports/qt_opengl/qt_openglplugin_init.cpp \
+  /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/CMakeLists.txt \
+  /usr/bin/cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in
 
 

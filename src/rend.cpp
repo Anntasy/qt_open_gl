@@ -4,6 +4,7 @@
 Rend::Rend(): QQuickFramebufferObject::Renderer() {
     all_data = new AllData();
     m_program = new QOpenGLShaderProgram();
+    camera = new OurCamera();
     m_program->addShaderFromSourceFile(QOpenGLShader::Vertex, ":/shaders/vertex_shader.vert");
     m_program->addShaderFromSourceFile(QOpenGLShader::Fragment, ":/shaders/fragment_shader.frag");
     m_program->link();
@@ -34,6 +35,8 @@ void Rend::synchronize(QQuickFramebufferObject* t)
 void Rend::set_picture()
 {
     all_data->add_triangle(0.25f, 0.25f, 1.0f, 0.25f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f);
+    // all_data->add_cube({-0.5f, -0.5f, 0.0f}, {-0.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
+
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     all_data->init(f);
 }
@@ -50,7 +53,28 @@ void Rend::render()
 
     m_program->bind();
     all_data->vao.bind();
-    glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void *)0);
+
+
+    QMatrix4x4 view = camera->get_view();
+    QMatrix4x4 projection;
+    projection.perspective(glm::radians(45.0f), HEIGHT/WIDTH, 0.05f, 50.0f);
+
+    QMatrix4x4 transformation;
+
+    // int start_i = 0;
+
+    for (int i=0; i<all_data->count_obj; i++)
+    {
+        QMatrix4x4 model_obj;
+        model_obj.translate(toQVector3D(all_data->models[i]));
+        transformation = projection*view*model_obj;
+
+        // m_program->setUniformValue("transformation", transformation);
+
+        glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
+        // start_i += all_data->identify[i]*sizeof(Element);
+    }
+    // glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void *)0);
     all_data->vao.release();
     m_program->release();
 

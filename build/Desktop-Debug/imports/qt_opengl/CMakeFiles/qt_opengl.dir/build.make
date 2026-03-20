@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -93,44 +93,44 @@ qml/qt_opengl/qt_opengl.qmltypes: imports/qt_opengl/qt_opengl_qmltyperegistratio
 	@$(CMAKE_COMMAND) -E touch_nocreate qml/qt_opengl/qt_opengl.qmltypes
 
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/Constants.qml
+imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/Constants.qml
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: imports/qt_opengl/.rcc/qmake_qt_opengl.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: qml/qt_opengl/qt_opengl.qmltypes
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp: qml/qt_opengl/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/qt_opengl_Constants_qml.cpp"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/bin/cmake -E make_directory /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/Constants.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/Constants.qml
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/Constants.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_Constants_qml.cpp /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/Constants.qml
 
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/DirectoryFontLoader.qml
+imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/DirectoryFontLoader.qml
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: imports/qt_opengl/.rcc/qmake_qt_opengl.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: qml/qt_opengl/qt_opengl.qmltypes
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp: qml/qt_opengl/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/bin/cmake -E make_directory /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/DirectoryFontLoader.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/DirectoryFontLoader.qml
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/DirectoryFontLoader.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_DirectoryFontLoader_qml.cpp /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/DirectoryFontLoader.qml
 
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListModel.qml
+imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListModel.qml
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: imports/qt_opengl/.rcc/qmake_qt_opengl.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: qml/qt_opengl/qt_opengl.qmltypes
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp: qml/qt_opengl/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/qt_opengl_EventListModel_qml.cpp"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/bin/cmake -E make_directory /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/EventListModel.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListModel.qml
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/EventListModel.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListModel_qml.cpp /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListModel.qml
 
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListSimulator.qml
+imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListSimulator.qml
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: imports/qt_opengl/.rcc/qmake_qt_opengl.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: qml/qt_opengl/qt_opengl.qmltypes
 imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp: qml/qt_opengl/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp"
 	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/bin/cmake -E make_directory /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/EventListSimulator.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListSimulator.qml
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/qt_opengl/EventListSimulator.qml -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/qt_opengl/qmldir --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc -o /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmlcache/qt_opengl_EventListSimulator_qml.cpp /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListSimulator.qml
 
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/qt_opengl_autogen/mocs_compilation.cpp.o: imports/qt_opengl/CMakeFiles/qt_opengl.dir/flags.make
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/qt_opengl_autogen/mocs_compilation.cpp.o: imports/qt_opengl/qt_opengl_autogen/mocs_compilation.cpp
@@ -256,6 +256,6 @@ imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend: imports/qt_opengl/meta_types/
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend: imports/qt_opengl/meta_types/qt6qt_opengl_debug_metatypes.json.gen
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend: imports/qt_opengl/qt_opengl_qmltyperegistrations.cpp
 imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend: qml/qt_opengl/qt_opengl.qmltypes
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/CMakeFiles/qt_opengl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/CMakeFiles/qt_opengl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl.dir/depend
 

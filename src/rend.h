@@ -5,6 +5,7 @@
 #include "h.h"
 
 class AllData;
+class OurCamera;
 
 // using AllData;
 class Rend: public QQuickFramebufferObject::Renderer, protected QOpenGLExtraFunctions
@@ -25,7 +26,15 @@ public:
     float q_angle;
     QOpenGLShaderProgram* m_program;
     AllData *all_data;
+    OurCamera *camera;
 };
+
+inline QVector3D toQVector3D(const glm::dvec3& v)
+{
+    return QVector3D(static_cast<float>(v.x),
+                     static_cast<float>(v.y),
+                     static_cast<float>(v.z));
+}
 
 #endif // REND_H
 

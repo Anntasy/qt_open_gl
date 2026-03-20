@@ -22,6 +22,8 @@ qt_add_executable(qt_openglApp src/main.cpp
     src/h.h
     src/ourwidget.h src/ourwidget.cpp
     resources.qrc
+    src/ourcamera.h src/ourcamera.cpp
+
 
 )
 

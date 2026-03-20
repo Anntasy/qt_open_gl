@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -67,11 +67,11 @@ include imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/compiler_depend.
 include imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/progress.make
 
 imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /usr/lib/qt6/bin/qmllint
-imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/Constants.qml
-imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/DirectoryFontLoader.qml
-imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListModel.qml
-imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListSimulator.qml
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl && /usr/lib/qt6/bin/qmllint --bare -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/Constants.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/DirectoryFontLoader.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListModel.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl/EventListSimulator.qml --json /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_opengl_qmllint.json
+imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/Constants.qml
+imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/DirectoryFontLoader.qml
+imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListModel.qml
+imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json: /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListSimulator.qml
+	cd /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl && /usr/lib/qt6/bin/qmllint --bare -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qmake_qt_opengl.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/.rcc/qt_opengl_raw_qml_0.qrc /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/Constants.qml /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/DirectoryFontLoader.qml /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListModel.qml /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl/EventListSimulator.qml --json /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qt_opengl_qmllint.json
 
 qt_opengl_qmllint_json: imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json
 qt_opengl_qmllint_json: imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/build.make
@@ -86,6 +86,6 @@ imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/clean:
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/clean
 
 imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/please_work/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : imports/qt_opengl/CMakeFiles/qt_opengl_qmllint_json.dir/depend
 

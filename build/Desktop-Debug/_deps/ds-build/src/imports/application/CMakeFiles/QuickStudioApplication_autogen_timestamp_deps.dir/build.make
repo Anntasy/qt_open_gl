@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,9 +66,9 @@ include _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication
 # Include the progress variables for this target.
 include _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps.dir/progress.make
 
-_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
+_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 QuickStudioApplication_autogen_timestamp_deps: _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps
@@ -84,6 +84,6 @@ _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen
 .PHONY : _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps.dir/clean
 
 _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/application/CMakeFiles/QuickStudioApplication_autogen_timestamp_deps.dir/depend
 

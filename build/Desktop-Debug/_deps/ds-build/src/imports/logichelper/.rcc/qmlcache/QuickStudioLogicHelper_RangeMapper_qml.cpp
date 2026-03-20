@@ -194,8 +194,8 @@ Q_UNUSED(argumentsPtr)
 double r9_1;
 double r7_1;
 double r8_1;
-QObject *r2_1;
 double r2_2;
+QObject *r2_1;
 double r10_1;
 // var slope = (object.outputMaximum - object.outputMinimum) / (object.inputMaximum - object.inputMinimum)
 // generate_LoadQmlContextPropertyLookup

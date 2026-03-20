@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -66,17 +66,17 @@ include content/CMakeFiles/content_tooling.dir/compiler_depend.make
 # Include the progress variables for this target.
 include content/CMakeFiles/content_tooling.dir/progress.make
 
-qml/content/App.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/App.qml
+qml/content/App.qml: /home/vboxuser/Desktop/cpp_projects/please_work/content/App.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../qml/content/App.qml"
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/content && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/App.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/content/App.qml
+	cd /home/vboxuser/Desktop/cpp_projects/please_work/content && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/please_work/content/App.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/content/App.qml
 
-qml/content/Screen01.ui.qml: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/Screen01.ui.qml
+qml/content/Screen01.ui.qml: /home/vboxuser/Desktop/cpp_projects/please_work/content/Screen01.ui.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../qml/content/Screen01.ui.qml"
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/content && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/Screen01.ui.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/content/Screen01.ui.qml
+	cd /home/vboxuser/Desktop/cpp_projects/please_work/content && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/please_work/content/Screen01.ui.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/content/Screen01.ui.qml
 
-qml/content/fonts/fonts.txt: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/fonts/fonts.txt
+qml/content/fonts/fonts.txt: /home/vboxuser/Desktop/cpp_projects/please_work/content/fonts/fonts.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../qml/content/fonts/fonts.txt"
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/content && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/fonts/fonts.txt /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/content/fonts/fonts.txt
+	cd /home/vboxuser/Desktop/cpp_projects/please_work/content && /usr/bin/cmake -E copy /home/vboxuser/Desktop/cpp_projects/please_work/content/fonts/fonts.txt /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml/content/fonts/fonts.txt
 
 content_tooling: qml/content/App.qml
 content_tooling: qml/content/Screen01.ui.qml
@@ -93,6 +93,6 @@ content/CMakeFiles/content_tooling.dir/clean:
 .PHONY : content/CMakeFiles/content_tooling.dir/clean
 
 content/CMakeFiles/content_tooling.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/CMakeFiles/content_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/please_work/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/CMakeFiles/content_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : content/CMakeFiles/content_tooling.dir/depend
 

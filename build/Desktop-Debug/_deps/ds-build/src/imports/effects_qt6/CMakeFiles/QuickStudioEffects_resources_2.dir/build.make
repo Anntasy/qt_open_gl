@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -69,51 +69,51 @@ include _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_res
 # Include the compile flags for this target's objects.
 include _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/flags.make
 
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/FastBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/GlowItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ZoomBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/RadialBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DesaturationItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/SaturationItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DirectionalBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ColorOverlayItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DropShadowItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ColorizeItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/BrightnessContrastItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/HueSaturationItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/MaskedBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/BlendItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/OpacityMaskItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/MaskItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/RotationItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/GaussianBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/GammaAdjustItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/RecursiveBlurItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ThresholdMaskItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/LevelAdjustItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/InnerShadowItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DisplaceItem.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/BlendEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/BrightnessContrastEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ColorizeEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ColorOverlayEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DesaturationEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DirectionalBlurEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DisplaceEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/DropShadowEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/FastBlurEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/GammaAdjustEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/GaussianBlurEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/GlowEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/HueSaturationEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/InnerShadowEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/LevelAdjustEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/MaskedBlurEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/OpacityMaskEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/RadialBlurEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/RecursiveBlurEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ThresholdMaskEffect.qml
-_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-src/src/imports/effects_qt6/ZoomBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/FastBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GlowItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ZoomBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RadialBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DesaturationItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/SaturationItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DirectionalBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorOverlayItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DropShadowItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorizeItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BrightnessContrastItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/HueSaturationItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskedBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BlendItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/OpacityMaskItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RotationItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GaussianBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GammaAdjustItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RecursiveBlurItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ThresholdMaskItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/LevelAdjustItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/InnerShadowItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DisplaceItem.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BlendEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/BrightnessContrastEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorizeEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ColorOverlayEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DesaturationEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DirectionalBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DisplaceEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/DropShadowEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/FastBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GammaAdjustEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GaussianBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/GlowEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/HueSaturationEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/InnerShadowEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/LevelAdjustEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/MaskedBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/OpacityMaskEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RadialBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/RecursiveBlurEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ThresholdMaskEffect.qml
+_deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6/ZoomBlurEffect.qml
 _deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: _deps/ds-build/src/imports/effects_qt6/.rcc/QuickStudioEffects_raw_qml_0.qrc
 _deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running rcc for resource QuickStudioEffects_raw_qml_0"
@@ -169,6 +169,6 @@ _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2
 
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/depend: _deps/ds-build/src/imports/effects_qt6/.rcc/qrc_QuickStudioEffects_raw_qml_0.cpp
 _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/depend: _deps/ds-build/src/imports/effects_qt6/QuickStudioEffects_resources_2_autogen/timestamp
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-src/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6 /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/_deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ds-build/src/imports/effects_qt6/CMakeFiles/QuickStudioEffects_resources_2.dir/depend
 

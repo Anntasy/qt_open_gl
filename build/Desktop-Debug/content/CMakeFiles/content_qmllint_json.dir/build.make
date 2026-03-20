@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/cpp_projects/please_work
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug
@@ -67,9 +67,9 @@ include content/CMakeFiles/content_qmllint_json.dir/compiler_depend.make
 include content/CMakeFiles/content_qmllint_json.dir/progress.make
 
 content/CMakeFiles/content_qmllint_json: /usr/lib/qt6/bin/qmllint
-content/CMakeFiles/content_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/App.qml
-content/CMakeFiles/content_qmllint_json: /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/Screen01.ui.qml
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/content && /usr/lib/qt6/bin/qmllint --bare -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/.rcc/qmake_content.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/.rcc/content_raw_qml_0.qrc /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/App.qml /home/vboxuser/Desktop/cpp_projects/qt_opengl/content/Screen01.ui.qml --json /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content_qmllint.json
+content/CMakeFiles/content_qmllint_json: /home/vboxuser/Desktop/cpp_projects/please_work/content/App.qml
+content/CMakeFiles/content_qmllint_json: /home/vboxuser/Desktop/cpp_projects/please_work/content/Screen01.ui.qml
+	cd /home/vboxuser/Desktop/cpp_projects/please_work/content && /usr/lib/qt6/bin/qmllint --bare -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/qml -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/.rcc/qmake_content.qrc --resource /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/.rcc/content_raw_qml_0.qrc /home/vboxuser/Desktop/cpp_projects/please_work/content/App.qml /home/vboxuser/Desktop/cpp_projects/please_work/content/Screen01.ui.qml --json /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content_qmllint.json
 
 content_qmllint_json: content/CMakeFiles/content_qmllint_json
 content_qmllint_json: content/CMakeFiles/content_qmllint_json.dir/build.make
@@ -84,6 +84,6 @@ content/CMakeFiles/content_qmllint_json.dir/clean:
 .PHONY : content/CMakeFiles/content_qmllint_json.dir/clean
 
 content/CMakeFiles/content_qmllint_json.dir/depend:
-	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/qt_opengl /home/vboxuser/Desktop/cpp_projects/qt_opengl/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/CMakeFiles/content_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Desktop/cpp_projects/please_work /home/vboxuser/Desktop/cpp_projects/please_work/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content /home/vboxuser/Desktop/cpp_projects/qt_opengl/build/Desktop-Debug/content/CMakeFiles/content_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : content/CMakeFiles/content_qmllint_json.dir/depend
 
