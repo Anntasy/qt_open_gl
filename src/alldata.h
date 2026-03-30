@@ -19,7 +19,8 @@ typedef struct Element
 class AllData
 {
 public:
-    AllData():vbo(QOpenGLBuffer::Type::VertexBuffer), ebo(QOpenGLBuffer::Type::IndexBuffer) {}
+    AllData():vbo(QOpenGLBuffer::Type::VertexBuffer), ebo(QOpenGLBuffer::Type::IndexBuffer) {count_obj=0;}
+    ~AllData();
     void init(QOpenGLFunctions *f);
     void add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3, float y_3, float r, float g, float b);
     void add_rectangle(float x_1, float y_1, float x_2, float y_2, float r, float g, float b);
@@ -29,6 +30,7 @@ public:
     QOpenGLVertexArrayObject vao;
     QOpenGLBuffer vbo;
     QOpenGLBuffer ebo;
+    QOpenGLTexture *tex1;
 
     std::vector<Vertex> vertices;
     std::vector<Element> indices;

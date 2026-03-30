@@ -5,13 +5,14 @@
 #include "h.h"
 
 class AllData;
+class OurCamera;
 
 // using AllData;
 class Rend: public QQuickFramebufferObject::Renderer, protected QOpenGLExtraFunctions
 {
 public:
-    Rend();
-    virtual ~Rend() {}
+    Rend(); // FBO*
+    virtual ~Rend();
 
     QOpenGLFramebufferObject *createFramebufferObject(const QSize &size) override;
 
@@ -23,8 +24,11 @@ public:
 
     QSize q_size;
     float q_angle;
-    QOpenGLShaderProgram* m_program;
-    AllData *all_data;
+    QOpenGLShaderProgram* m_program; // FBO
+    AllData *all_data; // FBO
+    OurCamera *camera; //  FBo
+
+    // FBO *link
 };
 
 #endif // REND_H

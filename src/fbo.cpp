@@ -4,5 +4,5 @@ FBO::FBO() {}
 
 QQuickFramebufferObject::Renderer* FBO::createRenderer() const
 {
-    return new Rend();
+    return new Rend(); //FBO  link
 }

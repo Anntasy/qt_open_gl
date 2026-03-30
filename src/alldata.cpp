@@ -1,6 +1,11 @@
 #include "alldata.h"
 
 
+AllData::~AllData()
+{
+    delete tex1;
+}
+
 void AllData::init(QOpenGLFunctions *f)
 {
     vao.create();
@@ -30,8 +35,23 @@ void AllData::init(QOpenGLFunctions *f)
     vao.release();
     vbo.release();
     ebo.release();
-}
 
+    QImage q_image(":/textures/wall.png");
+    q_image = q_image.convertToFormat(QImage::Format_RGBA8888);
+    tex1 = new QOpenGLTexture(QOpenGLTexture::Target2D);
+    tex1->create();
+    tex1->bind();
+    tex1->setFormat(QOpenGLTexture::RGBA8_UNorm);
+    tex1->setSize(q_image.width(), q_image.height());
+    tex1->allocateStorage();
+
+    tex1->setMinificationFilter(QOpenGLTexture::LinearMipMapLinear);
+    tex1->setMagnificationFilter(QOpenGLTexture::Linear);
+    tex1->setWrapMode(QOpenGLTexture::Repeat);
+    tex1->setData(QOpenGLTexture::RGBA, QOpenGLTexture::UInt8, q_image.constBits());
+    tex1->generateMipMaps();
+    tex1->release();
+}
 
 void AllData::add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3, float y_3, float r, float g, float b)
 {

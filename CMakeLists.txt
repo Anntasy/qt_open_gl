@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.21.1)
 option(LINK_INSIGHT "Link Qt Insight Tracker library" ON)
 option(BUILD_QDS_COMPONENTS "Build design studio components" ON)
 
-project(qt_openglApp LANGUAGES CXX)
+project(please_workApp LANGUAGES CXX)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -15,30 +15,31 @@ if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
     qt_standard_project_setup()
 endif()
 
-qt_add_executable(qt_openglApp src/main.cpp
+qt_add_executable(please_workApp src/main.cpp
     src/fbo.h src/fbo.cpp
     src/rend.h src/rend.cpp
     src/alldata.h src/alldata.cpp
     src/h.h
     src/ourwidget.h src/ourwidget.cpp
     resources.qrc
+    src/ourcamera.h src/ourcamera.cpp
 
 )
 
-qt_add_resources(qt_openglApp "configuration"
+qt_add_resources(please_workApp "configuration"
     PREFIX "/"
     FILES
         qtquickcontrols2.conf
 )
 
-# qt_add_resources(qt_openglApp "app_resources"
+# qt_add_resources(please_workApp "app_resources"
 #     PREFIX "/"
 #     FILES
 #         resources.qrc
 #   )
-# target_link_libraries(qt_openglApp PRIVATE app_resources)
+# target_link_libraries(please_workApp PRIVATE app_resources)
 
-target_link_libraries(qt_openglApp PRIVATE
+target_link_libraries(please_workApp PRIVATE
     Qt6::Core
     Qt6::Gui
     Qt6::Qml
@@ -64,7 +65,7 @@ if (LINK_INSIGHT)
 endif ()
 
 include(GNUInstallDirs)
-install(TARGETS qt_openglApp
+install(TARGETS please_workApp
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
