@@ -23,6 +23,7 @@ qt_add_executable(please_workApp src/main.cpp
     src/ourwidget.h src/ourwidget.cpp
     resources.qrc
     src/ourcamera.h src/ourcamera.cpp
+    src/ourobject.h src/ourobject.cpp
 
 )
 

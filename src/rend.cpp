@@ -42,7 +42,9 @@ void Rend::synchronize(QQuickFramebufferObject* t)
 void Rend::set_picture() // FBO
 {
     all_data->add_triangle(0.25f, 0.25f, 1.0f, 0.25f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f);
-    all_data->add_cube({-0.5f, -0.5f, 0.0f}, {-0.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
+    // all_data->add_triangle(0.05f, 0.05f, 1.0f, 0.25f, 0.5f, 0.5f, 0.0f, 0.0f, 1.0f);
+    // all_data->add_cube({-0.5f, -0.5f, 0.0f}, {-0.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
+    all_data->add_rectangle(0.05f, 0.05f, 1.0f, 0.5f, 0.0f, 1.0f, 0.0f);
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     all_data->init(f);
 }
@@ -72,17 +74,17 @@ void Rend::render()
     all_data->tex1->bind();
     m_program->setUniformValue("texture_sample1", 0);
 
-
-    for (int i=0; i<all_data->count_obj; i++)
+    for (int i=0; i<all_data->object_l.size(); i++)
     {
+        auto cur_obj = &all_data->object_l[i];
         QMatrix4x4 model_obj;
-        model_obj.translate(toQVector3D(all_data->models[i]));
+        model_obj.translate(toQVector3D(cur_obj->model));
         transformation = projection*view*model_obj;
 
         m_program->setUniformValue("transformation", transformation);
 
-        glDrawElements(GL_TRIANGLES, all_data->identify[i]*3, GL_UNSIGNED_INT, (void *)(start_i));
-        start_i += all_data->identify[i]*sizeof(Element);
+        glDrawElements(GL_TRIANGLES, cur_obj->indices.size()*3, GL_UNSIGNED_INT, (void *)(start_i));
+        start_i += cur_obj->indices.size()*sizeof(Element);
     }
     // glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void *)0);
     all_data->vao.release();
