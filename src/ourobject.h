@@ -11,10 +11,10 @@ public:
     OurObject();
     // OurObject(void (*draw_f)(void));
 
-    std::vector<QOpenGLTexture*> tex;
-    std::vector<Vertex> vertices;
-    std::vector<Element> indices;
-    glm::dvec3 model;
+    QVector<QOpenGLTexture*> tex;
+    QVector<Vertex> vertices;
+    QVector<Element> indices;
+    QVector3D model;
 
     // void (*draw)(void) = nullptr;
 };

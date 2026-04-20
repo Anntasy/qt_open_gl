@@ -5,6 +5,7 @@
 #include <QQmlApplicationEngine>
 
 #include <QQuickWindow>
+#include <QApplication>
 
 #include "app_environment.h"
 #include "import_qml_components_plugins.h"
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
     set_qt_environment();
     QQuickWindow::setGraphicsApi(QSGRendererInterface::OpenGL);
 
-    QGuiApplication app(argc, argv);
+    QApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
     const QUrl url(u"qrc:/qt/qml/Main/main.qml"_qs);
@@ -34,6 +35,7 @@ int main(int argc, char *argv[])
     engine.addImportPath(":/");
 
     qmlRegisterType<FBO>("my_opengl", 1, 0, "FBO");
+    qmlRegisterType<OurWidget>("my_opengl", 1, 0, "OurWidget");
 
     engine.load(url);
 

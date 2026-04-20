@@ -10,30 +10,41 @@ public:
     OurCamera();
     ~OurCamera() {}
 
-    QMatrix4x4 get_view();
+    QMatrix4x4 &get_view();
+    QMatrix4x4 &get_projection();
     // void process_keyboard();
     // void process_mouse(double d_x, double d_y);
     void update_cam_vectors();
+    void update_view();
+    void update_projection();
+    void object_rotation(float dx, float dy);
+    void mouse_move_event(QMouseEvent *event);
+    void mouse_press_event(QMouseEvent *event);
 
+    void deb_camera();
 
-    glm::dvec3 cam_front_start = glm::dvec3(0.0f, 0.0f, -1.0f);
-    glm::dvec3 cam_up_start = glm::dvec3(0.0f, -1.0f, 0.0f);
-    glm::dvec3 cam_right_start = glm::dvec3(-1.0f, 0.0f, 0.0f);
+    QVector3D cam_front_start = QVector3D(0.0f, 0.0f, -1.0f);
+    QVector3D cam_up_start = QVector3D(0.0f, 1.0f, 0.0f);
+    QVector3D cam_right_start = QVector3D(1.0f, 0.0f, 0.0f);
 
-    glm::dvec3 front;
-    glm::dvec3 up;
-    glm::dvec3 right;
-    glm::dvec3 position;
+    QVector3D front;
+    QVector3D up;
+    QVector3D right;
+    QVector3D position;
     glm::float64 Yaw;
     glm::float64 Pitch;
     double sense;
     glm::float64 speed;
-    glm::dvec3 world_up;
-    glm::dquat orientation;
+    QVector3D world_up;
+    QPointF last_pos;
+    QQuaternion orientation;
+
+    QMatrix4x4 view;
+    QMatrix4x4 projection;
 };
 
 
-inline QVector3D toQVector3D(const glm::dvec3& v)
+inline QVector3D toQVector3D(const glm::vec3& v)
 {
     return QVector3D(static_cast<float>(v.x),
                      static_cast<float>(v.y),

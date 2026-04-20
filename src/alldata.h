@@ -5,9 +5,9 @@
 
 typedef struct Vertex
 {
-    glm::dvec3 position;
-    glm::dvec3 color;
-    glm::dvec2 texture;
+    QVector3D position;
+    QVector3D color;
+    QVector2D texture;
 }Vertex;
 
 typedef struct Element
@@ -24,7 +24,7 @@ public:
     void init(QOpenGLFunctions *f);
     void add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3, float y_3, float r, float g, float b);
     void add_rectangle(float x_1, float y_1, float x_2, float y_2, float r, float g, float b);
-    void add_cube(glm::dvec3 v1, glm::dvec3 v2, glm::dvec3 v3, glm::dvec3 color);
+    void add_cube(QVector3D v1, QVector3D v2, QVector3D v3, QVector3D color);
 
 
     QOpenGLVertexArrayObject vao;
@@ -37,7 +37,7 @@ public:
     // int count_obj;
     // std::vector<int> identify;
     std::vector<OurObject> object_l;
-    // std::vector<glm::dvec3> models;
+    // std::vector<QVector3D> models;
 };
 
 #endif // ALLDATA_H

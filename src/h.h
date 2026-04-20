@@ -18,6 +18,8 @@
 #include <QTimer>
 
 #include <QQuickFramebufferObject>
+#include <QQuickItem>
+#include <QDebug>
 #include <QOpenGLFramebufferObject>
 #include <QOpenGLFunctions>
 #include <QOpenGLExtraFunctions>
@@ -27,8 +29,10 @@
 #include <QMatrix4x4>
 #include <QOpenGLTexture>
 #include <QImage>
-
-
+#include <QMouseEvent>
+#include <QQuaternion>
+#include <QtMath>
+#include <QVector>
 
 #include "rend.h"
 #include "fbo.h"

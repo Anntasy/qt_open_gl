@@ -35,7 +35,9 @@ QOpenGLFramebufferObject* Rend::createFramebufferObject(const QSize &size)
 
 void Rend::synchronize(QQuickFramebufferObject* t)
 {
-    auto * it = static_cast<FBO*>(t);
+    auto * it = dynamic_cast<FBO*>(t);
+    *camera = *(it->camera);
+    // *camera = it->get_camera();
     q_angle  = it->get_angle();
 }
 
@@ -51,7 +53,7 @@ void Rend::set_picture() // FBO
 
 void Rend::render()
 {
-    initializeOpenGLFunctions();
+    initializeOpenGLFunctions();//!!!
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     glViewport(0, 0, q_size.width(), q_size.height());
 
@@ -63,9 +65,8 @@ void Rend::render()
     all_data->vao.bind();
 
 
-    QMatrix4x4 view = camera->get_view();
-    QMatrix4x4 projection;
-    projection.perspective(glm::radians(45.0f), HEIGHT/WIDTH, 0.05f, 50.0f);
+    // QMatrix4x4 view = camera->get_view();
+    // QMatrix4x4 projection;
 
     QMatrix4x4 transformation;
 
@@ -78,14 +79,15 @@ void Rend::render()
     {
         auto cur_obj = &all_data->object_l[i];
         QMatrix4x4 model_obj;
-        model_obj.translate(toQVector3D(cur_obj->model));
-        transformation = projection*view*model_obj;
+        model_obj.translate((cur_obj->model)); // toQVector3D
+        transformation = camera->get_projection()*camera->get_view()*model_obj;
 
         m_program->setUniformValue("transformation", transformation);
 
         glDrawElements(GL_TRIANGLES, cur_obj->indices.size()*3, GL_UNSIGNED_INT, (void *)(start_i));
         start_i += cur_obj->indices.size()*sizeof(Element);
     }
+    camera->deb_camera();
     // glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void *)0);
     all_data->vao.release();
     m_program->release();

@@ -18,9 +18,11 @@ public:
 
 
     // void rend_init() {initializeOpenGLFunctions();}
-    void synchronize(QQuickFramebufferObject* t);
+    void synchronize(QQuickFramebufferObject* t) override;
     void render() override;
     void set_picture();
+    void mouse_move_event(QMouseEvent* q_event);
+    void mouse_press_event(QMouseEvent* q_event);
 
     QSize q_size;
     float q_angle;

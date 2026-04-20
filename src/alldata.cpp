@@ -4,42 +4,48 @@
 AllData::~AllData()
 {
     delete tex1;
+    vao.destroy();
+    vbo.destroy();
+    ebo.destroy();
 }
 
 void AllData::init(QOpenGLFunctions *f)
 {
-    std::vector<Vertex> vertices;
-    std::vector<Element> indices;
+    std::vector<Vertex> vertices_b;
+    std::vector<Element> indices_b;
 
     for (auto object: object_l)
     {
-        vertices.insert(vertices.end(), object.vertices.begin(), object.vertices.end());
-        indices.insert(indices.end(), object.indices.begin(), object.indices.end());
+        vertices_b.insert(vertices_b.end(), object.vertices.begin(), object.vertices.end());
+        indices_b.insert(indices_b.end(), object.indices.begin(), object.indices.end());
     }
+
+    QVector<Vertex> vertices (vertices_b.begin(), vertices_b.end());
+    QVector<Element> indices (indices_b.begin(), indices_b.end());
 
     vao.create();
     vao.bind();
 
     vbo.create();
     vbo.bind();
-    vbo.allocate(vertices.data(), vertices.size()*sizeof(Vertex));
+    vbo.allocate(vertices.constData(), vertices.size()*sizeof(Vertex));
 
     ebo.create();
     ebo.bind();
-    ebo.allocate(indices.data(), indices.size()*sizeof(Element));
+    ebo.allocate(indices.constData(), indices.size()*sizeof(Element));
 
     f->glEnableVertexAttribArray(0);
-    f->glVertexAttribPointer(0, 3, GL_DOUBLE, false, sizeof(Vertex), (GLvoid*) 0);
+    f->glVertexAttribPointer(0, 3, GL_FLOAT, false, sizeof(Vertex), (GLvoid*) 0);
 
 
     f->glEnableVertexAttribArray(1);
-    f->glVertexAttribPointer(1, 3, GL_DOUBLE, false,
-                           sizeof(Vertex), (GLvoid*) (3*sizeof(glm::float64)));
+    f->glVertexAttribPointer(1, 3, GL_FLOAT, false,
+                           sizeof(Vertex), (GLvoid*) (sizeof(QVector3D)));
 
 
     f->glEnableVertexAttribArray(2);
-    f->glVertexAttribPointer(2, 2, GL_DOUBLE, false,
-                           sizeof(Vertex), (GLvoid*) (6*sizeof(glm::float64)));
+    f->glVertexAttribPointer(2, 2, GL_FLOAT, false,
+                           sizeof(Vertex), (GLvoid*) (2*sizeof(QVector3D)));
 
     vao.release();
     vbo.release();
@@ -74,7 +80,7 @@ void AllData::add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3
 
     object_l[size_l].indices.push_back({{object_l[size_l].vertices.size()-3, object_l[size_l].vertices.size()-2, object_l[size_l].vertices.size()-1}});
 
-    object_l[size_l].model = glm::dvec3(x_1, y_1, 0);
+    object_l[size_l].model = QVector3D(x_1, y_1, 0);
 }
 
 
@@ -97,17 +103,17 @@ void AllData::add_rectangle(float x_1, float y_1, float x_2, float y_2, float r,
     object_l[size_l].indices.push_back({{vertices->size()-4, vertices->size()-3, vertices->size()-2}});
     object_l[size_l].indices.push_back({{vertices->size()-1, vertices->size()-4, vertices->size()-2}});
 
-    object_l[size_l].model = glm::dvec3(x_1, y_1, 0);
+    object_l[size_l].model = QVector3D(x_1, y_1, 0);
 }
 
 
-void AllData::add_cube(glm::dvec3 v1, glm::dvec3 v2, glm::dvec3 v3, glm::dvec3 color)
+void AllData::add_cube(QVector3D v1, QVector3D v2, QVector3D v3, QVector3D color)
 {
     OurObject object;
     int size_l = object_l.size()-1;
     object_l.push_back(object);
 
-    glm::dvec3 copy_v1 = v1;
+    QVector3D copy_v1 = v1;
     v2 -= v1;
     v3 -= v1;
     v1 -= v1;
@@ -116,11 +122,11 @@ void AllData::add_cube(glm::dvec3 v1, glm::dvec3 v2, glm::dvec3 v3, glm::dvec3 c
     object_l[size_l].vertices.push_back({v2, color, {1, 1}});
     object_l[size_l].vertices.push_back({v3, color, {1, 0}});
 
-    glm::dvec3 a = v3 - v2 ;
+    QVector3D a = v3 - v2 ;
     object_l[size_l].vertices.push_back({v1 + a, color, {0, 0}});
 
-    glm::dvec3 b = v1 - v2 ;
-    glm::dvec3 c = glm::cross(b, a) * (1/glm::length(a));
+    QVector3D b = v1 - v2 ;
+    QVector3D c = QVector3D::crossProduct(b, a) * (1/a.length());
 
     object_l[size_l].vertices.push_back({v1 + a + c, color, {1, 0}});
     object_l[size_l].vertices.push_back({v3 + c, color, {0, 0}});
