@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     engine.addImportPath(":/");
 
     qmlRegisterType<FBO>("my_opengl", 1, 0, "FBO");
-    qmlRegisterType<OurWidget>("my_opengl", 1, 0, "OurWidget");
+    // qmlRegisterType<OurWidget>("my_opengl", 1, 0, "OurWidget");
 
     engine.load(url);
 

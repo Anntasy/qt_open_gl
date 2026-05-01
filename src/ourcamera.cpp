@@ -2,7 +2,7 @@
 #include "h.h"
 
 OurCamera::OurCamera() {
-    position = QVector3D(0.0f, 0.0f, 3.0f);
+    position = QVector3D(0.0f, 0.0f, 5.0f);
     orientation = QQuaternion(1.0f, 0.0f, 0.0f, 0.0f);
 
     sense = 0.2;
@@ -44,37 +44,46 @@ QMatrix4x4 &OurCamera::get_projection()
 void OurCamera::update_projection()
 {
     projection.setToIdentity();
-    projection.perspective(glm::radians(45.0f), HEIGHT/WIDTH, 0.05f, 50.0f);
+    projection.perspective(45.0f, HEIGHT/WIDTH, 0.05f, 50.0f);
 }
 
-void OurCamera::mouse_move_event(QMouseEvent *event)
+void OurCamera::mouse_move_event(float x, float y, int press_type)
 {
-    QPointF cur_pos = event->pos();
+    QPointF cur_pos(x, y);
     QPointF d_pos = cur_pos-last_pos;
     last_pos = cur_pos;
-    if (event->buttons())
-    {
-        object_rotation(d_pos.x(), d_pos.y());
-    }
+    // std::cout << cur_pos.x()  << " " << cur_pos.y() << "\n";
+    // if (press_type)
+    // {
+    //     object_rotation(d_pos.x(), d_pos.y());
+    // }
+    object_rotation(d_pos.x(), d_pos.y());
+    // update_cam_vectors();
 }
 
-void OurCamera::mouse_press_event(QMouseEvent *event)
+void OurCamera::mouse_press_event(float x, float y, int press_type)
 {
-    last_pos = event->pos();
+    last_pos.setX(x);
+    last_pos.setY(y);
+    // update_cam_vectors();
 }
 
 void OurCamera::object_rotation(float dx, float dy)
 {
     dx = dx*sense;
-    dy = dy*sense;
+    dy = dy*sense*(-1);
     QQuaternion qx = QQuaternion::fromAxisAndAngle(world_up, dx);
     QQuaternion qy = QQuaternion::fromAxisAndAngle(right, dy);
-    orientation =  (qx*qy)*orientation;
+    orientation = (qx*qy)*orientation;
     orientation.normalize();
-    update_view();
+    // deb_camera();
+    // update_view();
 }
 
 void OurCamera::deb_camera()
 {
-    qDebug() << orientation;
+    qDebug() << "orientation " << orientation << "\n";
+    qDebug() << "projection"  << projection << "\n";
+    qDebug() << "view"  << view << "\n";
+    qDebug() << "front"  << front << "\n";
 }

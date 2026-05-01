@@ -18,8 +18,8 @@ public:
     void update_view();
     void update_projection();
     void object_rotation(float dx, float dy);
-    void mouse_move_event(QMouseEvent *event);
-    void mouse_press_event(QMouseEvent *event);
+    void mouse_move_event(float x, float y, int press_type);
+    void mouse_press_event(float x, float y, int press_type);
 
     void deb_camera();
 

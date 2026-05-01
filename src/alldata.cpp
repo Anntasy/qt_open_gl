@@ -74,6 +74,11 @@ void AllData::add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3
     object_l.push_back(object);
     int size_l = object_l.size()-1;
 
+    x_2 -= x_1;
+    y_2 -= y_1;
+    x_3 -= x_1;
+    y_3 -= y_1;
+
     object_l[size_l].vertices.push_back({{0, 0, 0}, {r, g, b}, {0, 0}});
     object_l[size_l].vertices.push_back({{x_2, y_2, 0}, {r, g, b}, {0.5, 1}});
     object_l[size_l].vertices.push_back({{x_3, y_3, 0}, {r, g, b}, {1, 0}});
@@ -87,8 +92,8 @@ void AllData::add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3
 void AllData::add_rectangle(float x_1, float y_1, float x_2, float y_2, float r, float g, float b)
 {
     OurObject object;
-    int size_l = object_l.size()-1;
     object_l.push_back(object);
+    int size_l = object_l.size()-1;
 
     x_2 -= x_1;
     y_2 -= y_1;
@@ -110,8 +115,8 @@ void AllData::add_rectangle(float x_1, float y_1, float x_2, float y_2, float r,
 void AllData::add_cube(QVector3D v1, QVector3D v2, QVector3D v3, QVector3D color)
 {
     OurObject object;
-    int size_l = object_l.size()-1;
     object_l.push_back(object);
+    int size_l = object_l.size()-1;
 
     QVector3D copy_v1 = v1;
     v2 -= v1;

@@ -18,12 +18,14 @@ public:
     Q_INVOKABLE float get_angle() const {return q_angle;}
     // OurCamera get_camera() const {return *camera;}
 
-    void mousePressEvent(QMouseEvent* e) override;
-    void mouseMoveEvent(QMouseEvent* e) override;
+    Q_INVOKABLE virtual void mousePressEvent(float x, float y, int press_type);
+    Q_INVOKABLE virtual void mouseMoveEvent(float x, float y, int press_type);
+    Q_INVOKABLE virtual void mouseReleaseEvent(float x, float y, int press_type);
 
 // private?
     OurCamera *camera;
     float q_angle = 0;
+    bool pressed = false;
 signals:
     void angle_changed();
 };

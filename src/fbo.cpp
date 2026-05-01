@@ -19,13 +19,27 @@ QQuickFramebufferObject::Renderer* FBO::createRenderer() const
 }
 
 
-void FBO::mousePressEvent(QMouseEvent* e)
+void FBO::mousePressEvent(float x, float y, int press_type)
 {
-    camera->mouse_press_event(e);
+    // std::cout << "press" << x << y << std::endl;
+    pressed = true;
+    camera->mouse_press_event(x, y, press_type);
+    update();
 }
 
 
-void FBO::mouseMoveEvent(QMouseEvent* e)
+void FBO::mouseMoveEvent(float x, float y, int press_type)
 {
-    camera->mouse_move_event(e);
+    // std::cout << "mvpe" << x << y << std::endl;
+    if (!pressed)
+        return;
+    camera->mouse_move_event(x, y, press_type);
+    update();
+}
+
+void FBO::mouseReleaseEvent(float x, float y, int press_type)
+{
+    // std::cout << "reel" << x << y << std::endl;
+    pressed = false;
+    update();
 }

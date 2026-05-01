@@ -38,21 +38,23 @@ void Rend::synchronize(QQuickFramebufferObject* t)
     auto * it = dynamic_cast<FBO*>(t);
     *camera = *(it->camera);
     // *camera = it->get_camera();
-    q_angle  = it->get_angle();
+    // q_angle  = it->get_angle();
+    qDebug() << "syncc  " << "\n";
 }
 
 void Rend::set_picture() // FBO
 {
-    all_data->add_triangle(0.25f, 0.25f, 1.0f, 0.25f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f);
-    // all_data->add_triangle(0.05f, 0.05f, 1.0f, 0.25f, 0.5f, 0.5f, 0.0f, 0.0f, 1.0f);
-    // all_data->add_cube({-0.5f, -0.5f, 0.0f}, {-0.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
-    all_data->add_rectangle(0.05f, 0.05f, 1.0f, 0.5f, 0.0f, 1.0f, 0.0f);
+    // all_data->add_triangle(0.25f, 0.25f, 1.0f, 0.25f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f);
+    // all_data->add_triangle(0.05f, 0.05f, 2.0f, 1.0f, 1.0f, 2.0f, 0.0f, 0.0f, 1.0f);
+    all_data->add_cube({-3.5f, -3.5f, 0.0f}, {-3.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
+    // all_data->add_rectangle(0.05f, 0.05f, 1.0f, 0.5f, 0.0f, 1.0f, 0.0f);
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     all_data->init(f);
 }
 
 void Rend::render()
 {
+    camera->update_cam_vectors();
     initializeOpenGLFunctions();//!!!
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     glViewport(0, 0, q_size.width(), q_size.height());
@@ -83,6 +85,8 @@ void Rend::render()
         transformation = camera->get_projection()*camera->get_view()*model_obj;
 
         m_program->setUniformValue("transformation", transformation);
+
+        qDebug() << transformation;
 
         glDrawElements(GL_TRIANGLES, cur_obj->indices.size()*3, GL_UNSIGNED_INT, (void *)(start_i));
         start_i += cur_obj->indices.size()*sizeof(Element);

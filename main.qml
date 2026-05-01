@@ -20,5 +20,23 @@ App {
             //             NumberAnimation { from: 0; to: 360; duration: 5000; easing.type: Easing.InOutSine }
             //         }
             focus: true
+            MouseArea {
+                anchors.fill: parent
+                acceptedButtons: Qt.LeftButton
+                onPressed: (mouse)=> {
+                    parent.mousePressEvent(mouse.x, mouse.y, mouse.buttons);
+                           }
+
+                onPositionChanged: (mouse)=> {
+                    parent.mouseMoveEvent(mouse.x, mouse.y, mouse.buttons);
+                }
+
+                hoverEnabled: true
+
+                onReleased: (mouse)=> {
+                    parent.mouseReleaseEvent(mouse.x, mouse.y, mouse.buttons);
+                }
+            }
+
         }
 }
