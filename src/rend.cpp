@@ -22,7 +22,7 @@ QOpenGLFramebufferObject* Rend::createFramebufferObject(const QSize &size)
 {
     initializeOpenGLFunctions();
     QOpenGLFramebufferObjectFormat format;
-    int smooth = 0;
+    int smooth = 4;
 
     format.setAttachment(QOpenGLFramebufferObject::Depth);
     format.setSamples(smooth);
@@ -39,7 +39,7 @@ void Rend::synchronize(QQuickFramebufferObject* t)
     *camera = *(it->camera);
     // *camera = it->get_camera();
     // q_angle  = it->get_angle();
-    qDebug() << "syncc  " << "\n";
+    // qDebug() << "syncc  " << "\n";
 }
 
 void Rend::set_picture() // FBO
@@ -86,12 +86,12 @@ void Rend::render()
 
         m_program->setUniformValue("transformation", transformation);
 
-        qDebug() << transformation;
+        // qDebug() << transformation;
 
         glDrawElements(GL_TRIANGLES, cur_obj->indices.size()*3, GL_UNSIGNED_INT, (void *)(start_i));
         start_i += cur_obj->indices.size()*sizeof(Element);
     }
-    camera->deb_camera();
+    // camera->deb_camera();
     // glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void *)0);
     all_data->vao.release();
     m_program->release();

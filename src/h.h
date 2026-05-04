@@ -30,6 +30,7 @@
 #include <QOpenGLTexture>
 #include <QImage>
 #include <QMouseEvent>
+#include <QKeyEvent>
 #include <QQuaternion>
 #include <QtMath>
 #include <QVector>

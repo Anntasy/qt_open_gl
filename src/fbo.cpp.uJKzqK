@@ -18,6 +18,20 @@ QQuickFramebufferObject::Renderer* FBO::createRenderer() const
     return new Rend(); //FBO  link
 }
 
+void FBO::keyPressEvent(QKeyEvent *event)
+{
+    pressed_k = true;
+    camera->key_press_event(event);
+    update();
+
+}
+
+void FBO::keyReleaseEvent(QKeyEvent *event)
+{
+    pressed_k = false;
+    update();
+}
+
 
 void FBO::mousePressEvent(float x, float y, int press_type)
 {
@@ -42,21 +56,4 @@ void FBO::mouseReleaseEvent(float x, float y, int press_type)
     // std::cout << "reel" << x << y << std::endl;
     pressed = false;
     update();
-}
-
-void FBO::keyReleaseEvent(QKeyEvent *event)
-{
-    pressed_k = false;
-    update();
-}
-
-void FBO::keyPressEvent(QKeyEvent *event)
-{
-    pressed_k = true;
-    if (camera->key_press_event(event))
-    {
-        update();
-        event->accept();
-    }
-    QQuickFramebufferObject::keyPressEvent(event);
 }

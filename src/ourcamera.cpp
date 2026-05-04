@@ -7,6 +7,7 @@ OurCamera::OurCamera() {
 
     sense = 0.2;
     // speed = 1.2*delta_time;
+    speed = 1;
     world_up = QVector3D(0.0f, 1.0f, 0.0f);
     update_cam_vectors();
 }
@@ -66,6 +67,37 @@ void OurCamera::mouse_press_event(float x, float y, int press_type)
     last_pos.setX(x);
     last_pos.setY(y);
     // update_cam_vectors();
+}
+
+int OurCamera::key_press_event(QKeyEvent *event)
+{
+    if (event->key() == Qt::Key_W)
+    {
+        position += speed*front;
+        qDebug() << "W" << position << "\n";
+        // position += QVector3D(0.0f, 0.0f, 0.005f);
+        return 1;
+    }
+    if (event->key() == Qt::Key_S)
+    {
+        position -= speed*front;
+        qDebug() << "S" << position << "\n";
+        // position -= QVector3D(0.0f, 0.0f, 0.005f);
+        return 1;
+    }
+    if (event->key() == Qt::Key_A)
+    {
+        position -= speed*right;
+        qDebug() << "A" << position << "\n";
+        return 1;
+    }
+    if (event->key() == Qt::Key_D)
+    {
+        position += speed*right;
+        qDebug() << "D" << position << "\n";
+        return 1;
+    }
+    return 0;
 }
 
 void OurCamera::object_rotation(float dx, float dy)

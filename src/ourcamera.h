@@ -21,6 +21,8 @@ public:
     void mouse_move_event(float x, float y, int press_type);
     void mouse_press_event(float x, float y, int press_type);
 
+    int key_press_event(QKeyEvent *event);
+
     void deb_camera();
 
     QVector3D cam_front_start = QVector3D(0.0f, 0.0f, -1.0f);

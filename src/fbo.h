@@ -22,10 +22,14 @@ public:
     Q_INVOKABLE virtual void mouseMoveEvent(float x, float y, int press_type);
     Q_INVOKABLE virtual void mouseReleaseEvent(float x, float y, int press_type);
 
+    Q_INVOKABLE virtual void keyPressEvent(QKeyEvent *event) override;
+    Q_INVOKABLE virtual void keyReleaseEvent(QKeyEvent *event) override;
+
 // private?
     OurCamera *camera;
     float q_angle = 0;
     bool pressed = false;
+    bool pressed_k = false;
 signals:
     void angle_changed();
 };
