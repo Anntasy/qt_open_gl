@@ -2,6 +2,7 @@
 
 FBO::FBO(QQuickItem* parent): QQuickFramebufferObject(parent)
 {
+    std::cout << "FBO\n";
     setAcceptedMouseButtons(Qt::AllButtons);
     setFlag(QQuickItem::ItemHasContents, true);
     setAcceptHoverEvents(true);

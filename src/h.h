@@ -14,6 +14,7 @@
 
 
 #include <QOpenGLWidget>
+#include <QSurfaceFormat>
 #include <QOpenGLShaderProgram>
 #include <QTimer>
 
@@ -43,7 +44,7 @@
 #include "ourobject.h"
 
 
-# define HEIGHT 600
-# define WIDTH 800
+# define HEIGHT 1000
+# define WIDTH 1000
 
 #endif // H_H

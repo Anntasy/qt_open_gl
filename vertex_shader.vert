@@ -9,8 +9,8 @@ uniform mat4 transformation;
 
 void main()
 {
-        gl_Position=transformation*vec4(position, 1.0);
-	out_color = in_color;
-        our_texture = vec2(text_color.x, 1-text_color.y);
-        // vertex_color=vec4(1.0f, 0.0f, 0.0f, 1.0f);
+    gl_Position=transformation*vec4(position, 1.0);
+    out_color = in_color;
+    our_texture = vec2(text_color.x, 1-text_color.y);
+    // vertex_color=vec4(1.0f, 0.0f, 0.0f, 1.0f);
 }

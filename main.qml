@@ -9,7 +9,7 @@ import my_opengl
 
 App {
     visible: true
-        width: 800; height: 600
+        width: 1000; height: 1000
         color: "#202225"
 
         FBO {

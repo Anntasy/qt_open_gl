@@ -5,17 +5,22 @@
 struct Vertex;
 struct Element;
 
-class OurObject
+class OurObject: public QOpenGLWidget
 {
 public:
-    OurObject();
+    OurObject(QWidget* parent = nullptr);
+    ~OurObject();
     // OurObject(void (*draw_f)(void));
+    void init(QOpenGLFunctions *f);
 
-    QVector<QOpenGLTexture*> tex;
+    // QVector<QOpenGLTexture*> tex;
     QVector<Vertex> vertices;
     QVector<Element> indices;
     QVector3D model;
 
+    QOpenGLVertexArrayObject *vao; //pointer
+    QOpenGLBuffer *vbo;
+    QOpenGLBuffer *ebo;
     // void (*draw)(void) = nullptr;
 };
 

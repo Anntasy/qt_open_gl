@@ -2,7 +2,8 @@
 #include "h.h"
 
 OurCamera::OurCamera() {
-    position = QVector3D(0.0f, 0.0f, 5.0f);
+    std::cout << "Camera\n";
+    position = QVector3D(0.0f, 0.0f, 3.0f);
     orientation = QQuaternion(1.0f, 0.0f, 0.0f, 0.0f);
 
     sense = 0.2;
@@ -71,6 +72,7 @@ void OurCamera::mouse_press_event(float x, float y, int press_type)
 
 int OurCamera::key_press_event(QKeyEvent *event)
 {
+    update_cam_vectors();
     if (event->key() == Qt::Key_W)
     {
         position += speed*front;
