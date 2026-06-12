@@ -8,6 +8,7 @@ class OurCamera
 {
 public:
     OurCamera();
+    OurCamera(unsigned int width_, unsigned int height_);
     ~OurCamera() {}
 
     QMatrix4x4 &get_view();
@@ -33,8 +34,8 @@ public:
     QVector3D up;
     QVector3D right;
     QVector3D position;
-    glm::float64 Yaw;
-    glm::float64 Pitch;
+    unsigned int width;
+    unsigned int height;
     double sense;
     glm::float64 speed;
     QVector3D world_up;

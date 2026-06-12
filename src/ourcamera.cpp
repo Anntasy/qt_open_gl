@@ -8,9 +8,16 @@ OurCamera::OurCamera() {
 
     sense = 0.2;
     // speed = 1.2*delta_time;
-    speed = 1;
+    speed = 0.8;
     world_up = QVector3D(0.0f, 1.0f, 0.0f);
     update_cam_vectors();
+}
+
+
+OurCamera::OurCamera(unsigned int width_, unsigned int height_): OurCamera::OurCamera() {
+    std::cout << "Camera param\n";
+    width = width_;
+    height = height_;
 }
 
 
@@ -46,7 +53,7 @@ QMatrix4x4 &OurCamera::get_projection()
 void OurCamera::update_projection()
 {
     projection.setToIdentity();
-    projection.perspective(45.0f, HEIGHT/WIDTH, 0.05f, 50.0f);
+    projection.perspective(60.0f, height/width, 0.05f, 50.0f);
 }
 
 void OurCamera::mouse_move_event(float x, float y, int press_type)
@@ -76,27 +83,27 @@ int OurCamera::key_press_event(QKeyEvent *event)
     if (event->key() == Qt::Key_W)
     {
         position += speed*front;
-        qDebug() << "W" << position << "\n";
+        // qDebug() << "W" << position << "\n";
         // position += QVector3D(0.0f, 0.0f, 0.005f);
         return 1;
     }
     if (event->key() == Qt::Key_S)
     {
         position -= speed*front;
-        qDebug() << "S" << position << "\n";
+        // qDebug() << "S" << position << "\n";
         // position -= QVector3D(0.0f, 0.0f, 0.005f);
         return 1;
     }
     if (event->key() == Qt::Key_A)
     {
         position -= speed*right;
-        qDebug() << "A" << position << "\n";
+        // qDebug() << "A" << position << "\n";
         return 1;
     }
     if (event->key() == Qt::Key_D)
     {
         position += speed*right;
-        qDebug() << "D" << position << "\n";
+        // qDebug() << "D" << position << "\n";
         return 1;
     }
     return 0;

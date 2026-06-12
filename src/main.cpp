@@ -18,11 +18,11 @@ int main(int argc, char *argv[])
     QQuickWindow::setGraphicsApi(QSGRendererInterface::OpenGL);
 
 
-    QSurfaceFormat fmt;
-    fmt.setDepthBufferSize(24);
-    fmt.setVersion(3, 3);
-    fmt.setProfile(QSurfaceFormat::CoreProfile);
-    QSurfaceFormat::setDefaultFormat(fmt);
+    // QSurfaceFormat fmt;
+    // fmt.setDepthBufferSize(24);
+    // fmt.setVersion(3, 3);
+    // fmt.setProfile(QSurfaceFormat::CoreProfile);
+    // QSurfaceFormat::setDefaultFormat(fmt);
 
     QApplication app(argc, argv);
 

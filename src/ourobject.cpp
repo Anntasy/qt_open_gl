@@ -22,15 +22,15 @@ void OurObject::init(QOpenGLFunctions *f)
 {
     // initializeOpenGLFunctions();
     makeCurrent();
-    for (int i=0; i<vertices.size(); i++)
-    {
-        qDebug() << vertices[i].position << "\n";
-    }
+    // for (int i=0; i<vertices.size(); i++)
+    // {
+    //     qDebug() << vertices[i].position << "\n";
+    // }
 
-    for (int i=0; i<indices.size(); i++)
-    {
-        qDebug() << indices[i].triangle[0] << " " << indices[i].triangle[1] << " " << indices[i].triangle[2] << "\n";
-    }
+    // for (int i=0; i<indices.size(); i++)
+    // {
+    //     qDebug() << indices[i].triangle[0] << " " << indices[i].triangle[1] << " " << indices[i].triangle[2] << "\n";
+    // }
 
     vao->create();
     vao->bind();
