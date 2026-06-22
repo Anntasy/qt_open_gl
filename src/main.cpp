@@ -12,10 +12,15 @@
 #include "import_qml_plugins.h"
 #include "h.h"
 
+#include <QByteArray>
+
 int main(int argc, char *argv[])
 {
+    // QQmlEngine::clearComponentCache();
+    // QQmlJS::gc();
+    // qputenv("QT_QUICK_BACKEND", "software");
     set_qt_environment();
-    QQuickWindow::setGraphicsApi(QSGRendererInterface::OpenGL);
+    // QQuickWindow::setGraphicsApi(QSGRendererInterface::OpenGL);
 
 
     QSurfaceFormat fmt;
@@ -25,6 +30,9 @@ int main(int argc, char *argv[])
     QSurfaceFormat::setDefaultFormat(fmt);
 
     QApplication app(argc, argv);
+
+    qmlRegisterType<FBO>("my_opengl", 1, 0, "FBO");
+    qmlRegisterType<Rend>("my_opengl", 1, 0, "Rend");
 
     QQmlApplicationEngine engine;
     const QUrl url(u"qrc:/qt/qml/Main/main.qml"_qs);
@@ -41,7 +49,6 @@ int main(int argc, char *argv[])
     engine.addImportPath(QCoreApplication::applicationDirPath() + "/qml");
     engine.addImportPath(":/");
 
-    qmlRegisterType<FBO>("my_opengl", 1, 0, "FBO");
     // qmlRegisterType<OurWidget>("my_opengl", 1, 0, "OurWidget");
 
     engine.load(url);

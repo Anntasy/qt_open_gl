@@ -3,6 +3,7 @@
 FBO::FBO(QQuickItem* parent): QQuickFramebufferObject(parent)
 {
     std::cout << "FBO\n";
+    std::cout << parent << '\n';
     setAcceptedMouseButtons(Qt::AllButtons);
     setFlag(QQuickItem::ItemHasContents, true);
     setAcceptHoverEvents(true);
@@ -16,6 +17,7 @@ FBO::~FBO()
 
 QQuickFramebufferObject::Renderer* FBO::createRenderer() const
 {
+    std::cout << "create rend\n";
     return new Rend(); //FBO  link
 }
 

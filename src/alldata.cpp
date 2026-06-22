@@ -14,13 +14,11 @@ AllData::~AllData()
         delete object_l[i];
     }
     delete tex1;
-    // vao.destroy();
-    // vbo.destroy();
-    // ebo.destroy();
 }
 
 void AllData::init(QOpenGLFunctions *f)
 {
+    // makeCurrent();
     QImage q_image(":/textures/wall.png");
     q_image = q_image.convertToFormat(QImage::Format_RGBA8888);
     tex1 = new QOpenGLTexture(QOpenGLTexture::Target2D);
@@ -44,6 +42,7 @@ void AllData::init(QOpenGLFunctions *f)
         object_l[i]->init(f);
 
     }
+    // doneCurrent();
 }
 
 void AllData::add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3, float y_3, float r, float g, float b)

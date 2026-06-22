@@ -14,11 +14,8 @@ App {
 
         FBO {
             id: gl
+            width: 1000; height: 1000
             anchors.fill: parent
-            // SequentialAnimation on q_angle {
-            //             loops: Animation.Infinite
-            //             NumberAnimation { from: 0; to: 360; duration: 5000; easing.type: Easing.InOutSine }
-            //         }
             focus: true
             MouseArea {
                 anchors.fill: parent
