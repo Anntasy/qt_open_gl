@@ -3,6 +3,7 @@
 
 Rend::Rend(): QQuickFramebufferObject::Renderer() { // FBO
     std::cout << "Rend\n";
+    // 1!!!!1
 
     initializeOpenGLFunctions();
 
@@ -54,11 +55,27 @@ void Rend::set_picture() // FBO
 {
     // all_data->add_triangle(0.25f, 0.25f, 1.0f, 0.25f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f);
     // all_data->add_triangle(0.1f, 0.1f, 0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f);
-    all_data->add_cube({-3.5f, -3.5f, 0.0f}, {-3.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
+    // all_data->add_cube({-3.5f, -3.5f, 0.0f}, {-3.5f, 0.5f, 0.0f}, {0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.1f});
     // all_data->add_rectangle(0.05f, 0.05f, 1.0f, 0.5f, 0.0f, 1.0f, 0.0f);
+
+    all_data->add_model("/home/vboxuser/Downloads/flowerr.obj");
 
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     all_data->init(f);
+
+    OurObject * o = all_data->object_l[0];
+    // QVector<Vertex> vertices;
+    // QVector<Element> indices;
+
+    for (int i=0; i<o->vertices.size(); i++)
+    {
+        qDebug() << "V_pos: " << o->vertices[i].position << "\n";
+    }
+
+    for (int i=0; i<o->indices.size(); i++)
+    {
+        qDebug() << "I: " << o->indices[i].triangle[0] << " " << o->indices[i].triangle[1] << " " << o->indices[i].triangle[2] << "\n";
+    }
 }
 
 // void Rend::render()

@@ -24,6 +24,7 @@ qt_add_executable(please_workApp src/main.cpp
     resources.qrc
     src/ourcamera.h src/ourcamera.cpp
     src/ourobject.h src/ourobject.cpp
+    src/loadmodel.h src/loadmodel.cpp
 
 )
 

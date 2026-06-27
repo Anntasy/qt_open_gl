@@ -7,6 +7,9 @@
 #include <sstream>
 #include <cmath>
 #include <cstdarg>
+#include <filesystem>
+#include <set>
+#include <utility>
 #include <glm/glm.hpp>
 #include "glm/gtc/matrix_transform.hpp"
 #include <glm/gtc/type_ptr.hpp>
@@ -42,6 +45,7 @@
 #include "ourwidget.h"
 #include "ourcamera.h"
 #include "ourobject.h"
+#include "loadmodel.h"
 
 
 # define HEIGHT 1000

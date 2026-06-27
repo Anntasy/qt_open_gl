@@ -25,6 +25,7 @@ public:
     void add_triangle(float x_1, float y_1, float x_2, float y_2, float x_3, float y_3, float r, float g, float b);
     void add_rectangle(float x_1, float y_1, float x_2, float y_2, float r, float g, float b);
     void add_cube(QVector3D v1, QVector3D v2, QVector3D v3, QVector3D color);
+    void add_model(std::string path);
 
     // QOpenGLVertexArrayObject vao;
     // QOpenGLBuffer vbo;

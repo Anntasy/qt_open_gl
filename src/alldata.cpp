@@ -148,3 +148,25 @@ void AllData::add_cube(QVector3D v1, QVector3D v2, QVector3D v3, QVector3D color
 
     object_l[size_l]->model = copy_v1;
 }
+
+void AllData::add_model(std::string path)
+{
+    LoadModel l;
+    l.get_info(path);
+    OurObject *object;
+    object = l.fill_info();
+    object_l.push_back(object);
+
+    /*
+    object = new OurObject();
+    object_l.push_back(object);*/
+
+    // L argss
+    // std::set<std::pair<int, int>> f_pos_tex_set;
+    // std::vector<std::vector<int>> polygons;
+
+    //  our  obj argss
+    // QVector<Vertex> vertices; // vertices.push_back();
+    // QVector<Element> indices;
+    // QVector3D model;
+}
